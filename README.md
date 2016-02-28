@@ -1,5 +1,7 @@
 # Opportunity
 
+[![Slack Status](https://opportunity-slack.herokuapp.com/badge.svg)](https://opportunity-slack.herokuapp.com)
+
 Expanding Opportunity with Open Data
 
 http://uscensusbureau.github.io/opportunity/
