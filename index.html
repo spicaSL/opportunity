@@ -2,37 +2,10 @@
 layout: default
 ---
 
-<header>
-  {% include disclaimer.html %}
+{% include_relative index_includes/learn.html %}
 
-  <div class="ood-banner">
-    <div class="usa-grid">
-      <h1>Open Opportunity Data</h1>
-      <p class="usa-font-lead">Let's build something amazing.</p>
-      <p class="usa-font-lead">Built by <a href="https://presidentialinnovationfellows.gov">White House Presidential Innovation Fellows</a> and made possible by the <a href="https://www.census.gov/">US Census Bureau</a> in partnership with the <a href="https://portal.hud.gov/hudportal/HUD">US Department of Housing and Urban Development (HUD)</a>, this site is committed to providing developers, entrepreneurs, policy makers, and all passionate change agents the data they need in order to create transformational products and services for those that need them most.</p>
-    </div>
-  </div>
-</header>
+{% include_relative index_includes/connect.html %}
 
-<article>
-  {% include_relative index_includes/data-inventory.html %}
-</article>
+{% include_relative index_includes/build.html %}
 
-<article class="alt">
-  {% include_relative index_includes/definition.html %}
-</article>
-
-<article>
-  {% include_relative index_includes/scenarios.html %}
-</article>
-
-<section class="ood-quotation">
-  <p class="usa-font-lead">
-    <em>
-      "Now, as a nation, we don't promise equal outcomes, but we were founded on the idea everybody should have an equal opportunity to succeed. No matter who you are, what you look like, where you come from, you can make it. That's an essential promise of America. <strong>Where you start should not determine where you end up.</strong>"
-    </em>
-    <br>
-    <br>
-    —Barack Obama
-  </p>
-</section>
+{% include_relative index_includes/quotation.html %}

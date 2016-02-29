@@ -14,30 +14,30 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-primary-darker;
 }
 
+i.fa-github {
+  margin-left: 0.15em;
+}
+
 main > article,
 main > section,
-.ood-banner,
-.error {
+.ood-banner {
   overflow: auto; /* defeat margin collapse */
 }
 
-.error,
 .usa-disclaimer,
 .ood-banner > *,
-main > article > * ,
-footer {
+main > section > * ,
+body > footer {
   padding-left: $site-margins;
   padding-right: $site-margins;
 }
 
-.error {
-  background-color: $color-gray-cool-light;
-  text-align: center;
-  min-height: 450px; /* ugly little hack */
+main > section {
+  padding-bottom: $grid-margins;
+}
 
-  p {
-    max-width: none;
-  }
+main > section.alt {
+  background-color: $color-gray-cool-light;
 }
 
 .ood-banner {
@@ -73,30 +73,48 @@ footer {
   max-width: none;
 }
 
-.ood-provider {
-  .repo {
-    float: right;
-    font-size: smaller;
-    font-weight: bold;
+.ood-repo {
+  float: right;
+  margin: 0;
+  font-size: smaller;
+}
+
+.ood-gallery-item {
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray-light;
+  margin-bottom: $grid-margins;
+}
+
+.ood-gallery-item-image-container {
+  overflow: hidden;
+  background-color: $color-gray-lightest;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: 1px solid $color-gray-lighter;
+
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 763px / 1080px * 100%; /* images should be 1080 x 763 px */
   }
 }
 
-article {
-  padding-bottom: $grid-margins;
-}
-
-article.alt {
-  background-color: $color-gray-cool-light;
+.ood-gallery-item-content {
+  color: $color-gray;
+  padding: 0 $grid-margins $grid-margins;
 }
 
 .ood-quotation {
-  background-color: $color-gray-cool-light;
+  color: $color-primary-alt-darkest;
+  margin: $grid-margins*1.5 auto 0;
+  padding: 0 $site-margins;
+}
 
-  p {
-    color: $color-primary-alt-darkest;
-    margin: $grid-margins*1.5 auto;
-    padding: 0 $site-margins;
-  }
+.ood-bg-icon {
+  font-size: 20vw;
+  color: $color-gray-lightest;
 }
 
 .usa-background-dark {
@@ -105,7 +123,7 @@ article.alt {
   }
 }
 
-footer {
+body > footer {
   .usa-footer-secondary_section {
     background-color: $color-gray-dark;
     color: $color-white;
