@@ -16,7 +16,7 @@
 
           {{ provider.name }} data site:
           <a href="{{ provider.url }}">{{ provider.url }}</a>
-          <a class="ood-repo usa-button usa-button-outline"
+          <a class="ood-repo usa-button usa-button-outline ood-narrow-hide"
              href="{{ edit_url }}">Edit in GitHub<i class="fa fa-github fa-fw"></i></a>
 
           {% if provider.notes %}
@@ -30,7 +30,6 @@
                   {{ group_key | capitalize }}
                 </th>
                 <th scope="col">Description</th>
-                <th scope="col">Link</th>
               </tr>
             </thead>
             <tbody>
@@ -54,8 +53,7 @@
 
                   </td>
                   {% endif %}
-                  <td>{{ dataset.description }}</td>
-                  <td class="data-url"><a href="{{ dataset.url }}">Link</a></td>
+                  <td><a href="{{ dataset.url }}">{{ dataset.description }}</a></td>
                 </tr>
                 {% endfor %}
               {% endfor %}
