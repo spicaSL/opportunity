@@ -54,7 +54,20 @@ main > section.alt2 {
   background-image: url(../img/hero.jpg);
   background-size: cover;
   background-position: center bottom;
-  padding: 4em 0;
+  padding: 3em 0;
+  text-align: center;
+
+  h1 {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 1.3em/68px;
+  }
+
+  .usa-font-lead {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.3em/39px;
+  }
 
   a {
     color: $color-gray-lighter;
@@ -79,8 +92,15 @@ main > section.alt2 {
   text-align: center;
 
   & > div {
-    margin: 4em 0;
     padding: 2em 0;
+  }
+
+  h2 {
+    color: $color-base;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.3em/44px;
   }
 
   a {
@@ -132,7 +152,7 @@ main > section.alt2 {
     &:after {
       content: '';
       position: absolute;
-      bottom: -2.05em;
+      bottom: -2.00em;
       left: 0;
       border-top: solid 2em $color-primary-darkest;
       border-left: solid 4.5em transparent;
@@ -164,6 +184,12 @@ main > section.alt2 {
       box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
     }
   }
+}
+
+.ood-nav-spacer {
+  height: 4.5em;
+  padding: 0;
+  margin: 0;
 }
 
 .usa-font-lead {
