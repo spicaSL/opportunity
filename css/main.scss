@@ -40,6 +40,10 @@ main > section.alt {
   background-color: $color-gray-cool-light;
 }
 
+main > section.alt2 {
+  background-color: $color-gray-lightest;
+}
+
 .ood-banner {
   background-color: $color-primary-darkest;
   background-repeat: no-repeat;
@@ -87,23 +91,47 @@ main > section.alt {
 
 .ood-gallery-item-image-container {
   overflow: hidden;
-  background-color: $color-gray-lightest;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-bottom: 1px solid $color-gray-lighter;
 
   &:before {
     display: block;
     content: "";
     width: 100%;
-    padding-top: 763px / 1080px * 100%; /* images should be 1080 x 763 px */
   }
 }
 
 .ood-gallery-item-content {
   color: $color-gray;
-  padding: 0 $grid-margins $grid-margins;
+}
+
+.ood-gallery-item-commitment {
+  padding: $grid-margins;
+
+  .ood-gallery-item-image-container {
+    background-color: $color-white;
+    background-size: contain;
+
+    &:before {
+      padding-top: 346px / 957px * 100%; /* images should be 957 x 346 px */
+    }
+  }
+}
+
+.ood-gallery-item-data-consumer {
+  .ood-gallery-item-content {
+    padding: 0 $grid-margins $grid-margins;
+  }
+
+  .ood-gallery-item-image-container {
+    background-color: $color-gray-lightest;
+    background-size: cover;
+    border-bottom: 1px solid $color-gray-lighter;
+
+    &:before {
+      padding-top: 763px / 1080px * 100%; /* images should be 1080 x 763 px */
+    }
+  }
 }
 
 .ood-quotation {
