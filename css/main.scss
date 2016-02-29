@@ -32,6 +32,10 @@ body > footer {
   padding-right: $site-margins;
 }
 
+body {
+  color: $color-base;
+}
+
 main > section {
   padding-bottom: $grid-margins;
 }
@@ -66,6 +70,98 @@ main > section.alt2 {
 
   & > :last-child {
     margin-bottom: $grid-margins;
+  }
+}
+
+.ood-nav {
+  padding: 0;
+  text-align: center;
+
+  & > div {
+    margin: 4em 0;
+    padding: 2em 0;
+  }
+
+  a {
+    text-decoration: none;
+
+    p {
+      color: $color-gray;
+    }
+  }
+
+  i.fa {
+    position: relative;
+    display: inline-block;
+    width: 9em;
+    padding: 1.75em 0 0.75em 0;
+    margin-bottom: 1.5em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: $color-primary-darkest;
+
+    &.ood-first {
+      background-color: $color-secondary-dark;
+
+      &:after {
+        border-top-color: $color-secondary-dark;
+      }
+    }
+
+    &.ood-last {
+      background-color: $color-gray-medium;
+
+      &:after {
+        border-top-color: $color-gray-medium;
+      }
+    }
+
+    &:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important;
+      font-size: 4.5em;
+      line-height: 1em;
+      color: $color-white;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -2.05em;
+      left: 0;
+      border-top: solid 2em $color-primary-darkest;
+      border-left: solid 4.5em transparent;
+      border-right: solid 4.5em transparent;
+    }
+  }
+
+  .ood-middle {
+    position: relative;
+
+    &:before,
+    &:after {
+      content: '';
+      width: 32px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: block;
+      z-index: -1;
+    }
+
+    &:before {
+      left: -24px;
+      box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    &:after {
+      right: -24px;
+      box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    }
   }
 }
 
