@@ -7,11 +7,11 @@
     <li>
       <section class="ood-provider">
         <button class="usa-button-unstyled" aria-expanded="false"
-                aria-controls="collapsible-0">
-          <h4>{{ provider.name }}</h4>
+                aria-controls="collapsible-provider-{{include.id}}">
+          {{ provider.name }}
         </button>
 
-        <div id="collapsible-0" aria-hidden="true"
+        <div id="collapsible-provider-{{include.id}}" aria-hidden="true"
              class="usa-accordion-content">
 
           {{ provider.name }} data site:
@@ -39,7 +39,7 @@
                 {% for dataset in datasets %}
                 <tr>
                   {% if forloop.first %}
-                  <td scope="row" rowspan="{{ group.items | size }}">
+                  <td rowspan="{{ group.items | size }}">
 
                     <!-- ugly hack to quickly link to curator URLs -->
                     {% if group_key == "curator" %}
