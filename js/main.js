@@ -4,7 +4,7 @@
     /* Show alert when leaving a .gov domain. */
     $('a').click(function(e) {
       console.debug($(this));
-      if (!$(this).prop('hostname').match(/.gov$/)) {
+      if (!$(this).prop('hostname').match(/\.gov$/)) {
         if (confirm('You are about to leave this web site for a destination ' +
                     'outside of the Federal Government. You may wish to ' +
                     'review each privacy notice since their information ' +
