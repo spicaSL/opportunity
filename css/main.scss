@@ -20,6 +20,7 @@ i.fa-github {
 
 main > article,
 main > section,
+main > div.section,
 .ood-banner {
   overflow: auto; /* defeat margin collapse */
 }
@@ -27,6 +28,7 @@ main > section,
 .usa-disclaimer,
 .ood-banner > *,
 main > section > * ,
+main > div.section > * ,
 body > footer {
   padding-left: $site-margins;
   padding-right: $site-margins;
@@ -45,15 +47,16 @@ header.ood-main {
   }
 }
 
-main > section {
+main > section,
+main > div.section {
   padding-bottom: $grid-margins;
 }
 
-main > section.alt {
+main > .ood-alt {
   background-color: $color-gray-cool-light;
 }
 
-main > section.alt2 {
+main > .ood-alt2 {
   background-color: $color-gray-lightest;
 }
 
