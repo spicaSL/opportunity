@@ -14,6 +14,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-primary-darker;
 }
 
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  color: $color-secondary;
+}
+
 i.fa-github {
   margin-left: 0.15em;
 }
