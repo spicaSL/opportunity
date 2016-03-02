@@ -1,10 +1,16 @@
 (function($) {
   $(function() {
 
+    /* Helper to get the hostname of a URL */
+    function getHostname(url) {
+      var a = document.createElement('a');
+      a.href = url;
+      return $(a).prop('hostname');
+    }
+
     /* Show alert when leaving a .gov domain. */
-    $('a').click(function(e) {
-      console.debug($(this));
-      if (!$(this).prop('hostname').match(/\.gov$/)) {
+    function alertLeavingUsg(e, newHostname) {
+      if (!newHostname.match(/\.gov$/)) {
         if (confirm('You are about to leave this web site for a destination ' +
                     'outside of the Federal Government. You may wish to ' +
                     'review each privacy notice since their information ' +
@@ -18,6 +24,13 @@
           e.preventDefault();
         }
       }
+    }
+
+    $('a').click(function(e) {
+      alertLeavingUsg(e, $(this).prop('hostname'));
+    });
+    $('form').submit(function(e) {
+      alertLeavingUsg(e, getHostname($(this).prop('action')));
     });
 
   });
