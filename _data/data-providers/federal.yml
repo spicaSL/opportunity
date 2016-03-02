@@ -1,6 +1,10 @@
 name: "Federal"
 url: "https://data.gov"
 datasets:
+  - curator: "DHS"
+    description: "Homeland Infrastructure Foundation-Level Data (HIFLD)"
+    url: "https://hifld-dhs-gii.opendata.arcgis.com/"
+
   - curator: "HUD"
     description: "School Proficiency Index"
     url: "http://egis.hud.opendata.arcgis.com/datasets/70e2ed8dcb6c47ffa3414c275f62b72b_0"
