@@ -160,13 +160,13 @@ main > .ood-alt2 {
     margin-bottom: 1.5em;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: $color-primary-darkest;
+    background-color: $color-secondary-dark;
 
     &.ood-first {
-      background-color: $color-secondary-dark;
+      background-color: $color-primary-darkest;
 
       &:after {
-        border-top-color: $color-secondary-dark;
+        border-top-color: $color-primary-darkest;
       }
     }
 
@@ -195,7 +195,7 @@ main > .ood-alt2 {
       position: absolute;
       bottom: -2.00em;
       left: 0;
-      border-top: solid 2em $color-primary-darkest;
+      border-top: solid 2em $color-secondary-dark;
       border-left: solid 4.5em transparent;
       border-right: solid 4.5em transparent;
     }
