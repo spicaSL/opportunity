@@ -5,7 +5,7 @@
     {% unless forloop.last %}
       <!-- ugly hack: the number of entries in this cycle must match
            the number of columns in this grid row -->
-      {% cycle '', '</div><div class="usa-grid">' %}
+      {% cycle '', '', '', '', '', '</div><div class="usa-grid">' %}
     {% endunless %}
   {% endfor %}
 </div>

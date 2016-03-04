@@ -1,19 +1,15 @@
 {% assign commitment = site.data.commitments[include.id] %}
 
-<div class="usa-width-one-half ood-gallery-item ood-gallery-item-commitment">
+<div class="usa-width-one-sixth ood-gallery-item ood-gallery-item-commitment">
   <article>
     <div class="ood-gallery-item-image-container"
          style="background-image: url('{{ commitment.image_filename | prepend: "img/commitments/" | prepend: site.baseurl }}')">
     </div>
 
     <div class="ood-gallery-item-content">
-      <header>
-        <h4>{{ commitment.organization_name }}</h4>
+      <header style="display: none">
+        <h5>{{ commitment.organization_name }}</h5>
       </header>
-      <p>{{ commitment.summary }}</p>
-      <footer>
-        <a href="{{ commitment.url }}" class="usa-button">Learn more</a>
-      </footer>
     </div>
   </article>
 </div>
