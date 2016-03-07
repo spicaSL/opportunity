@@ -2,8 +2,8 @@
 				    .ooooo.          ooo. .oo.     .ooooo.    oooo d8b
 				   d88" `88b         `888P"Y88b   d88" `88b   `888""8P
 				   888888888  88888   888   888   888   888    888
-				   888        88888   888   888   888   888    888       
-				   `"88888"          o888o o888o  `Y8bod8P"   d888b      
+				   888        88888   888   888   888   888    888
+				   `"88888"          o888o o888o  `Y8bod8P"   d888b
 
 ***********************************************************************************************************
 Copyright 2015 by E-Nor Inc.
@@ -12,7 +12,7 @@ Universal Federated Analytics: Google Analytics Government Wide Site Usage Measu
 04/16/2015 Version: 1.04
 ***********************************************************************************************************/
 
-var oCONFIG={GWT_UAID:['UA-33523145-1'],FORCE_SSL:true,ANONYMIZE_IP:true,AGENCY:'',SUB_AGENCY:'',VERSION:'20150416 v1.04 - Universal Analytics',USE_MAIN_CUSTOM_DIMENSIONS:true,MAIN_AGENCY_CUSTOM_DIMENSION_SLOT:'dimension1',MAIN_SUBAGENCY_CUSTOM_DIMENSION_SLOT:'dimension2',MAIN_CODEVERSION_CUSTOM_DIMENSION_SLOT:'dimension3',USE_PARALLEL_CUSTOM_DIMENSIONS:false,PARALLEL_AGENCY_CUSTOM_DIMENSION_SLOT:'dimension1',PARALLEL_SUBAGENCY_CUSTOM_DIMENSION_SLOT:'dimension2',PARALLEL_CODEVERSION_CUSTOM_DIMENSION_SLOT:'dimension3',COOKIE_DOMAIN:location.hostname.replace('www.','').toLowerCase(),COOKIE_TIMEOUT:60*60*24*2*365,SEARCH_PARAMS:'q|querytext|nasaInclude|k|qt',YOUTUBE:true,AUTOTRACKER:true,EXTS:'doc|docx|xls|xlsx|xlsm|ppt|pptx|exe|zip|pdf|js|txt|csv|dxf|dwgd|rfa|rvt|dwfx|dwg|wmv|jpg|msi|7z|gz|tgz|wma|mov|avi|mp3|mp4|csv|mobi|epub|swf|rar',SUBDOMAIN_BASED:true,DOUNBLECLICK_LINK:false,ENHANCED_LINK:false,OPTOUT_PAGE:false,PUA_NAME:'GSA_ENOR'};function _onEveryPage(){_updateConfig();_defineCookieDomain();_defineAgencyCDsValues();}
+var oCONFIG={GWT_UAID:['UA-44450756-1'],FORCE_SSL:true,ANONYMIZE_IP:true,AGENCY:'',SUB_AGENCY:'',VERSION:'20150416 v1.04 - Universal Analytics',USE_MAIN_CUSTOM_DIMENSIONS:true,MAIN_AGENCY_CUSTOM_DIMENSION_SLOT:'dimension1',MAIN_SUBAGENCY_CUSTOM_DIMENSION_SLOT:'dimension2',MAIN_CODEVERSION_CUSTOM_DIMENSION_SLOT:'dimension3',USE_PARALLEL_CUSTOM_DIMENSIONS:false,PARALLEL_AGENCY_CUSTOM_DIMENSION_SLOT:'dimension1',PARALLEL_SUBAGENCY_CUSTOM_DIMENSION_SLOT:'dimension2',PARALLEL_CODEVERSION_CUSTOM_DIMENSION_SLOT:'dimension3',COOKIE_DOMAIN:location.hostname.replace('www.','').toLowerCase(),COOKIE_TIMEOUT:60*60*24*2*365,SEARCH_PARAMS:'q|querytext|nasaInclude|k|qt',YOUTUBE:true,AUTOTRACKER:true,EXTS:'doc|docx|xls|xlsx|xlsm|ppt|pptx|exe|zip|pdf|js|txt|csv|dxf|dwgd|rfa|rvt|dwfx|dwg|wmv|jpg|msi|7z|gz|tgz|wma|mov|avi|mp3|mp4|csv|mobi|epub|swf|rar',SUBDOMAIN_BASED:true,DOUNBLECLICK_LINK:false,ENHANCED_LINK:false,OPTOUT_PAGE:false,PUA_NAME:'GSA_ENOR'};function _onEveryPage(){_updateConfig();_defineCookieDomain();_defineAgencyCDsValues();}
 _onEveryPage();function _defineCookieDomain()
 {var domainPattern=/(([^.\/]+\.[^.\/]{2,3}\.[^.\/]{2})|(([^.\/]+\.)[^.\/]{2,4}))(\/.*)?$/;if(domainPattern.test(oCONFIG.SUBDOMAIN_BASED.toString()))
 {oCONFIG.COOKIE_DOMAIN=oCONFIG.SUBDOMAIN_BASED.toLowerCase().replace('www.','');oCONFIG.SUBDOMAIN_BASED=true;}
