@@ -54,7 +54,7 @@ datasets:
     url: "http://www.locationaffordability.info/lai.aspx?url=download.php"
 
   - curator: "EPA"
-    description: "SMART Locations Database"
+    description: "Smart Location Database"
     url: "http://geodata.epa.gov/ArcGIS/rest/services/OA/SmartLocationDatabase/MapServer"
 
   - curator: "EPA"
