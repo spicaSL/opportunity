@@ -23,7 +23,7 @@ datasets:
 
   - topic: "Crime"
     description: "Safe City Datasets"
-    url: "https://data.lacity.org/browse?category=A+Safe+City&limitTo=datasets&sortBy=relevance&utf8=%E2%9C%93&page=2"
+    url: "https://data.lacity.org/browse?category=A+Safe+City&limitTo=datasets&sortBy=relevance"
 
   - topic: "Crime"
     description: "LAPD Map Server"
