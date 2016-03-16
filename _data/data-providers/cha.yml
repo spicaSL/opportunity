@@ -6,9 +6,17 @@ datasets:
     description: "311 service requests"
     url: "https://data.chattlibrary.org/Government/311-Service-Requests/9iep-6yhz"
 
+  - topic: "Addresses"
+    description: "address points for all city addresses"
+    url: "https://data.chattlibrary.org/Government/Address-Data/rz29-uyu4"
+
   - topic: "Community Survey"
     description: "summary results from 2012-2015 community survey"
     url: "https://data.chattlibrary.org/Government/Community-Survey-Results/ere3-r58x"
+
+  - topic: "Parcels"
+    description: "parcels with assessor data"
+    url: "https://data.chattlibrary.org/Government/Parcels/nk97-ybhg"
 
   - topic: "Permits"
     description: "all city permits"
