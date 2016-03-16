@@ -1,0 +1,15 @@
+name: "Chattanooga"
+url: "https://data.chattlibrary.org"
+datasets:
+
+  - topic: "311"
+    description: "311 service requests"
+    url: "https://data.chattlibrary.org/Government/311-Service-Requests/9iep-6yhz"
+
+  - topic: "Community Survey"
+    description: "summary results from 2012-2015 community survey"
+    url: "https://data.chattlibrary.org/Government/Community-Survey-Results/ere3-r58x"
+
+  - topic: "Permits"
+    description: "all city permits"
+    url: "https://data.chattlibrary.org/browse?sortBy=relevance&tags=blds&utf8=%E2%9C%93"
