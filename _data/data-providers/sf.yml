@@ -54,7 +54,7 @@ datasets:
     url: "https://data.sfgov.org/Transportation/SFMTA-Bikeway-Network/t6vv-tjkd"
 
   - topic: "Transit"
-    description: "Trnasit stop and schedule"
+    description: "Transit stop and schedule"
     url: "https://data.sfgov.org/Transportation/SFMTA-Transit-Stop-and-Schedule-Data-GTFS-format-/2qyp-77cq"
 
   - topic: "Schools"
