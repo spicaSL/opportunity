@@ -1,6 +1,12 @@
 (function($) {
   $(function() {
 
+    /* Track when Learn More is clicked for each tool */
+    $('article .usa-button').click(function(event) {
+      var toolName = $(this).closest('div').find('h4').text();
+      ga('send', 'event', 'opportunity', 'click', toolName);
+    });
+
     /* Helper to get the hostname of a URL */
     function getHostname(url) {
       var a = document.createElement('a');
