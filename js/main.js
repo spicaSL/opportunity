@@ -2,8 +2,8 @@
   $(function() {
 
     /* Track when Learn More is clicked for each tool */
-    $('article .usa-button').click(function(event) {
-      var toolName = $(this).closest('div').find('h4').text();
+    $('#connect').on('click', '.ood-gallery-item a', function(event) {
+      var toolName = $(this).closest('.ood-gallery-item').find('header').text().trim();
       ga('send', 'event', 'opportunity', 'click', toolName);
     });
 
