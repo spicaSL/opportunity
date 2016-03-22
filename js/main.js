@@ -1,6 +1,12 @@
 (function($) {
   $(function() {
 
+    /* Track when Learn More is clicked for each tool */
+    $('#connect').on('click', '.ood-gallery-item a', function(event) {
+      var toolName = $(this).closest('.ood-gallery-item').find('header').text().trim();
+      ga('send', 'event', 'opportunity', 'click', toolName);
+    });
+
     /* Helper to get the hostname of a URL */
     function getHostname(url) {
       var a = document.createElement('a');
