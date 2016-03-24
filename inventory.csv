@@ -1,9 +1,12 @@
 ---
 ---
-provider_name,provider_url,dataset_topic,dataset_description,dataset_url
+provider_name,provider_url,category,description,url
 {% for pid in site.data.data-providers %}
 {% assign provider = pid[1] %}
 {% for dataset in provider.datasets %}
-"{{ provider.name }}",{{ provider.url }},"{{ dataset.topic }}","{{ dataset.description }}",{{ dataset.url }}
+{% if dataset.topic %} {% capture category %}{{ dataset.topic }}{% endcapture %}
+{% elsif dataset.curator %} {% capture category %}{{ dataset.curator }}{% endcapture %}
+{% endif %}
+"{{ provider.name }}",{{ provider.url }},"{{ category }}","{{ dataset.description }}",{{ dataset.url }}
 {% endfor %}
 {% endfor %}
