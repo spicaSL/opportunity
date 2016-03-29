@@ -4,7 +4,7 @@
 
 Expanding Opportunity with Open Data
 
-http://uscensusbureau.github.io/opportunity/
+http://opportunity.census.gov
 
 
 ### Public domain
