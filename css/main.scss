@@ -116,6 +116,15 @@ main > .ood-alt2 {
     line-height: 1.3em/39px;
   }
 
+  .ood-description {
+    margin-left: auto;
+    margin-right: auto;
+
+    // slightly wider than the 57rem of ".usa-content p" to achieve nice
+    // looking line distribution
+    max-width: 60rem;
+  }
+
   a {
     color: $color-gray-lighter;
 
