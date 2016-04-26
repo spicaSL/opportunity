@@ -73,6 +73,42 @@ datasets:
     description: "Locations of SNAP (food stamp)-approved retailers"
     url: "http://www.fns.usda.gov/snap/retailerlocator"
 
+  - curator: "USDA"
+    description: "Food Distribution Program on Indian Reservation (FDPIR) sites"
+    url: "http://gis.ers.usda.gov/arcgis/rest/services/fa_assistance/MapServer/58"
+
+  - curator: "USDA"
+    description: "Locations of grocery stores"
+    url: "http://gis.ers.usda.gov/arcgis/rest/services/fa_stores/MapServer"
+
+  - curator: "USDA"
+    description: "Access and proximity to grocery stores"
+    url: "http://gis.ers.usda.gov/arcgis/rest/services/fa_access/MapServer"
+
+  - curator: "USDA"
+    description: "Local foods locations (e.g., farmers markets accepting WIC/SNAP; farms with direct sales)"
+    url: "http://gis.ers.usda.gov/arcgis/rest/services/fa_local/MapServer"
+
+  - curator: "USDA"
+    description: "County classifications (including rural urban spectrum and major industries)"
+    url: "http://gis.ers.usda.gov/arcgis/rest/services/ra_cntyclass/MapServer"
+
+  - curator: "USDA"
+    description: "Rural Development - Multifamily Housing"
+    url: "http://catalog.data.gov/dataset/usda-rural-development-multi-family-housing-february-2016"
+
+  - curator: "USDA"
+    description: "All USDA Economic Research Service Geospatial APIs (for reference)"
+    url: "http://www.ers.usda.gov/developer/geospatial-apis.aspx"
+
+  - curator: "IMLS"
+    description: "Locations of museums"
+    url: "https://data.imls.gov/Museums-Count/Museum-Universe-Data-File-Map/2maj-yp6j"
+
+  - curator: "IMLS"
+    description: "Locations of public libraries"
+    url: "https://data.imls.gov/Public-Library-Survey-PLS-/Public-Library-Survey-Trend-File-1992-2012-Adminis/uzd7-qfwt"
+
   - curator: "OMB"
     description: "Promise Zones and other place based initiatives boundaries CSV (also available as JSON)"
     url: "https://www.whitehouse.gov/omb/place/datasets"
