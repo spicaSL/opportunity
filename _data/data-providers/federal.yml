@@ -94,8 +94,12 @@ datasets:
     url: "http://gis.ers.usda.gov/arcgis/rest/services/ra_cntyclass/MapServer"
 
   - curator: "USDA"
-    description: "Rural Development - Multifamily Housing"
-    url: "http://catalog.data.gov/dataset/usda-rural-development-multi-family-housing-february-2016"
+    description: "Information on Rural Housing Service Active Housing Assistance investments"
+    url: "http://www.sc.egov.usda.gov/data/files/MFH_Section_515/ActiveProjects/mfhd_active_projects.csv"
+
+  - curator: "USDA"
+    description: "Aggregate Tenant Data on Active properties"
+    url: "http://www.sc.egov.usda.gov/data/files/MFH_Section_515/ActiveProjects/mfhd_tenant_info_All%20Properties.csv"
 
   - curator: "USDA"
     description: "All USDA Economic Research Service Geospatial APIs (for reference)"
