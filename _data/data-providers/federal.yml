@@ -133,7 +133,7 @@ datasets:
     description: "Other Developer Resources"
     url: "http://www.census.gov/developer"
 
-  - curator: "Bureau of Labor Statistics"
+  - curator: "BLS"
     description: "Quarterly Census of Employment and Wages"
     url: "http://www.bls.gov/cew/opendata.htm"
 

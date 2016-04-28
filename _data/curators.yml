@@ -18,3 +18,5 @@ EPA:
   url: "http://www.epa.gov"
 IMLS:
   url: "https://data.imls.gov"
+BLS:
+  url: "http://www.bls.gov"
