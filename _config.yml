@@ -7,7 +7,7 @@
 
 # Site settings
 title: The Opportunity Project
-email: ross.dakin@pif.gov
+email: olivier.kamanda@pif.gov
 description: > # this means to ignore newlines until "baseurl:"
   An open data effort to improve economic mobility for all Americans.
 baseurl: "" # the subpath of your site, e.g. /blog

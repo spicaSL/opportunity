@@ -1,42 +1,50 @@
-<header>
-  <a class="skipnav" href="#main-content">Skip to main content</a>
-
-  <div class="ood-banner">
-    <div class="usa-grid">
-      <h1>{{ site.title }}</h1>
-      <p class="usa-font-lead">Let's build something amazing together.</p>
-      <p class="ood-description">The Opportunity Project expands access to opportunity for all Americans by putting data and digital tools in the hands of families, communities, and local leaders, to help them navigate information about the resources they need to thrive.</p>
+<header >  
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <div class="ood-nav">
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <button class="usa-menu-btn">Menu</button>
+        <div class="usa-logo" id="logo">
+          <em class="usa-logo-text">
+            <a href="{{ "index.html" | prepend: site.baseurl }}" accesskey="1" title="Home" aria-label="Home">The Opportunity Project</a>
+            
+          </em>
+        </div>
+      </div>
+      <nav role="navigation" class="usa-nav">
+        <button class="usa-nav-close">
+          <img src="designstandards/assets/img/close.svg" alt="close">
+        </button>
+        <ul class="usa-nav-primary usa-accordion">
+           <li>
+            <a href="{{ "index.html" | prepend: site.baseurl }}"><button class="
+            usa-nav-link" aria-expanded="false">
+              <span>Home</span>
+            </button></a>
+            
+          </li>
+         
+          <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+              <span><a href="{{ "tools.html" | prepend: site.baseurl }}">Featured Projects</a></span>
+            </button>
+       
+          </li>
+          <li>
+            <a class="usa-nav-link" href="{{ "build.html" | prepend: site.baseurl }}">
+              <span>Build</span>
+            </a>
+          </li>
+          <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+              <span><a href="http://eepurl.com/cd6yor">Join</a></span>
+            </button>
+          
+          </li>
+          
+        </ul>
+       
+      </nav>
     </div>
-  </div>
-
-  <div class="ood-nav-spacer"></div>
-
-  <div class="usa-grid ood-nav">
-    <div class="usa-width-one-third">
-      <a href="#connect">
-        <i class="fa fa-connectdevelop ood-first"></i>
-        <h2>Connect</h2>
-        <p>Meet the community.</p>
-      </a>
     </div>
-
-    <div class="usa-width-one-third ood-middle">
-      <a href="#build">
-        <i class="fa fa-code"></i>
-        <h2>Build</h2>
-        <p>Use data to improve lives.</p>
-      </a>
-    </div>
-
-    <div class="usa-width-one-third">
-      <a href="#learn">
-        <i class="fa fa-question ood-last"></i>
-        <h2>Learn More</h2>
-        <p>What is this?</p>
-      </a>
-    </div>
-  </div>
-
-  <div class="ood-nav-spacer ood-mobile-hide"></div>
-
-</header>
+  </header>
