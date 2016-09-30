@@ -382,10 +382,11 @@ body {
 
 .usa-grid,
 .usa-grid-full {
-  max-width: 68em;
+  /*max-width: 68em;*/
   margin-left: auto;
   margin-right: auto;
-  max-width: 1040px; }
+/*  max-width: 1040px; */
+}
   .usa-grid::after,
   .usa-grid-full::after {
     clear: both;
@@ -1388,7 +1389,7 @@ ul, ol {
 ul li {
   display: table-row; }
   ul li:before {
-    content: "•";
+    content: "";
     display: table-cell;
     padding-right: 0.4em; }
 
@@ -1396,7 +1397,7 @@ ol li {
   counter-increment: table-ol;
   display: table-row; }
   ol li:before {
-    content: counter(table-ol) ".";
+    content: counter(table-ol) "";
     display: table-cell;
     padding-right: 0.4em;
     text-align: right; }
@@ -1502,7 +1503,8 @@ dfn {
   font-style: normal; }
 
 .usa-content p {
-  max-width: 53rem; }
+  /*max-width: 53rem;*/ 
+}
 
 .usa-content-list {
   max-width: 53rem; }
@@ -1535,7 +1537,7 @@ p a,
       font-weight: 700; } }
 
 .usa-font-lead {
-  font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+  
   font-size: 2rem;
   line-height: 1.7; }
 

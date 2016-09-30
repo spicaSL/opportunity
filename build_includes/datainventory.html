@@ -13,7 +13,30 @@
         </ul>
   <p class="usa-font-lead"><a href="https://github.com/uscensusbureau/opportunity/raw/master/TOP%20Federal%20and%20Local%20Metadata%20(082416).xlsx">Find more information on the data sets here.</a> </p>
 </div>
-      <div class="usa-grid">
+
+
+<!--begin old data inventory-->
+<div class="usa-grid">
+  {% include_relative index_includes/data-inventory-provider.html id='federal' group_key='curator' %}
+
+  {% capture sort_strings %}
+    {% for p in site.data.data-providers %}
+      {{ p[1].name | slugify }}__{{ p[0] }}
+    {% endfor %}
+  {% endcapture %}
+  {% assign sort_strings = sort_strings | split:' ' | sort %}
+  {% for sort_string in sort_strings %}
+    {% assign sort_string_pair = sort_string | split:'__' %}
+    {% assign id = sort_string_pair[1] %}
+    {% if id != 'federal' %}
+      {% include_relative index_includes/data-inventory-provider.html id=id group_key='topic' %}
+   {% endif %}
+  {% endfor %}
+</div>
+
+<!--end old data inventory-->
+
+      <!--<div class="usa-grid">
      <div class="usa-accordion-bordered">
   <ul class="usa-unstyled-list">
     <li>
@@ -33,6 +56,8 @@
 
         <div id="collapsible-datasets-federal" aria-hidden="true"
              class="usa-accordion-content">
+          
+          
 
           <table>
     <thead>
@@ -111,4 +136,4 @@
     </li>
   </ul>
 </div>
-      </div>
+      </div>-->

@@ -31,7 +31,7 @@ ul li {
   display: table-row;
 
   &:before {
-    content: "•";
+    content: "";
     display: table-cell;
     padding-right: 0.4em;
   }

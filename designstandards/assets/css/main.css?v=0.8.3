@@ -382,10 +382,11 @@ body {
 
 .usa-grid,
 .usa-grid-full {
-  max-width: 68em;
+  /* max-width: 68em; */
   margin-left: auto;
   margin-right: auto;
-  max-width: 1040px; }
+  /*max-width: 1040px; */
+  }
   .usa-grid::after,
   .usa-grid-full::after {
     clear: both;
@@ -1388,7 +1389,7 @@ ul, ol {
 ul li {
   display: table-row; }
   ul li:before {
-    content: "•";
+    content: "";
     display: table-cell;
     padding-right: 0.4em; }
 
@@ -1396,7 +1397,7 @@ ol li {
   counter-increment: table-ol;
   display: table-row; }
   ol li:before {
-    content: counter(table-ol) ".";
+    content: counter(table-ol) "";
     display: table-cell;
     padding-right: 0.4em;
     text-align: right; }

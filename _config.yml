@@ -29,3 +29,5 @@ exclude:
   - LICENSE.md
   - README.md
   - index_includes
+  - build_includes
+  - tools_includes
