@@ -8,7 +8,7 @@ Handlebars.registerPartial('header',
  '           <button class="usa-menu-btn">Menu</button>  '  + 
  '           <div class="usa-logo" id="logo">  '  + 
  '             <em class="usa-logo-text">  '  + 
- '               <a href="#" accesskey="1" title="Home" aria-label="Home">The Opportunity Project</a>  '  + 
+ '               <a href="index.html" accesskey="1" title="Home" aria-label="Home">The Opportunity Project</a>  '  + 
  '             </em>  '  + 
  '           </div>  '  + 
  '         </div>  '  + 
@@ -18,48 +18,26 @@ Handlebars.registerPartial('header',
  '           </button>  '  + 
  '           <ul class="usa-nav-primary usa-accordion">  '  + 
  '             <li>  '  + 
- '               <a href="index.html"><button class="  '  + 
- '                usa-nav-link" aria-expanded="false">  '  + 
+ '               <a class="usa-nav-link" href="index.html">  '  + 
  '                 <span>Home</span>  '  + 
- '               </button></a>  '  + 
+ '               </a>  '  + 
  '                 '  + 
  '             </li>  '  + 
  '             <li>  '  + 
- '               <a href="about.html">  '  + 
- '                 <button class="usa-nav-link" aria-expanded="false">  '  + 
- '                 <span>Learn More</span>  '  + 
- '                 </button></a>  '  + 
- '                 '  + 
- '             </li>  '  + 
- '             <li>  '  + 
- '               <a href="feature.html">  '  + 
- '                 <button class="usa-nav-link" aria-expanded="false">  '  + 
- '                 <span>Use The Tools</span>  '  + 
- '                 </button></a>  '  + 
+ '               <a class="usa-nav-link" href="feature.html">  '  + 
+ '                 <span>Projects</span>  '  + 
+ '               </a>  '  + 
  '                 '  +  
  '             </li>  '  + 
  '             <li>  '  + 
- '               <a class="usa-nav-link" href="data.html">  '  + 
- '                 <button class="usa-nav-link" aria-expanded="false">  '  +
- '                 <span>See the Data</span>  '  + 
- '                 </button>' +
+ '               <a class="usa-nav-link" href="build.html">  '  + 
+ '                 <span>Build</span>  '  + 
  '               </a>  '  + 
  '             </li>  '  + 
  '             <li>  '  + 
- '               <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">  '  + 
- '                 <span>Join Us</span>  '  + 
- '               </button>  '  + 
- '               <ul id="sidenav-2" class="usa-nav-submenu">  '  + 
- '                 <li>  '  + 
- '                   <a href="http://eepurl.com/cd6yor">Join our Mailing List</a>  '  + 
- '                 </li>  '  + 
- '                 <li>  '  + 
- '                   <a href="https://opportunity-slack.herokuapp.com">Join us on Slack </a>  '  + 
- '                 </li>  '  + 
- '                 <li>  '  + 
- '                   <a href="https://github.com/uscensusbureau/opportunity">Join us on Github title</a>  '  + 
- '                 </li>  '  + 
- '               </ul>  '  + 
+ '               <a class="usa-nav-link" href="http://eepurl.com/cd6yor">  '  + 
+ '                 <span>Join</span>  '  + 
+ '               </a>  '  + 
  '             </li>  '  + 
  '               '  + 
  '           </ul>  '  + 

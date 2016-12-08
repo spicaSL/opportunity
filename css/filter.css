@@ -403,29 +403,30 @@
 .element-item-spring2016.advocacy { background: #77F; background: hsl( 180, 100%, 50%); }
 
 .background-styling {
-  background-image:  url(../img/flags_blue.jpg);
+   
   /*background-image: linear-gradient(rgba(7, 7, 104, 0.8), rgba(7, 7, 104, 0.8)
     ),
-    url(../img/flags_blue.jpg);*/
+    url(../img/hero.jpg.jpg);*/
   background-size: cover;
   background-position: center bottom;
-  padding-bottom: 5em;
+  /*padding-bottom: 5em;*/
 }
 /*Photo Credit: https://pixabay.com/en/flags-american-manhattan-1425351/*/
 
 
 .page-content-header-text h1 {
-  color: white;
+  color: #205493;;
 }
 
 .page-content-header-text h3 {
-  color: white;
+  color: #205493;;
 }
 
 .page-content-header-images img {
   width: 310px;
   height: 210px;
   object-fit: cover;
+  box-shadow: 5px 5px 5px #000;
 }
 
 .panel-design {
