@@ -5,7 +5,7 @@
     "Owner": "Loveland",
     "Category": "housing transportation",
     "Short-Message": "Helping low income families overcome the stress of finding affordable housing this tool combines transit access, walkability and school information into one unique feed of available properties.",
-    "Image-File": "../img/data-consumers/loveland-screenshot.png",
+    "Image-File": "/img/data-consumers/loveland-screenshot.png",
     "Gallery-Link": "http://www.findhome.io",
     "ClearDiv": ""
   },
