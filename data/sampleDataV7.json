@@ -14,7 +14,7 @@
     "Owner": "Airbnb",
     "Category": "housing",
     "Short-Message": "Uses HUD rental data to identify areas that present a high-opportunity for families to supplement their housing costs through renting excess rooms or units.",
-    "Image-File": "../img/data-consumers/airbnb-screenshot.png",
+    "Image-File": "airbnb-screenshot.png",
     "Gallery-Link": "http://airbnb-calculator.herokuapp.com/",
     "ClearDiv": ""
   },
@@ -23,7 +23,7 @@
     "Owner": "Measure of America",
     "Category": "housing",
     "Short-Message": "Uses data from HUD to interactively explore the relationship between residential segregation and youth disconnection.",
-    "Image-File": "../img/data-consumers/measure-of-america-screenshot.png",
+    "Image-File": "measure-of-america-screenshot.png",
     "Gallery-Link": "http://www.measureofamerica.org/SegregatedOpportunity",
     "ClearDiv": "yes"
   },
@@ -32,7 +32,7 @@
     "Owner": "Mapbox",
     "Category": "housing",
     "Short-Message": "Uses Fair Market Rent data from HUD, along with OpenStreetMap, to rapidly and easily assess neighborhood family amenities and voucher amounts for Section 8 Housing Seekers.",
-    "Image-File": "../img/data-consumers/mapbox-screenshot.png",
+    "Image-File": "mapbox-screenshot.png",
     "Gallery-Link": "https://www.mapbox.com/labs/opportunity/",
     "ClearDiv": ""
   },
@@ -41,7 +41,7 @@
     "Owner": "Great Schools and Education Cities'",
     "Category": "education",
     "Short-Message": "Great Schools and Education Cities' uses college readiness data to measure gaps in access to educational opportunities across student groups to help advocates increase equity.",
-    "Image-File": "../img/data-consumers/great-schools-screenshot.png",
+    "Image-File": "great-schools-screenshot.png",
     "Gallery-Link": "https://projects.invisionapp.com/share/N68M972TG#/screens",
     "ClearDiv": ""
   },
@@ -50,7 +50,7 @@
     "Owner": "LinkedIn",
     "Category": "employment education",
     "Short-Message": "Uses data from eligible training provider lists (ETPL) to surface education options that lead to in-demand careers for job seekers.",
-    "Image-File": "../img/data-consumers/linkedin-screenshot.png",
+    "Image-File": "linkedin-screenshot.png",
     "Gallery-Link": "https://www.linkedin.com/training",
     "ClearDiv": "yes"
   },
@@ -59,7 +59,7 @@
     "Owner": "Data Society/Kitamba",
     "Category": "education",
     "Short-Message": "Brings together economic, health center, and community institution data to help school leaders find and develop community partnerships.",
-    "Image-File": "../img/data-consumers/data-society-kitamba-screenshot.png",
+    "Image-File": "data-society-kitamba-screenshot.png",
     "Gallery-Link": "http://datasociety.co/kitamba-the-opportunity-project/",
     "ClearDiv": ""
   },
@@ -68,7 +68,7 @@
     "Owner": "Livestories",
     "Category": "education",
     "Short-Message": "Customizable data briefs use school-level data to help local school districts and education foundations inform parents and the electorate about the need for more funding.",
-    "Image-File": "../img/data-consumers/livestories-screenshot.png",
+    "Image-File": "livestories-screenshot.png",
     "Gallery-Link": "ttp://www.livestories.com/livestories-iq-and-the-opportunity-project",
     "ClearDiv": ""
   },
@@ -77,7 +77,7 @@
     "Owner": "My Sidewalk",
     "Category": "transportation health",
     "Short-Message": "Uses a combination of 30 datasets to generate instant insights that address accessibility of opportunity and emotional well-being for citizens across the county.",
-    "Image-File": "../img/data-consumers/mysidewalk-screenshot.png",
+    "Image-File": "mysidewalk-screenshot.png",
     "Gallery-Link": "https://theopportunityproject.mysidewalk.com/",
     "ClearDiv": "yes"
   },
@@ -86,7 +86,7 @@
     "Owner": "Create",
     "Category": "transportation",
     "Short-Message": "Uses traffic accident and fatality data to provide dynamic location-based visualizations of hazardous traffic corridors for citizens and community decision makers.",
-    "Image-File": "../img/data-consumers/create-screenshot.png",
+    "Image-File": "create-screenshot.png",
     "Gallery-Link": "http://usdot.create.io",
     "ClearDiv": ""
   },
@@ -95,7 +95,7 @@
     "Owner": "Split",
     "Category": "transportation employment",
     "Short-Message": "Uses commuting data from the LEHD Origin-Destination Employment Statistics, bus & rail transit routes to show commuter flows and gaps in access to transit.",
-    "Image-File": "../img/data-consumers/split-screenshot.png",
+    "Image-File": "split-screenshot.png",
     "Gallery-Link": "http://split.us/opportunity-project",
     "ClearDiv": ""
   },
@@ -104,7 +104,7 @@
     "Owner": "Ovela",
     "Category": "rural",
     "Short-Message": "Uses live spatial and development funding data from USDA, Census, DOT, and HUD to simplify funding eligibility with virtual story telling of our rural American communities.",
-    "Image-File": "../img/data-consumers/ovela-screenshot.png",
+    "Image-File": "ovela-screenshot.png",
     "Gallery-Link": "https://findyour.town",
     "ClearDiv": "yes"
   },
@@ -113,7 +113,7 @@
     "Owner": "Pairin",
     "Category": "employment education",
     "Short-Message": "Uses skills data from o*net and the Workforce Data Initiative to match individuals to the jobs in their area that provide the greatest opportunity for personal and professional success.",
-    "Image-File": "../img/data-consumers/pairin-personal-screenshot.png",
+    "Image-File": "pairin-personal-screenshot.png",
     "Gallery-Link": "http://opportunity.pairin.com",
     "ClearDiv": ""
   },
@@ -122,7 +122,7 @@
     "Owner": "Fitbit",
     "Category": "health",
     "Short-Message": "Lets users see how average activity relates to common health issues in each state, combining CDC health data with aggregated and anonymous Fitbit activity data from over 10 million users.",
-    "Image-File": "../img/data-consumers/fitbit-screenshot.png",
+    "Image-File": "fitbit-screenshot.png",
     "Gallery-Link": "https://www.fitbit.com/activity-index",
     "ClearDiv": ""
   },
@@ -131,7 +131,7 @@
     "Owner": "University of Oregon",
     "Category": "health",
     "Short-Message": "Enables researchers to unobtrusively measure everyday behavior and integrate open data on local hazards & resources to build a risk state detection algorithm that powers precise, life-saving mental health interventions.",
-    "Image-File": "../img/data-consumers/university-of-oregon-screenshot.png",
+    "Image-File": "university-of-oregon-screenshot.png",
     "Gallery-Link": "#",
     "ClearDiv": "yes"
   },
@@ -149,7 +149,7 @@
     "Owner": "Hackernest",
     "Category": "employment",
     "Short-Message": "Uses labor/employment info from multiple federal data sources to help navigate careers in government for Americans.",
-    "Image-File": "../img/data-consumers/hackernest-screenshot.png",
+    "Image-File": "hackernest-screenshot.png",
     "Gallery-Link": "http://opportunity.hackernest.com",
     "ClearDiv": ""
   },
