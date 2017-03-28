@@ -32,7 +32,7 @@
     "Owner": "Mapbox",
     "Category": "housing",
     "Short-Message": "Uses Fair Market Rent data from HUD, along with OpenStreetMap, to rapidly and easily assess neighborhood family amenities and voucher amounts for Section 8 Housing Seekers.",
-    "Image-File": "../img/data-consumers/mapbox.png",
+    "Image-File": "../img/data-consumers/mapbox-screenshot.png",
     "Gallery-Link": "https://www.mapbox.com/labs/opportunity/",
     "ClearDiv": ""
   },
