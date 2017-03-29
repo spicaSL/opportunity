@@ -158,7 +158,7 @@
     "Owner": "ESRI",
     "Category": "housing health transportation rural",
     "Short-Message": "Uses nationwide opportunity indexes to make search for opportunity more easily obtainable.",
-    "Image-File": "https://raw.githubusercontent.com/jmeisel/TOPassets/master/ESRI%20Screenshot.png",
+    "Image-File": "esri-screenshot.png",
     "Gallery-Link": "http://arcg.is/2aWs865",
     "ClearDiv": "yes"
   },
@@ -167,7 +167,7 @@
     "Owner": "data.world",
     "Category": "housing health transportation employment education rural",
     "Short-Message": "Uses data from eleven federal agencies and twelve cities to facilitate finding, viewing and collaborating over data for Opportunity Project sprint participants.",
-    "Image-File": "https://raw.githubusercontent.com/jmeisel/TOPassets/master/data.world%20Screenshot.png",
+    "Image-File": "dataWorld-screenshot.png",
     "Gallery-Link": "https://data.world/opportunity",
     "ClearDiv": ""
   },
@@ -176,7 +176,7 @@
     "Owner": "Wolfram",
     "Category": "housing health transportation employment education rural",
     "Short-Message": "Uses datasets from multiple agencies to help researchers and developers rapidly prototype and deploy tools that address a variety of problems surrounding access to opportunity.",
-    "Image-File": "https://raw.githubusercontent.com/jmeisel/TOPassets/master/Wolfram%20Screenshot.png",
+    "Image-File": "wolfram-screenshot.png",
     "Gallery-Link": "#",
     "ClearDiv": ""
   },
@@ -185,7 +185,7 @@
     "Owner": "Flatiron School",
     "Category": "education employment",
     "Short-Message": "A mobile application that uses employment statistics and occupational data from the Bureau of Labor Statistics to make career exploration easy and accessible for high school students.",
-    "Image-File": "https://raw.githubusercontent.com/jmeisel/TOPassets/master/CareerSpark-image.png",
+    "Image-File": "careerSpark-screenshot.png",
     "Gallery-Link": "http://apple.co/2cGmRQr",
     "ClearDiv": "yes"
   },
@@ -194,7 +194,7 @@
     "Owner": "Redfin",
     "Category": "housing employment transportation",
     "Short-Message": "This tool from Redfin shows jobs you can get to in 30 minutes, without a car, from any address.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/redfin.jpg",
+    "Image-File": "redfin-screenshot.jpg",
     "Gallery-Link": "https://labs.redfin.com/opportunity-score",
     "ClearDiv": ""
   },
@@ -203,7 +203,7 @@
     "Owner": "Great Schools",
     "Category": "education",
     "Short-Message": "A collaboration with Zillow to help families find housing near high opportunity schools.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/greatschools.jpg",
+    "Image-File": "greatSchools-screenshot.jpg",
     "Gallery-Link": "https://projects.invisionapp.com/boards/GH1AO5WP2D7JZ/",
     "ClearDiv": ""
   },
@@ -212,7 +212,7 @@
     "Owner": "Policy Map",
     "Category": "housing",
     "Short-Message": "A tool that allows users to identify areas of opportunity by specifying their most important priorities.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/policymap.jpg",
+    "Image-File": "policyMap-screenshot.jpg",
     "Gallery-Link": "http://opportunity.policymap.com/",
     "ClearDiv": "yes"
   },
@@ -221,7 +221,7 @@
     "Owner": "Azavea",
     "Category": "transportation education health",
     "Short-Message": "An interactive tool from Azavea for exploring transit accessibility to target resources from focus areas.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/transit-analyst.jpg",
+    "Image-File": "transitAnalyst-screenshot.jpg",
     "Gallery-Link": "http://transitanalyst.com/",
     "ClearDiv": ""
   },
@@ -230,7 +230,7 @@
     "Owner": "diversitydatakids.org",
     "Category": "housing education health",
     "Short-Message": "Story maps providing visibility into the affordability of opportunity for children in U.S. metro areas.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/ddk.jpg",
+    "Image-File": "ddk-screenshot.jpg",
     "Gallery-Link": "http://www.diversitydatakids.org/data/library/49/coi-lai-cob-story-maps",
     "ClearDiv": ""
   },
@@ -239,7 +239,7 @@
     "Owner": "Zillow",
     "Category": "housing",
     "Short-Message": "A tool by Zillow for exploring the opportunity and growth potential of Baltimore's neighborhoods.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/baltimore-explorer.jpg",
+    "Image-File": "baltimoreExplorer-screenshot.jpg",
     "Gallery-Link": "http://files.zillowstatic.com/research/public/Whitehouse_Hackathon/index.html",
     "ClearDiv": "yes"
   },
@@ -248,7 +248,7 @@
     "Owner": "Community Commons",
     "Category": "housing education health",
     "Short-Message": "A new tool for finding areas of opportunity through geographic visualizations and reports.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/community-commons.jpg",
+    "Image-File": "communityCommons-screenshot.jpg",
     "Gallery-Link": "http://maps.communitycommons.org/footprint/?project=LOFT",
     "ClearDiv": ""
   },
@@ -257,7 +257,7 @@
     "Owner": "Streetwyze",
     "Category": "housing employment transportation",
     "Short-Message": "A \"ground-truthing\" neighborhood navigator powered by local knowledge.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/streetwyze.jpg",
+    "Image-File": "streetwyze-screenshot.jpg",
     "Gallery-Link": "http://www.streetwyze.com/",
     "ClearDiv": ""
   },
@@ -266,7 +266,7 @@
     "Owner": "Data2go.nyc",
     "Category": "health housing",
     "Short-Message": "This tool from Measure of America combines various data critical to the well being of New Yorkers.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/measure-of-america.jpg",
+    "Image-File": "measureOfAmerica-screenshot.jpg",
     "Gallery-Link": "http://data2go.nyc/",
     "ClearDiv": "yes"
   },
@@ -275,7 +275,7 @@
     "Owner": "National Equity Atlas",
     "Category": "housing",
     "Short-Message": "A PolicyLink tool to allow comparison of disaggregated demographic indicators.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/nea.jpg",
+    "Image-File": "nea-screenshot.jpg",
     "Gallery-Link": "http://www.nationalequityatlas.org/",
     "ClearDiv": ""
   },
@@ -284,7 +284,7 @@
     "Owner": "Socrata",
     "Category": "housing health transportation employment education rural",
     "Short-Message": "A tool from Socrata that allows for comparison and similarity detection of geographic regions.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/socrata.jpg",
+    "Image-File": "socrata-screenshot.jpg",
     "Gallery-Link": "http://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013",
     "ClearDiv": ""
   },
@@ -293,7 +293,7 @@
     "Owner": "ESRI",
     "Category": "housing health transportation employment education rural",
     "Short-Message": "A tool from Esri that shows where opportunities are for low income citizens with children.",
-    "Image-File": "http://opportunity.census.gov/img/data-consumers/esri.jpg",
+    "Image-File": "esriAffordableHousing-screenshot.jpg",
     "Gallery-Link": "http://esrifederal.maps.arcgis.com/apps/webappviewer/index.html?id=852f6731b72f465ab2fbbe76d4269f00",
     "ClearDiv": "yes"
   },
@@ -302,7 +302,7 @@
     "Owner": "Ushahidi",
     "Category": "employment",
     "Short-Message": "Ushahidi Job Postings combines crowdsourced job reports to share alerts of local job openings.",
-    "Image-File": "https://raw.githubusercontent.com/jmeisel/TOPassets/master/ushahidi.png",
+    "Image-File": "ushahidi-screenshot.png",
     "Gallery-Link": "https://jobpostings.ushahidi.io/",
     "ClearDiv": "yes"
   }
