@@ -194,7 +194,7 @@
     "Owner": "Redfin",
     "Category": "housing employment transportation",
     "Short-Message": "This tool from Redfin shows jobs you can get to in 30 minutes, without a car, from any address.",
-    "Image-File": "redfin-screenshot.png",
+    "Image-File": "redfin-screenshot.jpg",
     "Gallery-Link": "https://labs.redfin.com/opportunity-score",
     "ClearDiv": ""
   },
@@ -203,7 +203,7 @@
     "Owner": "Great Schools",
     "Category": "education",
     "Short-Message": "A collaboration with Zillow to help families find housing near high opportunity schools.",
-    "Image-File": "greatSchools-screenshot",
+    "Image-File": "greatSchools-screenshot.jpg",
     "Gallery-Link": "https://projects.invisionapp.com/boards/GH1AO5WP2D7JZ/",
     "ClearDiv": ""
   },
@@ -212,7 +212,7 @@
     "Owner": "Policy Map",
     "Category": "housing",
     "Short-Message": "A tool that allows users to identify areas of opportunity by specifying their most important priorities.",
-    "Image-File": "policyMap-screenshot.png",
+    "Image-File": "policyMap-screenshot.jpg",
     "Gallery-Link": "http://opportunity.policymap.com/",
     "ClearDiv": "yes"
   },
@@ -230,7 +230,7 @@
     "Owner": "diversitydatakids.org",
     "Category": "housing education health",
     "Short-Message": "Story maps providing visibility into the affordability of opportunity for children in U.S. metro areas.",
-    "Image-File": "ddk-screenshot.png",
+    "Image-File": "ddk-screenshot.jpg",
     "Gallery-Link": "http://www.diversitydatakids.org/data/library/49/coi-lai-cob-story-maps",
     "ClearDiv": ""
   },
@@ -239,7 +239,7 @@
     "Owner": "Zillow",
     "Category": "housing",
     "Short-Message": "A tool by Zillow for exploring the opportunity and growth potential of Baltimore's neighborhoods.",
-    "Image-File": "baltimoreExplorer-screenshot.png",
+    "Image-File": "baltimoreExplorer-screenshot.jpg",
     "Gallery-Link": "http://files.zillowstatic.com/research/public/Whitehouse_Hackathon/index.html",
     "ClearDiv": "yes"
   },
@@ -248,7 +248,7 @@
     "Owner": "Community Commons",
     "Category": "housing education health",
     "Short-Message": "A new tool for finding areas of opportunity through geographic visualizations and reports.",
-    "Image-File": "communityCommons-screenshot.png",
+    "Image-File": "communityCommons-screenshot.jpg",
     "Gallery-Link": "http://maps.communitycommons.org/footprint/?project=LOFT",
     "ClearDiv": ""
   },
@@ -257,7 +257,7 @@
     "Owner": "Streetwyze",
     "Category": "housing employment transportation",
     "Short-Message": "A \"ground-truthing\" neighborhood navigator powered by local knowledge.",
-    "Image-File": "streetwyze-screenshot.png",
+    "Image-File": "streetwyze-screenshot.jpg",
     "Gallery-Link": "http://www.streetwyze.com/",
     "ClearDiv": ""
   },
@@ -266,7 +266,7 @@
     "Owner": "Data2go.nyc",
     "Category": "health housing",
     "Short-Message": "This tool from Measure of America combines various data critical to the well being of New Yorkers.",
-    "Image-File": "measureOfAmerica-screenshot.png",
+    "Image-File": "measureOfAmerica-screenshot.jpg",
     "Gallery-Link": "http://data2go.nyc/",
     "ClearDiv": "yes"
   },
@@ -275,7 +275,7 @@
     "Owner": "National Equity Atlas",
     "Category": "housing",
     "Short-Message": "A PolicyLink tool to allow comparison of disaggregated demographic indicators.",
-    "Image-File": "nea-screenshot.png",
+    "Image-File": "nea-screenshot.jpg",
     "Gallery-Link": "http://www.nationalequityatlas.org/",
     "ClearDiv": ""
   },
@@ -284,7 +284,7 @@
     "Owner": "Socrata",
     "Category": "housing health transportation employment education rural",
     "Short-Message": "A tool from Socrata that allows for comparison and similarity detection of geographic regions.",
-    "Image-File": "socrata-screenshot.png",
+    "Image-File": "socrata-screenshot.jpg",
     "Gallery-Link": "http://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013",
     "ClearDiv": ""
   },
