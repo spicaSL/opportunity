@@ -1,0 +1,34 @@
+ul li, ol li {
+	list-style-type: circle;
+}
+
+.usa-unstyled-list {
+    margin-top: 0;
+    margin-bottom: 1em;
+    list-style-type: none;
+    list-style-image: url("../img/bullet-circle.svg");
+    padding-left: 35px;
+}
+
+.usa-unstyled-list li {
+	line-height: 1.5;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+}
+
+/* This code makes the link icon appear next to each link. It should not appear in the navigation or footer. */
+[href^="http:"]:not([href*="standards.com"])::after,
+[href^="https:"]:not([href*="standards.com"])::after {
+  /*background: url("../img/external-link.png") no-repeat 0 0;*/
+  background: url("../img/external-link.svg") no-repeat 0 0; 
+  background-size: 100%;
+  content: '';
+  display: inline-block;
+  height: 0.65em;
+  margin-bottom: -1px;
+  margin-left: 4px;
+  width: 0.65em; }
+[href^="http:"]:not([href*="standards.com"]):hover::after,
+[href^="https:"]:not([href*="standards.com"]):hover::after {
+  background-image: url("../img/external-link-hover.png");
+  background-image: url("../img/external-link-hover.svg"); }

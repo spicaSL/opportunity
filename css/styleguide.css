@@ -3823,7 +3823,7 @@ pre[class*="language-"] {
 [href^="http:"]:not([href*="standards.com"])::after,
 [href^="https:"]:not([href*="standards.com"])::after {
   /*background: url("../img/external-link.png") no-repeat 0 0;*/
-  background: url("../img/external-link.svg") no-repeat 0 0; 
+  /*background: url("../img/external-link.svg") no-repeat 0 0; */
   background-size: 100%;
   content: '';
   display: inline-block;
