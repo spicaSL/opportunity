@@ -16,12 +16,12 @@ ul li, ol li {
     margin-top: 0.75em;
 }
 
-/* This code makes the link icon appear next to each link. It should not appear in the navigation or footer. */
+
 main a[href^="http:"]:not([href*="standards.com"])::after,
 main a[href^="https:"]:not([href*="standards.com"])::after {
- background: url("../img/external-link.svg") no-repeat 0 0;
+ background: none;
  background-size: 100%;
- content: '';
+ content: none;
  display: inline-block;
  height: 0.65em;
  margin-bottom: -1px;
@@ -29,8 +29,9 @@ main a[href^="https:"]:not([href*="standards.com"])::after {
  width: 0.65em; }
 [href^="http:"]:not([href*="standards.com"]):hover::after,
 [href^="https:"]:not([href*="standards.com"]):hover::after {
- background-image: url("../img/external-link-hover.png");
- background-image: url("../img/external-link-hover.svg"); }
+ background-image: none;
+ background-image: none; }
+
 
   #plays_index .columns {
 /*    -moz-column-count: 2;
