@@ -1,0 +1,64 @@
+ul li, ol li {
+	list-style-type: circle;
+}
+
+.usa-unstyled-list {
+    margin-top: 0;
+    margin-bottom: 1em;
+    list-style-type: none;
+    list-style-image: url("../img/bullet-circle.svg");
+    padding-left: 35px;
+}
+
+.usa-unstyled-list li {
+	line-height: 1.5;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+}
+
+
+main a[href^="http:"]:not([href*="standards.com"])::after,
+main a[href^="https:"]:not([href*="standards.com"])::after {
+ background: none;
+ background-size: 100%;
+ content: none;
+ display: inline-block;
+ height: 0.65em;
+ margin-bottom: -1px;
+ margin-left: 4px;
+ width: 0.65em; }
+[href^="http:"]:not([href*="standards.com"]):hover::after,
+[href^="https:"]:not([href*="standards.com"]):hover::after {
+ background-image: none;
+ background-image: none; }
+
+
+  #plays_index .columns {
+/*    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;*/
+    column-count: 2;
+    column-gap: 20px;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+#plays_index ul, #plays_index li {
+    font-size: 20px;
+    /*font-weight: 300;*/
+    line-height: 1.5em;
+    margin: 0;
+    /*color: #fff;*/
+}
+
+
+#plays_index ol {
+    list-style-position: inside;
+    padding-left: 0px;
+    /*margin-top: 0px;*/
+}
+
+a:visited {
+   color: #0071bc ;
+}
