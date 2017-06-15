@@ -48,7 +48,7 @@ header.ood-main {
 
 main > section,
 main > div.section {
-  /*padding-bottom: 3rem*/; }
+  padding-bottom: 3rem; }
 
 main > .ood-alt {
   background-color: #dce4ef; }
