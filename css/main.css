@@ -48,7 +48,7 @@ header.ood-main {
 
 main > section,
 main > div.section {
-  /*padding-bottom: 3rem*/; }
+  padding-bottom: 3rem; }
 
 main > .ood-alt {
   background-color: #dce4ef; }
@@ -80,10 +80,10 @@ main > .ood-alt2 {
 .ood-banner {
   background-color: #112e51;
   background-repeat: no-repeat;
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/hero.png);
   background-size: cover;
   background-position: center bottom;
-  padding: 3em 0;
+  padding: 0 0 5em 0;
   text-align: center; }
   .ood-banner h1 {
     font-weight: 300;
@@ -110,7 +110,7 @@ main > .ood-alt2 {
   padding: 0;
   text-align: center; }
   .ood-nav > div {
-    padding: 1.5em 0; 
+    padding: 0 0; 
   width:100%;
   display:block;
   /*height: 300px;*/
