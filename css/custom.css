@@ -24,6 +24,15 @@ ul li, ol li {
     margin-top: 0.75em;
 }
 
+.usa-unstyled-list.usa-accordion-bordered {
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+
+.usa-accordion button, .usa-accordion-bordered button {
+    font-weight: 700;
+}
+
 
 main a[href^="http:"]:not([href*="standards.com"])::after,
 main a[href^="https:"]:not([href*="standards.com"])::after {
