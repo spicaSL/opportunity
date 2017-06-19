@@ -1,3 +1,11 @@
+/*@media screen and (min-width: 951px)*/
+.usa-navbar {
+    border-bottom: none;
+    display: inline;
+    height: 10.3rem;
+}
+
+
 ul li, ol li {
 	list-style-type: circle;
 }
@@ -14,6 +22,15 @@ ul li, ol li {
 	line-height: 1.5;
     margin-bottom: 0.75em;
     margin-top: 0.75em;
+}
+
+.usa-unstyled-list.usa-accordion-bordered {
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+
+.usa-accordion button, .usa-accordion-bordered button {
+    font-weight: 700;
 }
 
 
@@ -61,4 +78,27 @@ main a[href^="https:"]:not([href*="standards.com"])::after {
 
 a:visited {
    color: #0071bc ;
+}
+
+.usa-nav-close {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    font-weight: 400;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-align: left;
+    -webkit-font-smoothing: auto;
+    margin: -1.2rem -1.5rem 2.4rem auto;
+    float: right;
+    height: 5.4rem;
+    text-align: center;
+    width: 4.4rem;
+}
+
+@media screen and (max-width: 500px) {
+    .usa-nav  {
+        background-color: white;
+    }   
 }

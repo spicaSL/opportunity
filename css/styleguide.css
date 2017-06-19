@@ -1525,8 +1525,8 @@ h4,
 h5,
 h6 {
   clear: both;
-  /*font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;*/
-  font-family: 'Source Sans Pro';
+  font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  /*font-family: 'Source Sans Pro';*/
   line-height: 1.3;
   margin-bottom: .5em;
   margin-top: 1.5em; }
@@ -1575,8 +1575,8 @@ dfn {
 .usa-sans a,
 .usa-sans li,
 .usa-sans span {
-  /*font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; */
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif";
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; 
+  /*font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif";*/
 }
 .usa-sans a {
   border-bottom: none;
@@ -2466,7 +2466,8 @@ fieldset {
   flex-direction: column;
   overflow-y: auto;
   padding: 2rem;
-  z-index: 9000; }
+  z-index: 9000;
+  background-color: transparent; }
   @media screen and (min-width: 951px) {
     .usa-nav {
       /*padding-top: 6rem;*/
@@ -2533,7 +2534,7 @@ fieldset {
     text-decoration: none; }
     .usa-nav-primary a:hover {
       background-color: #f1f1f1;
-      color: #0071bc;
+      color: white;
       text-decoration: none; }
     .usa-nav-primary a:focus {
       position: relative;
@@ -2558,7 +2559,7 @@ fieldset {
     @media screen and (min-width: 951px) {
       .usa-nav-primary > li > a {
         padding: 1.3rem 1.5rem 1.7rem;
-        color: #5b616b;
+        color: white;
         font-size: 1.5rem;
         font-weight: 700;
         line-height: 1.2; } }
