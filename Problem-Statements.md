@@ -1,6 +1,6 @@
-#Problem Statements
+# Problem Statements
 
-##Engaging hard to count communities in the 2020 Census
+## Engaging hard to count communities in the 2020 Census
  
 **Challenge:**
 Create digital tools that enable hard to count communities to see and experience the value of the Census data in order to increase participation in the 2020 Census. 
@@ -17,7 +17,7 @@ Certain segments of the US population have been hard to count in the Census at d
 
 
 
-##Connecting local leaders with information on federal funding
+## Connecting local leaders with information on federal funding
  
 **Challenge:**
 Create digital tools that help local leaders to visualize and understand information on federal funding in their communities. 
@@ -26,11 +26,11 @@ Create digital tools that help local leaders to visualize and understand informa
 The Office of Management and Budget is focused on ensuring that organizations and taxpayers can easily access information on financial assistance opportunities, including funding that is available to them, where the funding is currently awarded, and the outcomes of existing projects.
  
 **Problem:**
-Despite an overabundance of information on existing financial assistance opportunities and awards, community leaders, potential applicants, researchers, and Congress continue to express frustration that they cannot easily find the information they need or are interested in.  Example scenario: the Mayor of a large city is currently facing a financial crisis and city has filed for bankruptcy. The city is looking for available Federal funds for assistance. The mayor is trying to determine what available funds the city has, how those funds are making a difference for the city, or what funds the city could apply for, but is unable to get a complete picture of what funds are available that could be used to provide essential city services.
+Despite an overabundance of information on existing financial assistance opportunities and awards, community leaders, potential applicants, researchers, and Congress continue to express frustration that they cannot easily find the information they need or are interested in.  *Example scenario: the Mayor of a large city is currently facing a financial crisis and city has filed for bankruptcy. The city is looking for available Federal funds for assistance. The mayor is trying to determine what available funds the city has, how those funds are making a difference for the city, or what funds the city could apply for, but is unable to get a complete picture of what funds are available that could be used to provide essential city services.*
  
 **Potential data sets:**
 * Government-wide sites:
-* USAspending.gov (& new prototype site after May 2017: [https://spendingdata.us/#/search](https://spendingdata.us/#/search))
+  * [USAspending.gov](https://spendingdata.us/#/search)
   * SAM.gov, including [CFDA.gov](https://www.cfda.gov/)
   * Federal Audit Clearinghouse
   * [Grants.gov](https://www.grants.gov/)
@@ -46,12 +46,13 @@ Despite an overabundance of information on existing financial assistance opportu
 * Performance related agency sites (some agencies post performance and outcomes related to assistance awards online, others have this information internally, generally this type of information is hard to find):
   * [Fish and Wildlife (TRACS)](https://tracs.fws.gov/public/)
   * [USDA NIFA Data Gateway](https://nifa.usda.gov/data)
-  * Payment management systems (internal) – currently non-public, but these systems could be leveraged to reflect the amount of funds organizations have available to them for disbursement:
+
+* Payment management systems (internal) – currently non-public, but these systems could be leveraged to reflect the amount of funds organizations have available to them for disbursement:
   * [Payment Management System (HHS)](https://pms.psc.gov/)
   * [Automated Standard Application for Payments (Treasury)](https://fiscal.treasury.gov/fsservices/gov/pmt/asap/asap_home.htm)
 
 
-##Existing Problems to Tackle
+## Existing Problems to Tackle
  
 Visit [opportunity.census.gov](opportunity.census.gov) to find more [user scenarios](https://opportunity.census.gov/build.html#userscenarios) and [data sets](https://opportunity.census.gov/build.html#datainventory) that you can use to solve different types of problems. Choose a problem, learn about the user, find helpful data, and create a solution with your own civic tech team! Use the [Opportunity Project Playbook](https://opportunity.census.gov/playbook.html) to guide your team through the process. 
 
