@@ -1,5 +1,7 @@
 # Problem Statements
 
+
+
 ## Engaging hard to count communities in the 2020 Census
  
 **Challenge:**
@@ -14,6 +16,9 @@ Certain segments of the US population have been hard to count in the Census at d
 **Additional resources on this problem:**
   * [Census Barriers, Attitudes and Motivators Survey](https://www.census.gov/2010census/pdf/2010_Census_CBAMS_II.pdf) (please note pages 48-55) 
   * [Census Planning Database and Low Response Score](https://www.census.gov/research/data/planning_database/)
+
+
+
 
 
 
@@ -50,6 +55,9 @@ Despite an overabundance of information on existing financial assistance opportu
 * Payment management systems (internal) – currently non-public, but these systems could be leveraged to reflect the amount of funds organizations have available to them for disbursement:
   * [Payment Management System (HHS)](https://pms.psc.gov/)
   * [Automated Standard Application for Payments (Treasury)](https://fiscal.treasury.gov/fsservices/gov/pmt/asap/asap_home.htm)
+
+
+
 
 
 ## Existing Problems to Tackle
