@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+
+  <!--
+                      __,__r========qL,
+                   ,m**`~'            XW;
+            ____Lm/'      _mmmm    jW@+===m___,
+      .m+*f~TX7''|    `Y*X@X7~MMLL          ._JXmL,
+    jf~'    `YM#:~      !*##@ d j@~Y!     `~~~+m_
+   Z            M       `Nd*=+5+      -====L__ !M-
+  m!            `Y=;m_,   ~Yf~~               YL`W;
+  |        .mmmmmqrL_XXX~*==mL,                 Y#|
+  |  ,Z~~~~~'        ~~~~    X#         -==L__,  !#,
+  | |tL             ____WY*f~~                `~qd#W
+  V,| `~~Y*+mL_,  :f~~ ~                   q_    V#b
+  `b|         `Y+-W;                        `\\,  _#
+    V              N,  m                 YL,   `\L#@
+                    N  #                   YL,   `##,
+                   .P  #                     `\   V#|
+                 ../   #           ^           YL |W
+                -P     #    :P  ;  ||           `|!W
+                Z'     #   :P  :'   #,           #L#
+            _ _Wb    jWD  jf   /    |b           V@*
+          j+N##8#4rt8#~.,jf    |    |#       b   |W
+       .r*'m8####q#P8###*'    W    :##       V;  d|
+      /K_jWK#X###~#|###mW#   :P  j;##|    #, `#, @
+     !TGW###8#m#K7q=WWmd##mmm#m.Z8###!    #W  |b |
+     /4#@##W#+##P:WZWMZ*W=m##WMN|WZWP:#;m,d#W;Dd |
+    W*~~~M#W!KWjW5!!/WV##N7j#KXPNMX#DW###b###D#Xb|
+   !'    d!JXXXW!`!Ldm@#bd#WW8K)X|X#8#8#K##V#!K5|#
+        d@f~  jf.Z\/Vb*Y+W#j(WMZPrMM#@##K#@##;WWj##,
+        ~    m*~'   '#`\8#W4KW#qX@VW##W#8##8#rNWK###G-
+            `'       #`8*=#YWWK/b+WW#W#*#MWm8*KKd#M#**m,
+                     #Z'  VW#f'~M+NM#####K#8@WLMZKX#W#+M;
+                              ~` *YM#######@*)P/+DK####m#
+                                   `'*##fXVPX|Vr~##Z#W@N@
+                                      `WL_d**DfWX#8#WK##*b
+                                                `W###@#N#/b
+                                                 .#mj#X~YM#
+                                                 ~`#WdD~  Y!
+                                                 `'_|#f+-
+
+  Built by Presidential Innovation Fellows (http://pif.gov)
+
+-->
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Opportunity Project</title>
+  <meta name="description" content="An open data effort to improve economic mobility for all Americans.
+">
+
+  <link rel="canonical" href="http://opportunity.census.gov/">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="designstandards/assets/css/main.css?v=0.8.3">
+  <link rel="stylesheet" href="designstandards/assets/css/google-fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/filter.css">
+  <link rel="stylesheet" href="css/styleguide.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicons
+  ================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="designstandards/assets/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="designstandards/assets/img/favicons/favicon.png" />
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="designstandards/assets/img/favicons/favicon-192.png" />
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="designstandards/assets/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="designstandards/assets/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="designstandards/assets/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="designstandards/assets/img/favicons/favicon-144.png">
+
+  <meta property="og:title" content="The Opportunity Project" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://opportunity.census.gov" />
+  <meta property="og:description" content="An open data effort to improve economic mobility for all Americans.
+" />
+  <meta property="og:image" content="http://opportunity.census.gov/img/open-graph.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@uscensusbureau" />
+  <meta name="twitter:creator" content="@InnovFellows" />
+  <meta name="twitter:title" content="The Opportunity Project" />
+  <meta name="twitter:description" content="An open data effort to improve economic mobility for all Americans.
+" />
+  <meta name="twitter:image" content="http://opportunity.census.gov/img/open-graph.jpg" />
+
+</head>
+
+
+  <body>
+    <header>  
+  
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+    <div class="ood-banner">
+        <div class="ood-nav">
+        <div class="usa-nav-container">
+          <div class="usa-navbar">
+            <button class="usa-menu-btn">Menu</button>
+            <div class="usa-logo" id="logo">
+              <em class="usa-logo-text">
+                <a href="index.html" accesskey="1" title="Home" aria-label="Home" style="color:white">The Opportunity Project</a>
+                
+              </em>
+            </div>
+          </div>
+          <nav role="navigation" class="usa-nav">
+            <button class="usa-nav-close">
+              <img src="designstandards/assets/img/close.svg" alt="close">
+            </button>
+            
+            <ul class="usa-nav-primary usa-accordion">
+               <li>
+                <a class="usa-nav-link" href="index.html">
+                  <span>Home</span>
+                </a>
+              </li>
+             
+              <li>
+                <a class="usa-nav-link" href="feature.html">
+                  <span>Projects</span>
+                </a>
+              </li>
+              <li>
+                <a class="usa-nav-link" href="build.html">
+                  <span>Build</span>
+                </a>
+              </li>
+              <li>
+                <a class="usa-nav-link" href="mailto:opportunityproject@doc.gov" id="anch_5">
+                  <span>Join</span>
+                </a>
+              </li>
+              
+            </ul>
+           
+          </nav>
+
+
+        </div>
+        </div><div class="usa-grid">
+         <!--  <h1><strong>The Opportunity Project</strong></h1>
+          <p class="usa-font-lead">Creating digital tools that strengthen American economic opportunity</p> -->
+
+          <img src="img/logo.png" width="750">
+          
+             <!-- <a href="http://eepurl.com/cd6yor" class="usa-button usa-button-big" id="anch_6">Join Us</a> -->
+          
+        </div>
+      </div>
+  </header>
+
+
+
+    <main class="usa-content" id="main-content">
+  <!--       <div class="ood-banner">
+    <div class="usa-grid">
+      <h1><strong>The Opportunity Project</strong></h1>
+      <p class="usa-font-lead">Creating digital tools that strengthen American economic opportunity</p>
+      
+         <a href="http://eepurl.com/cd6yor"
+         class="usa-button usa-button-big">Join Us</a>
+      
+    </div>
+  </div> -->
+
+<!--   <div>
+    <nav class="main-nav" style="padding-top: 22px; text-align: center;">
+    <a href="#introduction"><h3>The Opportunity Project Playbook</h3></a>
+      <ul class="usa-nav-primary">
+        <li class="play_square"><a href="#play1" title="View Play 1: Choose a challenge">1</a></li>
+        <li class="play_square"><a href="#play2" title="View Play 2: Team up">2</a></li>
+            
+        <li class="play_square"><a href="#play3" title="View Play 3: Co-create the vision">3</a></li>
+            
+        <li class="play_square"><a href="#play4" title="View Play 4: Find the data">4</a></li>
+            
+        <li class="play_square"><a href="#play5" title="View Play 5: Build iteratively and collaboratively">5</a></li>
+            
+        <li class="play_square"><a href="#play6" title="View Play 6: Share your tool with the world">6</a></li>
+            
+        <li class="play_square"><a href="#play7" title="View Play 7: Share progress, stories, and metrics">7</a></li>
+      </ul>
+    </nav>
+  </div> -->
+
+
+<section class="ood" id="howitworks">
+<div class="usa-grid-full">
+  <div class="outer_container">
+    <div class="inner_container">
+      <h2>The Opportunity Project Playbook</h2>
+      <p id="introduction">The Opportunity Project uses federal data to catalyze the creation of new digital tools that increase American economic opportunity. By facilitating collaboration between tech companies, government agencies, and local communities, we are transforming data into digital tools that meet local needs. Tools created through the Opportunity Project have helped military spouses find jobs that match their skills, unemployed Americans find housing near job opportunities, and local leaders to use data to better target their investments.</p>
+
+      <p>The Opportunity Project Team created this playbook as a guide for anyone who wants to use our process, which may include teachers hoping to acquaint their students with government data, local governments who want to use data to  address the needs of residents, and community groups looking to partner with tech talent to advance their missions.</p>
+
+      <p>The Opportunity Project process is not one-size-fits-all, and will look different depending on who you are and what big challenges you want to solve. The steps below reflect lessons we’ve learned, but you should adapt it to your needs, and share back with us what did or did not worked for you.</p>
+
+        <h2><strong>What can my organization do?</strong></h2>
+
+        <p>Think creatively about how to get involved. Here are some suggestions.</p>
+
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">Tech Companies, Startups, Civic Tech Teams</th>
+                    <th scope="col">Communities, Local, and State Governments</th>
+                    <th scope="col">Universities and Coding Schools</th>
+                    <th scope="col">User Advocates</th>
+                    <th scope="col">Federal Agencies</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Visualize data</td>
+                    <td>Define challenges</td>
+                    <td>Convene stakeholders</td>
+                    <td>Define a problem</td>
+                    <td>Identify agency priorities in need of a tech solution</td>
+                  </tr>
+                  <tr>
+                    <td>Identify digital solutions</td>
+                    <td>Engage local residents</td>
+                    <td>Incorporate Opportunity data into your curricula</td>
+                    <td>Contribute expertise to inform design of tools</td>
+                    <td>Contribute agency open data</td>
+                  </tr>
+                  <tr>
+                    <td>Build a tool</td>
+                    <td>Share your local expertise</td>
+                    <td>Engage students across disciplines to design and build tools</td>
+                    <td>Connect with users to provide feedback</td>
+                    <td>Answer data questions</td>
+                  </tr>
+                  <tr>
+                    <td>Add new feature or new data to existing platform</td>
+                    <td>Test and help improve tools</td>
+                    <td> </td>
+                    <td> </td>
+                    <td>Gain insight to improve your data</td>
+                  </tr>
+                  <tr>
+                    <td>Add data to the Opportunity Project inventory</td>
+                    <td>Add local or state data</td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                  </tr>
+                  <tr>
+                    <td>Join a community of practice</td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+        <a href="#plays_index_anchor" title="View the Plays" class="usa-button">See the plays</a>
+        <a href="https://github.com/presidential-innovation-fellows/opportunity-pm" title="Visit Github to Improve This Content" class="usa-button">Improve this content</a>
+        <a href="https://github.com/uscensusbureau/opportunity" title="Visit Github to Improve This Content" class="usa-button">Improve the project</a>
+    </div>
+  </div>
+</div>
+  
+  </section>
+
+
+<!-- CODE FOR BODY STARTS HERE -->
+  <section class="ood-alt" id="howitworks">
+<div class="usa-grid-full">
+<div class="">
+  <div class="background-styling">
+<div id="plays_index">
+  <div class="outer_container">
+    <div class="inner_container">
+      <a class="anchor_offset" id="plays_index_anchor"></a>
+      <h2>Opportunity Project Plays</h2>
+      <div class="columns">
+        <ul>
+        
+          <li><a href="#play1" title="View Play 1">1. Choose a challenge</a></li>
+        
+          <li><a href="#play2" title="View Play 2">2. Team up</a></li>
+        
+          <li><a href="#play3" title="View Play 3">3. Co-create the vision</a></li>
+        
+          <li><a href="#play4" title="View Play 4">4. Find the data</a></li>
+        
+          <li><a href="#play5" title="View Play 5">5. Build iteratively and collaboratively</a></li>
+        
+          <li><a href="#play6" title="View Play 6">6. Share your tool with the world</a></li>
+        
+          <li><a href="#play7" title="View Play 7">7. Share progress, stories, and metrics</a></li>
+        
+        </ul>
+
+      </div>
+        <a href="#play1" title="View the In Detail" class="usa-button">In detail</a>
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+
+      
+      </div>
+    </div>
+  </section>
+
+   
+
+  <!-- CODE FOR BODY ENDS HERE -->
+
+
+<section  id="whatitis" class="ood">
+  <div class="usa-grid-full">
+
+    <div id="plays" class="outer_container">
+      
+        <div class="inner_container">
+          <a class="anchor_offset" id="play1"></a>
+          <h6>PLAY 1</h6>
+          <h2 class="display">Choose a challenge</h2>
+          <p>The Opportunity Project is about solving real-world problems facing individuals and communities. While using data is part of this, it is critical that you first identify the social problem you want to solve, and the data you believe can solve it second.</p>
+
+    <h3 id="checklist">Checklist</h3>
+    <ul class="usa-unstyled-list">
+      <li>To identify a meaningful challenge, you might want to connect with community groups, local leaders, federal agencies or non-profits who are mission-driven and close to challenges on the ground.</li>
+      <li>Make sure to choose a challenge where a new digital tool that uses <a href="http://opportunity.census.gov/build.html#datainventory">federal and local data</a> would be helpful.</li>
+      <li>Ask yourself whether it is realistic for you to develop something that could have a meaningful impact on this problem.</li>
+      <li>Consult with stakeholders and future users of your tool before you build anything. This is a critical step in building a useful tool, but one that is easy to overlook. Don’t skip it!</li>
+    </ul>
+
+    <h3 id="resources">Resources</h3>
+    <ul class="usa-unstyled-list">
+      <li><a href="https://data.world/opportunity/problem-statements">Challenges articulated by federal agencies</a> to address national priorities. We want teams to continue identifying creative new approaches to address these challenges in communities around the country.</li>
+      <li>Detailed <a href="http://opportunity.census.gov/build.html#userscenarios">user-scenarios</a> offered through the Opportunity Project that can help you identify real-world challenges that affect people’s lives.</li>
+    </ul>
+
+    </div>
+  </div>
+</section>
+
+<section  id="whatitis" class="ood-alt">
+  <div class="usa-grid-full">
+
+    <div id="plays" class="outer_container">
+      
+        <div class="inner_container">
+              <a class="anchor_offset" id="play2"></a>
+              <h6>PLAY 2</h6>
+              <h2 class="display">Team up</h2>
+              <p>Collaboration is an essential part of the Opportunity Project process! You can team up with others before or after identifying a problem statement to be sure you have all the skills and perspectives you need to build a useful, high quality digital tool. Your goal is to recruit a team of people to work together, which might include software developers, data scientists, government leaders, community organizers, and intended end-users for your tool.</p>
+
+        <h3 id="checklist">Checklist</h3>
+        <ul class="usa-unstyled-list">
+          <li>Connect with a diverse set of collaborators with the knowledge and skills to create a user-centered tool with a path to adoption. Make sure these partners include people who work directly on issues related to your challenge and ideally people experiencing the problem directly, or people who work closely with them. It's also great to find people with user-centered design experience if you can find them.</li>
+          <li>Universities can be a great place to start building your collaboration team since they are full of people with a wide variety of skills and perspectives, including community and policy experts and students with technical skills.</li>
+          <li>Determine among your team who will maintain the tool once it’s built and who will make sure it gets into the hands of end-users. If you realize that you don't have the right people on your team to ensure that, then find them and add them to the group!</li>
+        </ul>
+
+        <h3 id="resources">Resources</h3>
+        <ul class="usa-unstyled-list">
+          <li>If you’re looking for additional tech talent, you can also go to your local tech Meetups or <a href="http://brigade.codeforamerica.org/brigade/list">Code for America Brigade</a> if there is one in your community.</li>
+          <li>Join our <a href="https://opportunity-slack.herokuapp.com">online Slack community</a> to recruit collaborators and chat with others. Start a conversation by location, issue, or anything else!</li>
+          <li><a href="mailto:opportunityproject@doc.gov">Send us an email.</a> We will be in touch with opportunities to engage.</li>
+        </ul>
+
+
+      </div>
+  </div>
+</section>
+
+
+<section  id="whatitis" class="ood">
+  <div class="usa-grid-full">
+
+    <div id="plays" class="outer_container">
+      
+        <div class="inner_container">
+          <a class="anchor_offset" id="play3"></a>
+          <h6>PLAY 3</h6>
+          <h2 class="display">Co-create the vision</h2>
+          <p>Work with your team to identify user needs and align on a use case that focuses who you are targeting. The Opportunity Project promotes co-creation by working directly with end users of the tool, so that you’re building <em>with</em> them, and not just <em>for</em> them. The problems you’re working on to make communities more equitable are complex, and no single person has all the answers. Working together with a diverse team will help you to build a product of ultimate value.</p>
+
+    <h3 id="checklist">Checklist</h3>
+    <ul class="usa-unstyled-list">
+      <li>Work with community leaders and end-users to understand the challenge and the gaps that you might help fill. Answer questions such as: How do people experience the problem? Do they have any tools to help them currently? What are the gaps that exist in their current tools? What tools do users wish they had?</li>
+      <li>Create a detailed <a href="http://www.gatherspace.com/static/use_case_example.html">use-case</a> to guide your efforts.</li>
+      <li>Remember the words of Jakob Nielsen: "One of usability’s most hard-earned lessons is that ‘you are not the user.’ If you work on a development project, you’re atypical by definition. Design to optimize the user experience for outsiders, not insiders."</li>
+    </ul>
+
+    <h3 id="resources">Resources</h3>
+    <ul class="usa-unstyled-list">
+      <li>Use the <a href="http://opportunity.census.gov/build.html#userscenarios">user-scenarios</a> on our site as a starting point – these scenarios provide a detailed snapshot of some important problems that have already been defined.</li>
+      <li>Watch this <a href="https://www.youtube.com/watch?v=PR0u_Y7d63E">user-centered design training</a> that Exygy created for Opportunity Project participants.</li>
+    </ul>
+
+
+        </div>
+  </div>
+</section>
+
+
+
+<section  id="whatitis" class="ood-alt">
+  <div class="usa-grid-full">
+
+    <div id="plays" class="outer_container">
+      
+       <div class="inner_container">
+            <a class="anchor_offset" id="play4"></a>
+            <h6>PLAY 4</h6>
+            <h2 class="display">Find the data</h2>
+            <p>The Opportunity Project believes that by working together and combining different types of public data, we can expand access to economic opportunity. To help you use this information, we pulled together some of the best federal and local open data sets for information on local access to opportunity – things like proximity to jobs, transportation, affordable housing and quality schools.</p>
+
+      <h3 id="checklist">Checklist</h3>
+      <ul class="usa-unstyled-list">
+        <li>Start by checking out Opportunity Project tagged data sets on data.gov/opportunity. Browse the data, and download a metadata file with info on the year, format, and a brief, plain-language description of what’s in each data set.</li>
+        <li>Identify the most relevant federal and local data sets that can help to address your target end user’s needs, as identified in your use case(s). This activity can be facilitated by a collaborator or "data steward" from a US government agency who can describe data sets in detail and answer relevant questions. Understanding things like a data set's granularity in terms of location or frequency may prove invaluable for your build effort. For example, if you want to build a tool that helps individuals search for jobs, you may want to avoid a data set with only national or state-level data that will unlikely to be sufficient for users at the local level.</li>
+        <li>Pro tip for techies: Cut down on data discovery time by using existing tools, wrappers, and tutorials. Check out the list provided in the resources list below. Have questions or feedback about the data? Let us know on <a href="https://github.com/uscensusbureau/opportunity">GitHub</a>.</li>
+      </ul>
+
+      <h3 id="data-resources">Data resources</h3>
+      <ul class="usa-unstyled-list">
+        <li><a href="https://www.data.gov/">Data.gov</a>: Data.gov has over 200,000 data sets from federal government agencies.  You can specifically filter on  Opportunity Project data sets by filtering in the side navigation under "tags" and choosing "opportunity project."</li>
+        <li>You can also ask the Opportunity Project community on <a href="https://opportunity-slack.herokuapp.com">Slack</a> or <a href="https://github.com/uscensusbureau/opportunity">GitHub</a> with help for direction on data sets. Stack overflow is also a great tool where many members of the public ask questions relevant to federal and local data sets.</li>
+      </ul>
+
+      <h3 id="forums-tutorials-and-other-tools">Forums, tutorials, and other tools</h3>
+      <ul class="usa-unstyled-list">
+        <li><a href="https://data.world/opportunity?tab=datasets">data.world</a>: Data.world hosts a compilation of data sets from the Opportunity Project and provides a space to share feedback on data and collaborate with others using the data. This makes it easy for educators, data scientists, everyday citizens, and students, to discuss, analyze, query, visualize, and easily share their findings. You should go here if you want to share feedback or see what others have said about/done with the data. You can also find exercises for students based on the Opportunity Project problem statements and datasets including this exercise on <a href="https://data.world/nrippner/opportunity-project-use-case">Data Wrangling</a> and <a href="https://data.world/nrippner/cluster-analysis-challenge">Cluster Analysis</a>.</li>
+        <li><a href="https://uscensusbureau.github.io/citysdk/examples/arcGisHUD/">The Census Bureau</a> created a series of tools that make it easier to combine and use government data. You can find an Opportunity Project module on the CitySDK website.</li>
+        <li><a href="https://www.commerce.gov/datausability/">Commerce Data Usability Project</a>: The Commerce Data Service has built a number of wrappers and <a href="http://blog.kaggle.com/category/tutorials/">tutorials</a> that make Commerce datasets including our national weather data, Census data, patent data, and others, more easy to use.</li>
+        <li><a href="https://www.kaggle.com/commerce-gov">Kaggle</a> is a community of 600K data scientists that have posted a number of USG datasets and great tutorials for new data scientists. </li>
+        <li><a href="http://opendata.stackexchange.com/">Stack Exchange</a> has a vibrant open data community, which is a great place to come with questions and find early answers to your data and developer-related questions.</li>
+      </ul>
+
+
+    </div>
+  </div>
+</section>
+
+<section  id="whatitis" class="ood">
+  <div class="usa-grid-full">
+<div class="inner_container">
+      <a class="anchor_offset" id="play5"></a>
+      <h6>PLAY 5</h6>
+      <h2 class="display">Build iteratively and collaboratively</h2>
+      <p>Once you identify a problem to tackle, the end users your tool will serve, and the data you will use, start building and sharing your experience with the Opportunity Project community! Work collaboratively to build a software product, including many voices and seeking feedback as much as possible. You can use a sprint process to organize your time, like a semester, training program, or a software development sprint. For example, the Opportunity Project started with an eight-week software development sprint. Tech developers, experts, community leaders, people from federal and local government and others came together, chose problems to work on, and formed teams.  These groups talked regularly on Slack, and all came together in web hangouts every two weeks to demo their works in progress, ask questions, and share feedback. After eight weeks, they all launched their products together at the White House and have continued to improve them over time.</p>
+
+<h3 id="checklist">Checklist</h3>
+<ul class="usa-unstyled-list">
+  <li>Engage target end users, advocates, and subject matter experts early and often in the design process. Collect feedback through user testing sessions or design demos.</li>
+  <li>Think about how you will track success and the reach of your tool, such as tracking number of sessions, downloads or users via <a href="https://support.google.com/analytics/answer/1008015?hl=en">Google Analytics</a>.</li>
+  <li>Identify the path for adoption once the tool is released – how will you connect end users with your product?</li>
+  <li>If you’re interested in replicating the Opportunity Project sprint process and timeline, here’s what it looks like week-by-week:
+    <ol>
+      <li>Before kickoff: Identify your team and create a listserv and/or an online slack channel or other community where everyone can chat.</li>
+      <li>Week 1: Choose problem statements.</li>
+      <li>Week 2: Dig into the data and start designing and building.</li>
+      <li>Week 3: Perform alpha demo of the tool to get early feedback from a diverse audience of end users, subject matter experts, government employees, and others. Early demos of <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">Minimum Viable Products</a> are part of the <a href="http://theleanstartup.com/principles">lean start-up methodology</a> and lead to faster value delivered to users.</li>
+      <li>Week 4: Continue building based on feedback received from alpha demo.</li>
+      <li>Week 5: Do another demo and share improved version of the tool. Get more feedback, particularly from end users of the tool.</li>
+      <li>Week 6: Keep building and perform interactive user testing sessions.</li>
+      <li>Week 7: Get ready to share the tools with the world. De-bug. Plan how to share the final products.</li>
+      <li>Week 8: Get everyone involved in the process  together to launch final products.</li>
+      <li>Week 9 and beyond: Continue to improve the tools, get the word out, share the product with the target end users, and measure your impact.</li>
+    </ol>
+  </li>
+</ul>
+
+<p>Note: Although the Opportunity Project outlines an eight-week sprint process, many teams prefer 12-week timelines. Feel free to adjust your project plan and milestones based on what your team is comfortable with.</p>
+
+<h3 id="resources">Resources</h3>
+<ul class="usa-unstyled-list">
+  <li>Identify community leaders and other collaborators on <a href="https://opportunity-slack.herokuapp.com">Slack</a>.</li>
+  <li>Software developers should also use <a href="https://github.com/uscensusbureau/opportunity">Github</a> to share code, ask questions, post new suggested data sets, share feedback on data, and more. Github is also an invaluable tool for logging issues or bug fixes that need to be addressed.</li>
+</ul>
+
+
+    </div>
+  </div>
+</section>
+
+<section  id="whatitis" class="ood-alt">
+  <div class="usa-grid-full">
+
+    <div class="inner_container">
+      <a class="anchor_offset" id="play6"></a>
+      <h6>PLAY 6</h6>
+      <h2 class="display">Share your tool with the world</h2>
+      <p>Make a splash when you release your tool! The Opportunity Project team has historically launched multiple tools at once, through coordinated events that incorporate in-person, online, and social media channels. Hopefully you have been working closely with end-users and advocacy groups that represent them throughout your build process, so those members of your team can help to adopt the tool and share it with others through their various marketing and outreach platforms. For example, if you worked to build a tool that serves veterans, the best place to make sure your tool is shared would be through veteran service providers themselves, either at a launch at their organization or through their online presence.</p>
+
+<h3 id="checklist">Checklist</h3>
+<ul class="usa-unstyled-list">
+  <li>Consider whether to host an event to showcase your tools.</li>
+  <li>Use press and social media to spread the word! Use #OpportunityProject.</li>
+  <li>Be sure to incorporate end-users and their advocates in the launch process to ensure adoption.</li>
+  <li>Share your code! Teams are highly encouraged to make all resulting software and tools open source and free for use by the public.</li>
+</ul>
+
+<h3 id="resources">Resources</h3>
+<ul class="usa-unstyled-list">
+  <li>Watch the video from the <a href="https://youtu.be/rwES25_sL0E">launch event</a> in March 2016 of the Opportunity Project and our <a href="https://www.youtube.com/watch?v=uqIiMj2S_Vk">rollout event</a> and demo in October 2016.</li>
+</ul>
+
+
+    </div>
+  </div>
+</section>
+
+<section  id="whatitis" class="ood">
+  <div class="usa-grid-full">
+
+    <div class="inner_container">
+      <a class="anchor_offset" id="play7"></a>
+      <h6>PLAY 7</h6>
+      <h2 class="display">Share progress, stories, and metrics</h2>
+      <p>Your tool's launch is just the beginning!  Get the word out and make sure people are using the tool you built.</p>
+
+<h3 id="checklist">Checklist</h3>
+<ul class="usa-unstyled-list">
+  <li>Keep building and improving.</li>
+  <li>Remember that agile delivery relies on iterative improvements. Technical team members should be ready and willing to maintain and improve whatever tool is in production, otherwise your early efforts may have been for naught!</li>
+  <li>Collect information on unique page views and users through Google Analytics, and think about measuring outcomes and how your tool is helping individuals and communities. What impact are you having on the problem you set out to solve? </li>
+  <li>Share information with the whole Opportunity Project community on <a href="https://opportunity-slack.herokuapp.com">Slack</a>.</li>
+</ul>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    </main>
+
+    <section class="ood" id="helpusbuild" style="background-color:#112e51;">
+  <div class="usa-grid" style="background-color:#112e51;"></div>
+    <div class="usa-grid-full" style="background-color:#112e51;">
+       <div class="usa-width-one-whole" style="background-color:#112e51;" >
+    
+    
+  <div class="usa-width-five-sixths" style="background-color:#112e51;  padding:15px 45px; ">
+    <h2 class="white">Want to help us build the next version of the Opportunity Project?</h2>
+        </div>
+        <div class="usa-width-one-sixth" style="background-color:#112e51; padding:15px 45px;">
+      <h2 class="white"><a href="mailto:opportunityproject@doc.gov"
+         class="usa-button usa-button-outline usa-button-big" style=" float:right;">Join Us!</a></h2>
+        </div>
+         </div>
+          </div>
+  </section>
+<footer class="usa-footer usa-footer-medium usa-sans usa-background-dark">
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid-full">
+      <div class="usa-footer-logo usa-width-two-thirds">
+        <a href="https://www.census.gov"
+           ><img class="usa-footer-logo-img"
+                 src="img/logos/census.png"
+                 alt="Census Bureau Logo"></a>
+        <a href="http://www.hud.gov"
+           ><img class="usa-footer-logo-img"
+                 src="img/logos/hud.png"
+                 alt="HUD Logo"></a>
+        <a href="https://www.commerce.gov"
+           ><img class="usa-footer-logo-img"
+                 src="img/logos/commerce.png"
+                 alt="Commerce Logo"></a>
+        <a href="https://presidentialinnovationfellows.gov"
+           ><img class="usa-footer-logo-img"
+                 src="img/logos/pif.png"
+                 alt="PIF Logo"></a>
+      </div>
+
+      <div class="usa-footer-contact-links usa-width-one-third">
+        <h3 class="usa-footer-contact-heading">The Opportunity Project</h3>
+        <p>
+          <a href="http://www.census.gov/privacy/">Data Protection and Privacy Policy</a>
+          <br>
+          <a href="http://opportunity.census.gov">http://opportunity.census.gov</a>
+          <br>
+          <a href="https://github.com/uscensusbureau/opportunity">Visit on GitHub<i class="fa fa-github fa-fw"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    	
+<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>-->
+
+<script src="designstandards/assets/js/vendor/jquery-1.11.3.min.js"></script>
+<script src="designstandards/assets/js/vendor/uswds.min.js"></script>
+<script src="designstandards/assets/js/components.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script src="js/filter.js"></script>
+
+<script src="js/federated-analytics-min.js?agency=DOC&subagency=CEN&gwt_uaid:UA-44450756-1" id="_fed_an_ua_tag"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67722639-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
