@@ -1,19 +1,5 @@
-Changes made as of 7/24/2017
+Changes made as of 9/21/2017
 
-List of changes:
-- corrected fonts to match US Web Design Standards
-- added new images 
-- changed visual style to be more visually appealing
-- NO content changes
- 
-
-List of all modified files:
-- Custom.css
-- Main.css
-- Styleguide.css
-- Build.html
-- Feature.html
-- Index.html
-- Playbook.html
-- uswds.js
-- added new photos in the img folder
+- updated all copy so that all "t"s in "The" are capitalized in The Opportunity Project
+- corrected grammar of content on index.html
+- added a link to The Opportunity Project Slack channel (https://join.slack.com/t/opportunity-data/shared_invite/MjM3MTQwNzI3MzE2LTE1MDQ3MTUxOTQtOTQ4YTQ3NjczOA) so people can join the Slack channel
