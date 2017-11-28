@@ -4,7 +4,7 @@ $(document).ready( function(){
 
   // Instantiate MixItUp:
 
-  $('#Container').mixItUp({ 
+  $('#gallery-body').mixItUp({ 
     load: {
       filter: 'all'
     }
