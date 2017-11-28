@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--
+  Build by Civic Digital Fellows (https://codingitforward.com/)
+  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> The Opportunity Project</title>
+    <meta name="description" content="">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/uswds.min.js"></script>
+    <link href="img/icon.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+  </head>
+
+<body>
+    <nav>
+    <div class="usa-grid-wide">
+      <div class="usa-width-one-whole">
+        <a href="index.html"><img src="img/logo.png" alt="The Opportunity Project Logo" id="logo"></a>
+            <div id="links">
+              <a href="index.html" id="home-link"> Home </a>
+              <a href="#" id="see-the-projects"> See the Projects </a>
+              <a href="playbook.html"> Get Started </a>
+            </div>
+      </div>
+    </div>
+    </nav>
+      <div class="usa-grid" id="projects-header">
+        <div class="usa-width-one-whole" id="projects-head">
+          <h1> See the Projects </h1>
+          <p class="constrained-p"> Learn about tools built by The Opportunity Project cohorts and browse all of the tools below </p> </div>
+      </div>
+      <div id="Container">
+            <div class="usa-grid">
+              <div class="filters-div usa-width-one-whole">
+              <h2> Browse by community need </h2>
+              <button class="filter showAll" data-filter="all"> Show All</button>
+              <button class="filter otherFilters" data-filter=".housing"> Housing</button>
+              <button class="filter otherFilters" data-filter=".education"> Education</button>
+              <button class="filter otherFilters" data-filter=".health"> Health</button> 
+              <button class="filter otherFilters" data-filter=".transportation"> Transportation</button>     
+              <button class="filter otherFilters" data-filter=".employment"> Employment</button>
+              <button class="filter otherFilters" data-filter=".rural"> Rural</button>
+            </div>
+          </div>
+
+      <div class="usa-grid">
+        <a href="#projects-header" style="float: right">
+          <div id="scroll-to-top">
+              <img src="img/up-arrow.png">
+              <p> Return to top </p>
+          </div>
+        </a>
+        <div id="gallery-body">
+          <script type="text/x-handlebars-template" id="galleryTemplate">
+            {{#each data}}
+            <a href="{{Gallery-Link}}">
+             <div class="usa-width-one-whole project mix {{Category}}" style="display: inline-block">
+            <h2>{{Title}}</h2>
+            <p> {{Short-Message}}</p>
+            <img src="img/data-consumers/{{Image-File}}" alt="Project Image">            
+            </div>
+            </a>
+            {{/each}}
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/HandlebarsCode/galleryCode.js"></script>
+    <script src="js/filter.js"></script>
+    <footer>
+      <div class="usa-grid">
+        <div class="usa-width-one-whole">
+          <ul style="margin-top: 1em">
+            <li>Site Map</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">See the Projects</a></li>
+            <li><a href="playbook.html">Get Started</a></li>        
+          </ul>
+          <ul>
+            <li>Resources</li>
+            <li><a href="http://data.gov/"> Data.gov</a></li>
+            <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+            <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+          </ul>
+          <div id="images">
+            <a href="https://presidentialinnovationfellows.gov/"><img src="img/pif.png" alt="Presidential Innovation Fellows Logo"></a>
+            <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+            <a href="https://www.hud.gov/"><img src="img/hud.png" alt="Department Housing and Urban Development Logo"></a>
+            <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/smooth-scroll.js"></script>
+</body>
+</html>

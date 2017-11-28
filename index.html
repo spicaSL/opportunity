@@ -1,433 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset="utf-8">
-
-  <!--
-                      __,__r========qL,
-                   ,m**`~'            XW;
-            ____Lm/'      _mmmm    jW@+===m___,
-      .m+*f~TX7''|    `Y*X@X7~MMLL          ._JXmL,
-    jf~'    `YM#:~      !*##@ d j@~Y!     `~~~+m_
-   Z            M       `Nd*=+5+      -====L__ !M-
-  m!            `Y=;m_,   ~Yf~~               YL`W;
-  |        .mmmmmqrL_XXX~*==mL,                 Y#|
-  |  ,Z~~~~~'        ~~~~    X#         -==L__,  !#,
-  | |tL             ____WY*f~~                `~qd#W
-  V,| `~~Y*+mL_,  :f~~ ~                   q_    V#b
-  `b|         `Y+-W;                        `\\,  _#
-    V              N,  m                 YL,   `\L#@
-                    N  #                   YL,   `##,
-                   .P  #                     `\   V#|
-                 ../   #           ^           YL |W
-                -P     #    :P  ;  ||           `|!W
-                Z'     #   :P  :'   #,           #L#
-            _ _Wb    jWD  jf   /    |b           V@*
-          j+N##8#4rt8#~.,jf    |    |#       b   |W
-       .r*'m8####q#P8###*'    W    :##       V;  d|
-      /K_jWK#X###~#|###mW#   :P  j;##|    #, `#, @
-     !TGW###8#m#K7q=WWmd##mmm#m.Z8###!    #W  |b |
-     /4#@##W#+##P:WZWMZ*W=m##WMN|WZWP:#;m,d#W;Dd |
-    W*~~~M#W!KWjW5!!/WV##N7j#KXPNMX#DW###b###D#Xb|
-   !'    d!JXXXW!`!Ldm@#bd#WW8K)X|X#8#8#K##V#!K5|#
-        d@f~  jf.Z\/Vb*Y+W#j(WMZPrMM#@##K#@##;WWj##,
-        ~    m*~'   '#`\8#W4KW#qX@VW##W#8##8#rNWK###G-
-            `'       #`8*=#YWWK/b+WW#W#*#MWm8*KKd#M#**m,
-                     #Z'  VW#f'~M+NM#####K#8@WLMZKX#W#+M;
-                              ~` *YM#######@*)P/+DK####m#
-                                   `'*##fXVPX|Vr~##Z#W@N@
-                                      `WL_d**DfWX#8#WK##*b
-                                                `W###@#N#/b
-                                                 .#mj#X~YM#
-                                                 ~`#WdD~  Y!
-                                                 `'_|#f+-
-
-  Built by Presidential Innovation Fellows (http://pif.gov)
-
--->
-
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>The Opportunity Project</title>
-  <meta name="description" content="An open data effort to improve economic mobility for all Americans.
-">
-
-  <link rel="canonical" href="http://opportunity.census.gov/">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="designstandards/assets/css/main.css?v=0.8.3">
-  <link rel="stylesheet" href="designstandards/assets/css/google-fonts.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/filter.css">
-  <link rel="stylesheet" href="css/styleguide.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <!-- Favicons
-  ================================================== -->
-  <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="designstandards/assets/img/favicons/favicon.ico" />
-  <link rel="icon" type="image/png" href="designstandards/assets/img/favicons/favicon.png" />
-
-  <!-- 192x192, as recommended for Android
-  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-  -->
-  <link rel="icon" type="image/png" sizes="192x192" href="designstandards/assets/img/favicons/favicon-192.png" />
-
-  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-  <link rel="apple-touch-icon-precomposed" href="designstandards/assets/img/favicons/favicon-57.png">
-  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="designstandards/assets/img/favicons/favicon-72.png">
-  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="designstandards/assets/img/favicons/favicon-114.png">
-  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="designstandards/assets/img/favicons/favicon-144.png">
-
-  <meta property="og:title" content="The Opportunity Project" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://opportunity.census.gov" />
-  <meta property="og:description" content="An open data effort to improve economic mobility for all Americans.
-" />
-  <meta property="og:image" content="http://opportunity.census.gov/img/open-graph.jpg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@uscensusbureau" />
-  <meta name="twitter:creator" content="@InnovFellows" />
-  <meta name="twitter:title" content="The Opportunity Project" />
-  <meta name="twitter:description" content="An open data effort to improve economic mobility for all Americans.
-" />
-  <meta name="twitter:image" content="http://opportunity.census.gov/img/open-graph.jpg" />
-
-</head>
-
-
-  <body>
-
-    <header >  
-  
-  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
-    <div class="ood-banner">
-        <div class="ood-nav">
-        <div class="usa-nav-container">
-          <div class="usa-navbar">
-            <button class="usa-menu-btn">Menu</button>
-            <div class="usa-logo" id="logo">
-              <em class="usa-logo-text">
-                <a href="index.html" accesskey="1" title="Home" aria-label="Home" style="color:white">The Opportunity Project</a>
-                
-              </em>
-            </div>
-          </div>
-          <nav role="navigation" class="usa-nav">
-            <button class="usa-nav-close">
-              <img src="designstandards/assets/img/close.svg" alt="close">
-            </button>
-            
-            <ul class="usa-nav-primary usa-accordion">
-               <li>
-                <a class="usa-nav-link" href="index.html">
-                  <span>Home</span>
-                </a>
-              </li>
-             
-              <li>
-                <a class="usa-nav-link" href="feature.html">
-                  <span>Projects</span>
-                </a>
-              </li>
-              <li>
-                <a class="usa-nav-link" href="build.html">
-                  <span>Build</span>
-                </a>
-              </li>
-              <li>
-                <a class="usa-nav-link" href="https://join.slack.com/t/opportunity-data/shared_invite/MjM3MTQwNzI3MzE2LTE1MDQ3MTUxOTQtOTQ4YTQ3NjczOA" target="_blank"  id="anch_5">
-                  <span>Join</span>
-                </a>
-              </li>
-              
-            </ul>
-           
-          </nav>
-
-
-        </div>
-        </div><div class="usa-grid">
-         <!--  <h1><strong>The Opportunity Project</strong></h1>
-          <p class="usa-font-lead">Creating digital tools that strengthen American economic opportunity</p> -->
-
-          <img src="img/logo.png" width="850">
-          
-             <a href="https://join.slack.com/t/opportunity-data/shared_invite/MjM3MTQwNzI3MzE2LTE1MDQ3MTUxOTQtOTQ4YTQ3NjczOA" target="_blank" class="usa-button usa-button-big" id="anch_6">Join Us</a>
-          
-        </div>
-      </div>
-  </header>
-
-
-
-    <main class="usa-content" id="main-content">
-
-<section  id="whatitis" class="ood-alt">
-  <div class="usa-grid-full">
-
-<h1 style="text-align: left;">What is The Opportunity Project?</h1>
-    <p class="usa-font-lead" style="text-align: left;">The Opportunity Project is unleashing the power of data and technology to expand economic opportunity in communities nationwide. Together, we are creating tools that help families, local leaders, and businesses access information they need to succeed.</p>
-    <div class="usa-width-one-third" style="text-align: center; "> 
-      <span class="fa-stack fa-5x">
-        <img src="img/noun_empower_cc.png">
-        <!-- Icon by Becris from the Noun Project -->
-      </span>
-     <h3 style="text-align: center;">Facilitate cross-sector collaboration</h3>
-      
-
-      <p class="ood-description" style="text-align: center;">Creating a lightweight pathway for government, technologists, and advocates to collaborate to build new solutions</p>
-    </div>
-    <div class="usa-width-one-third" style="text-align: center;"> 
-    <span class="fa-stack fa-5x">
-        <img src="img/noun_data_cc.png">
-        <!-- Icon by Becris from the Noun Project -->
-      </span>
-      <h3 style="text-align: center;">Make government data accessible</h3>
-      
-
-
-      <p class="ood-description" style="text-align: center;">Helping technologists and communities transform federal and local data into meaningful tools</p>
-    </div>
-    <div class="usa-width-one-third" style="text-align: center;"> 
-    <span class="fa-stack fa-5x">
-        <img src="img/noun_collaborate_cc.png">
-        <!-- Icon by Becris from the Noun Project -->
-      </span>
-      <h3 style="text-align: center;">Empower people with technology</h3>
-      
-
-      <p class="ood-description" style="text-align: center;">Catalyzing new digital tools that create impact for families, communities, and businesses</p>
-    </div>
-  </div>
-</section>
-
-
-<section class="ood" id="howitworks"  style="background-color:#112e51;">
-      <div class="usa-grid-full" style="background-color:#112e51;">    
-      
-<div class="usa-width-one-whole" style="background-color:#112e51;" >
-     
-        <div class="third-container" style="background-color:#112e51;">
-      <div class="usa-width-one-whole ood-nav">
-    
-  
-    
-    <div class="usa-width-one-half background-image-overlay1 clearfix" >
-      <img src="img/venndiagram_v6.jpg" style="object-fit: cover;">
-    </div>
-        
-
-    <div class="usa-width-one-half background-image-overlay2 ">
-      
-      <h2 style="color:#fff; vertical-align:middle; *vertical-align:auto; padding-top:90px; text-align:center; ">Technologists, local leaders, and government are working together to increase economic opportunity across the country</em></h2>  
-    
-        
-            </div>
-    
-  </div>
-          </div>
-      
-
-    </div>
-  </div>
-   
-  
-  </section>
-
-
 <!--
+  Build by Civic Digital Fellows (https://codingitforward.com/)
+  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> The Opportunity Project</title>
+    <meta name="description" content="">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/uswds.min.js"></script>
+    <link href="img/icon.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+  </head>
 
-    
-    <section  id="featured" class="ood-alt" style="background-color:#112e51;">
-  <div class="usa-grid-full">
-  <h1 style="text-align: center; padding-top:25px;" class="white">Featured Projects:</h1>
-    <div class="third-container clearfix">
-      <img src ="img/featured_projects_placeholder.png">
+<body>
+    <nav>
+    <div class="usa-grid-wide">
+      <div class="usa-width-one-whole">
+        <a href="#"><img src="img/logo.png" alt="The Opportunity Project Logo" id="logo"></a>
+            <ul id="links">
+              <a href="#" id="home-link"> Home </a>
+              <a href="projects.html" id="see-the-projects"> See the Projects </a>
+              <a href="playbook.html"> Get Started </a>
+            </div>
       </div>
-  </div>
-
-
-</section>
--->
-<!-- CODE FOR BODY STARTS HERE -->
-  <div class="">
-  <div class="background-styling">
-      <div class="usa-grid-full">
-        <div class="usa-width-one-whole page-content-header-text">
-          <div class="">
-            <h1 style="text-align:left; color:#205493;">Featured Projects:</h1>
-            
-          </div>
-        </div>
-      </div>
-
-      <div class="page-content-header-images usa-grid">
-        <div>
-          <div class="usa-width-one-third">
-            <a href="http://opportunity.pairin.com"><img src="img/data-consumers/pairin-personal-screenshot.png"></a>
-          </div>
-
-          <div class="usa-width-one-third">
-            <a href="https://labs.redfin.com/opportunity-score"><img src="img/data-consumers/redfin-screenshot.jpg"></a>
-          </div>
-
-          <div class="usa-width-one-third">
-            <a href="https://findyour.town"><img src="img/data-consumers/ovela-screenshot.png"></a>    
-          </div>
-        </div>
-        <br>
-        <a href="feature.html"
-         class="usa-button usa-button-big">See all the other projects</a>
-      
-      </div>
-    
-  </div>
-
-
-      
     </div>
-   
-
-  <!-- CODE FOR BODY ENDS HERE -->
-
-
-<section  id="whatitis" class="ood-alt">
-  <div class="usa-grid-full">
-  <h1 style="text-align: left;">Learn more</h1>
-    <h3 style="text-align:left;">What's been happening?</h3>
-    <p>The Opportunity Project catalyzes the creation of new digital tools that use federal and local data to provide families, local leaders, and businesses with information about critical resources, such as jobs, affordable housing, quality schools, and transportation. By providing easy access to curated federal and local datasets at opportunity.census.gov and facilitating collaboration between technologists, issue experts, and local leaders, The Opportunity Project is transforming government data into digital tools that create more thriving communities and help people solve problems in their everyday lives.</p>
-
- 
-
-    <p>Since its inception, The Opportunity Project has yielded dozens of new digital tools that help solve local problems like helping families find affordable housing near jobs and transportation, helping local leaders create economic opportunity in their neighborhoods and regions, and helping communities and businesses make data-driven investments.</p>
-
- 
-
-    <p>Through The Opportunity Project, technologists, local governments, and communities across the country are harnessing 21st century technology and innovation to expand access to opportunity for all Americans.</p>
-    <h3 style="text-align: left;"> Read our Fact Sheets to find out about accomplishments and commitments from tech companies, government, universities and more.</h3>
-   
-     <ul class="usa-unstyled-list">
-        <li>
-          <a href="https://www.whitehouse.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank">Fact Sheet October 2016</a>
-        </li>
-        <li>
-         <a href="https://www.whitehouse.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank">Fact Sheet March 2016</a>
-        </li>
-        <li>
-          <a href="https://youtu.be/rwES25_sL0E" target="_blank">Watch the video from our launch event in March 2016</a>
-        </li> 
-        <li>
-          <a href="https://medium.com/@DJ44/the-opportunity-project-b3689ae4da41#.hvpwf2g7p" target="_blank">Read a Medium Post about The Opportunity Project by DJ Patil and Luke Tate</a>
-        </li>
-        <li>
-          <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank">Read the blog post about how The Opportunity Project is engaging the private sector</a>
-        </li> 
-        <li>
-          <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&feature=youtu.be&list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank">Watch the keynote speech about The Opportunity Project at Cisco’s DevNet Create conference</a>
-        </li> 
-  </ul>
+    </nav>
+  <div id="splash">
+    <div class="usa-grid"> <br>
+      <div class="usa-width-one-whole">
+        <h1> The Opportunity Project </h1>
+        <p> Bringing  together government, technologists, and communities to create digital tools that help strengthen American economic opportunity. </p>
+        <a href="#what-is"><button id="learn-more"> Learn More </button></a>
+        <a href="playbook.html"><button id='start-a-project'> Start a Project </button></a>
+      </div>
+    </div>
   </div>
-</section>
-
-
-
-
-
-
-    </main>
-
-    <section class="ood" id="helpusbuild" style="background-color:#112e51;">
-  <div class="usa-grid" style="background-color:#112e51;"></div>
-    <div class="usa-grid-full" style="background-color:#112e51;">
-       <div class="usa-width-one-whole" style="background-color:#112e51;" >
-    
-    
-  <div class="usa-width-five-sixths" style="background-color:#112e51;  padding:15px 45px; ">
-    <h2 class="white">Want to help us build the next version of The Opportunity Project?</h2>
-        </div>
-        <div class="usa-width-one-sixth" style="background-color:#112e51; padding:15px 45px;">
-      <h2 class="white"><a href="mailto:opportunity@doc.gov"
-         class="usa-button usa-button-outline usa-button-big" style=" float:right;">Join Us!</a></h2>
-        </div>
-         </div>
-          </div>
+  <section id="what-is" class="white-section">
+  <div class="usa-grid">
+      <div class="usa-width-one-half">
+        <h2> What is The Opportunity Project? </h2>
+        <p> The Opportunity Project is a process for engaging government, communities, and the technology industry to create digital tools that address our greatest challenges as a nation. This process helps to empower people with technology, make government data more accessible and user-friendly, and facilitate cross-sector collaboration to build new digital solutions.  </p>
+      </div>
+      <div class="usa-width-one-half">
+        <img src="img/diagram.png" alt="Venn Diagram of Government, Tech, and Communities">
+      </div>
+    </div>
+    <div class="usa-grid call-to-action">
+      <div class="usa-width-one-half" id="department-of-commerce">
+        <h3>A Department of Commerce Initiative</h3>
+        <p> The Department of Commerce connects tech developers, local leaders, and non-profits with problem statements on issues like jobs, transportation, and housing, and facilitates user-centered tech development sprints to create new digital solutions. </p>
+        <a href="mailto:opportunity@doc.gov"><button class="unfilled-button-blue"> Join the Next Cohort </button></a>
+      </div>
+    <div class="usa-width-one-half">
+      <h3>A Way to Engage your community</h3>
+      <p> Anyone can replicate this process.  Local leaders, technologists, students, or anyone interested in collaborating on technology and data-driven solutions can start a project. View The Opportunity Project toolkit, a step-by-step guide to the process used by the Department of Commerce project team, and adapt it for your own project.  </p>
+      <a href="playbook.html"><button class="unfilled-button-red"> See the Process </button></a>
+    </div>
+    </div>
   </section>
-<footer class="usa-footer usa-footer-medium usa-sans usa-background-dark">
-  <div class="usa-footer-secondary_section">
-    <div class="usa-grid-full">
-      <div class="usa-footer-logo usa-width-two-thirds">
-        <a href="https://www.census.gov"
-           ><img class="usa-footer-logo-img"
-                 src="img/logos/census.png"
-                 alt="Census Bureau Logo"></a>
-        <a href="http://www.hud.gov"
-           ><img class="usa-footer-logo-img"
-                 src="img/logos/hud.png"
-                 alt="HUD Logo"></a>
-        <a href="https://www.commerce.gov"
-           ><img class="usa-footer-logo-img"
-                 src="img/logos/commerce.png"
-                 alt="Commerce Logo"></a>
-        <a href="https://presidentialinnovationfellows.gov"
-           ><img class="usa-footer-logo-img"
-                 src="img/logos/pif.png"
-                 alt="PIF Logo"></a>
-      </div>
-
-      <div class="usa-footer-contact-links usa-width-one-third">
-        <h3 class="usa-footer-contact-heading">The Opportunity Project</h3>
-        <p>
-          <a href="http://www.census.gov/privacy/">Data Protection and Privacy Policy</a>
-          <br>
-          <a href="http://opportunity.census.gov">http://opportunity.census.gov</a>
-          <br>
-          <a href="https://github.com/uscensusbureau/opportunity">Visit on GitHub<i class="fa fa-github fa-fw"></i></a>
-        </p>
-      </div>
+    <section id="in-action" class="blue-section">
+    <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h2> The Opportunity Project in Action </h2>
+      <p class="constrained-p"> Since launching in 2016, The Opportunity Project has yielded dozens of new digital tools that help solve problems like connecting veterans and their families with jobs, connecting people experiencing homelessness with services and shelter, and rebuilding rural economies. </p>
     </div>
-  </div>
-</footer>
-
-    	
-<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>-->
-
-<script src="designstandards/assets/js/vendor/jquery-1.11.3.min.js"></script>
-<script src="designstandards/assets/js/vendor/uswds.min.js"></script>
-<script src="designstandards/assets/js/components.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
-<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-
-<script src="js/main.js"></script>
-
-<script src="js/filter.js"></script>
-
-<script src="js/federated-analytics-min.js?agency=DOC&subagency=CEN&gwt_uaid:UA-44450756-1" id="_fed_an_ua_tag"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-67722639-4', 'auto');
-  ga('send', 'pageview');
-</script>
-
-
-  </body>
-
+      <a href="https://opendata.testing.devnetcloud.com/#/home" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Cisco</h3>
+          <p>Uses American Community Survey Data from the US Census Bureau to drive awareness of Census data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.</p>
+          <img src="img/data-consumers/cisco.png" alt="Cisco Project Logo">
+        </div>
+      </a>
+      <a href="https://www.findmyspot.org" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>My City Data Learning tool</h3>
+          <p> Uses data sets from the DC Department of Human Services to help youth experiencing homelessness find and access services in the DC area.</p>
+          <img src="img/data-consumers/excella.png" alt="Excella Project Logo">
+        </div>
+      </a>
+      <a href="https://intel.ecivis.com" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Grants Intelligence</h3>
+          <p> Uses CFDA, USA Spending, Single Audit, and Census data to help  local, state, federal, and tribal governments navigate federal grants and maximize the ROI of federal grant dollars.</p>
+          <img src="img/data-consumers/eCivis.png" alt="eCivis Project Logo">
+        </div>
+      </a>
+      </div>
+    </section>
+    <section class="white-section" id="in-the-media">
+      <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <h2> In the Media </h2>
+        <p class="constrained-p"> View past press releases, videos, and blogs to learn more about The Opportunity Project and how to get involved. </p>
+      </div>
+      <div class="usa-width-one-third">
+        <h3> Blog </h3>
+        <p> How The Opportunity Project is engaging the private sector  </p>
+        <img src="img/media-01.png" alt="Blog Screenshot">
+      </div>
+      <div class="usa-width-one-third">
+        <h3> Video </h3>
+        <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
+        <img src="img/media-02.png" alt="Video Screenshot">
+      </div> 
+      <div class="usa-width-one-third">
+        <h3> Fact Sheet </h3>
+        <p> The Opportunity Project tools and projects launched in October 2016 </p>
+        <img src="img/media-03.png" alt="Fact Sheet Screenshot">
+      </div> 
+    </div>
+    <div class="usa-grid">
+      <div class="usa-width-one-third">
+        <h3> Fact Sheet  </h3>
+        <p> The Opportunity Project tools and projects launched in March 2016</p>
+        <img src="img/media-04.png" alt="Fact Sheet Screenshot">
+      </div> 
+      <div class="usa-width-one-third">
+        <h3> Video </h3>
+        <p> The Opportunity Project's launch event in March 2016 </p>
+        <img src="img/media-05.png" alt="Video Screenshot">
+      </div> 
+    </div>
+    </div>
+  </section>
+    <footer>
+      <div class="usa-grid">
+        <div class="usa-width-one-whole">
+          <ul style="margin-top: 1em">
+            <li>Site Map</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">See the Projects</a></li>
+            <li><a href="playbook.html">Get Started</a></li>        
+          </ul>
+          <ul>
+            <li>Resources</li>
+            <li><a href="http://data.gov/"> Data.gov</a></li>
+            <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+            <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+          </ul>
+          <div id="images">
+            <a href="https://presidentialinnovationfellows.gov/"><img src="img/pif.png" alt="Presidential Innovation Fellows Logo"></a>
+            <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+            <a href="https://www.hud.gov/"><img src="img/hud.png" alt="Department Housing and Urban Development Logo"></a>
+            <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/smooth-scroll.js"></script>
+</body>
 </html>

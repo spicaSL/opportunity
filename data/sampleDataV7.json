@@ -19,11 +19,11 @@
     "ClearDiv": ""
   },
   {
-    "Title": "Segregated Opportunity",
+    "Title": "DATA2GO.NYC",
     "Owner": "Measure of America",
     "Category": "housing",
-    "Short-Message": "Uses data from HUD to interactively explore the relationship between residential segregation and youth disconnection.",
-    "Image-File": "measure-of-america-screenshot.png",
+    "Short-Message":"A free mapping and data tool for visualizing Census Bureau, state, and city data that can help with decennial Census outreach in NYC communities by answering questions like 'What happens with Census data?'' and 'Why does the Census matter to me?'",
+    "Image-File": "Measure.png",
     "Gallery-Link": "http://www.measureofamerica.org/SegregatedOpportunity",
     "ClearDiv": "yes"
   },
@@ -109,12 +109,12 @@
     "ClearDiv": "yes"
   },
   {
-    "Title": "JobSeeker",
+    "Title": "PAIRIN Pathways",
     "Owner": "Pairin",
     "Category": "employment education",
-    "Short-Message": "Uses skills data from o*net and the Workforce Data Initiative to match individuals to the jobs in their area that provide the greatest opportunity for personal and professional success.",
-    "Image-File": "pairin-personal-screenshot.png",
-    "Gallery-Link": "http://opportunity.pairin.com",
+    "Short-Message": "Uses data from the U.S. Census Bureau, Department of Labor, O*NET, and more to help veterans translate their developed skills into private sector careers and connect them to the education, soft skills development, and employers that can ensure their success.",
+    "Image-File": "PAIRIN.png",
+    "Gallery-Link": "https://www.pairin.com/pairin-pathways/",
     "ClearDiv": ""
   },
   {
@@ -297,12 +297,75 @@
     "Gallery-Link": "http://esrifederal.maps.arcgis.com/apps/webappviewer/index.html?id=852f6731b72f465ab2fbbe76d4269f00",
     "ClearDiv": "yes"
   },
-    {
+  {
     "Title": "Job Crowdsourcing Tool",
     "Owner": "Ushahidi",
     "Category": "employment",
     "Short-Message": "Ushahidi Job Postings combines crowdsourced job reports to share alerts of local job openings.",
     "Image-File": "ushahidi-screenshot.png",
+    "Gallery-Link": "https://jobpostings.ushahidi.io/",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "My City Data Learning Tool",
+    "Owner": "Cisco",
+    "Category": "employment",
+    "Short-Message": "Uses American Community Survey data from the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.",
+    "Image-File": "Cisco.png",
+    "Gallery-Link": "https://opendata.testing.devnetcloud.com/#/home",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "Myspot",
+    "Owner": "Excella",
+    "Category": "employment",
+    "Short-Message": "Excella Consulting's tool, Myspot, uses data sets from the DC Department of Human Services to help youth experiencing homelessness find and access services in the DC area.",
+    "Image-File": "Excella.png",
+    "Gallery-Link": "https://www.findmyspot.org",
+    "ClearDiv": "yes"
+  },
+    {
+    "Title": "Grants Intelligence",
+    "Owner": "eCivis",
+    "Category": "employment",
+    "Short-Message": "Uses USA Spending, Single Audit, Census Bureau and Catalog of Federal Domestic Assistance data to help local, state, federal, and tribal governments navigate federal grants and maximize the return on investment of federal grant dollars.",
+    "Image-File": "eCivis.png",
+    "Gallery-Link": "https://intel.ecivis.com",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "True Impact: Social Impact Reporting Platform",
+    "Owner": "True Impact",
+    "Category": "employment",
+    "Short-Message": "True Impact used federal data to enhance its Social Impact Reporting Platform, enabling users to automatically query the federal grants.gov database to find funding opportunities they may qualify for.",
+    "Image-File": "TrueImpact.png",
+    "Gallery-Link": "http://www.trueimpact.com",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "Get Vets Help",
+    "Owner": "CarePartners Plus",
+    "Category": "employment",
+    "Short-Message":"CarePartners Plus's Get Vets Help tool uses Census and HUD datasets and enables veterans to communicate their needs to their care team in real-time, identifying high-risk veterans for suicide, homelessness and substance use for faster follow-up, increased transparency and accountability.",
+    "Image-File": "CarePartners.png",
+    "Gallery-Link": "hwww.carepartnersplus.com",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "BayesDB",
+    "Owner": "MIT",
+    "Category": "employment",
+    "Short-Message": "A web-based artificial intelligence tool that helps journalists, philanthropists, public servants, and policy advocates to search Census Bureau, FBI, and CDC public data on demographics, criminal justice, public health, and elections. ",
+    "Image-File": "MIT.png",
+    "Gallery-Link": "https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "PopCount",
+    "Owner": "IBM",
+    "Category": "employment",
+    "Short-Message": "An iOS application to support the logistical planning, coordination, execution, and data collection effort undertaken by Census Bureau employees conducting the homeless count.",
+    "Image-File": "IBM.png",
     "Gallery-Link": "https://jobpostings.ushahidi.io/",
     "ClearDiv": "yes"
   }
