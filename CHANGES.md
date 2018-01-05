@@ -1,8 +1,9 @@
-Changes made as of 1/5/2018
+Changes made as of 1/6/2018
 
 - All pages:
 	- Removed special quote characters that weren’t rendering properly
 	- Updated Logos in Footer
+
 - Home:
 	- Updated email address
 	- Fixed media links
@@ -10,7 +11,6 @@ Changes made as of 1/5/2018
 	- Updated 2016 video to 2017 video
 
 - Projects:
-	- Added descriptive intro sentence 
 	- Updated tool images
 	- Updated tool descriptions
 	- Re-ordered tools to show newest first
@@ -20,3 +20,4 @@ Changes made as of 1/5/2018
 - Toolkit:
 	- Added step names to navigation
 	- Added additional resource links
+	- Removed snap scroll feature
