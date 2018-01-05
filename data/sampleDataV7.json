@@ -41,7 +41,7 @@
     "Owner": "True Impact",
     "Category": "grants",
     "Short-Message": "True Impact used federal data to enhance its Social Impact Reporting Platform, enabling users to automatically query the federal grants.gov database to find funding opportunities they may qualify for.",
-    "Image-File": "TrueImpact.png",
+    "Image-File": "TrueImpact.PNG",
     "Gallery-Link": "http://www.trueimpact.com",
     "ClearDiv": ""
   },
@@ -77,7 +77,7 @@
     "Owner": "Measure of America",
     "Category": "discovery census",
     "Short-Message":"Measure of America created a free mapping and data tool for visualizing Census Bureau, state, and city data that can help with decennial Census outreach in NYC communities by answering questions like 'What happens with Census data?' and 'Why does the Census matter to me?'",
-    "Image-File": "measure.png",
+    "Image-File": "Measure.PNG",
     "Gallery-Link": "http://www.measureofamerica.org/SegregatedOpportunity",
     "ClearDiv": "yes"
   },
