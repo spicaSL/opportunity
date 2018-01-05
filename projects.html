@@ -22,7 +22,7 @@
             <div id="links">
               <a href="index.html" id="home-link"> Home </a>
               <a href="#" id="see-the-projects"> See the Projects </a>
-              <a href="playbook.html"> Get Started </a>
+              <a href="toolkit.html"> Get Started </a>
             </div>
       </div>
     </div>
@@ -30,12 +30,12 @@
       <div class="usa-grid" id="projects-header">
         <div class="usa-width-one-whole" id="projects-head">
           <h1> See the Projects </h1>
-          <p class="constrained-p"> Learn about tools built by The Opportunity Project cohorts and browse all of the tools below </p> </div>
+          <p class="constrained-p"> Browse the tools built through The Opportunity Project to learn more. You can also adopt these tools in your community, help to expand them, or help to connect them with target end users. </p> </div>
       </div>
       <div id="Container">
             <div class="usa-grid">
               <div class="filters-div usa-width-one-whole">
-              <h2> Browse by community need </h2>
+              <h2> Browse by topic </h2>
               <button class="filter showAll" data-filter="all"> Show All</button>
               <button class="filter otherFilters" data-filter=".housing"> Housing</button>
               <button class="filter otherFilters" data-filter=".education"> Education</button>
@@ -43,6 +43,10 @@
               <button class="filter otherFilters" data-filter=".transportation"> Transportation</button>     
               <button class="filter otherFilters" data-filter=".employment"> Employment</button>
               <button class="filter otherFilters" data-filter=".rural"> Rural</button>
+              <button class="filter otherFilters" data-filter=".grants"> Grants</button>
+              <button class="filter otherFilters" data-filter=".census"> Census</button>
+              <button class="filter otherFilters" data-filter=".veterans"> Veterans</button>
+              <button class="filter otherFilters" data-filter=".discovery"> Discovery</button>
             </div>
           </div>
 
@@ -56,7 +60,7 @@
         <div id="gallery-body">
           <script type="text/x-handlebars-template" id="galleryTemplate">
             {{#each data}}
-            <a href="{{Gallery-Link}}">
+            <a href="{{Gallery-Link}}" target="_blank">
              <div class="usa-width-one-whole project mix {{Category}}" style="display: inline-block">
             <h2>{{Title}}</h2>
             <p> {{Short-Message}}</p>
@@ -81,7 +85,7 @@
             <li>Site Map</li>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">See the Projects</a></li>
-            <li><a href="playbook.html">Get Started</a></li>        
+            <li><a href="toolkit.html">Get Started</a></li>        
           </ul>
           <ul>
             <li>Resources</li>
@@ -90,9 +94,7 @@
             <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
           </ul>
           <div id="images">
-            <a href="https://presidentialinnovationfellows.gov/"><img src="img/pif.png" alt="Presidential Innovation Fellows Logo"></a>
             <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
-            <a href="https://www.hud.gov/"><img src="img/hud.png" alt="Department Housing and Urban Development Logo"></a>
             <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
           </div>
         </div>

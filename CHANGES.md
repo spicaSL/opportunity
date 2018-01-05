@@ -1,18 +1,24 @@
-Changes made as of 11/28/2017
+Changes made as of 1/5/2018
 
-- Redesign of website:
-	- Home:
-		- Replaced header with new text/tagline + added learn more and start a project buttons
-		- Updated What is the opportunity project with new content + new venn diagram image
-		- Highlighted new projects in the The Opportunity Project in Action section and added descriptive text
-		- Redesigned the In the Media Section 
+- All pages:
+	- Removed special quote characters that weren’t rendering properly
+	- Updated Logos in Footer
 
-	- Projects:
-		- Restyled project views
-		- Added new projects
-		- Added a return to top button
+- Home:
+	- Updated email address
+	- Fixed media links
+	- Corrected tool names
+	- Updated 2016 video to 2017 video
 
-	- Get Started:
-		- Updated content and reformatted it in the form of checklists/paragraphs
-		- Added graphics to all resources
-		- Added a timeline graphic
+- Projects:
+	- Added descriptive intro sentence 
+	- Fixed missing tool images
+	- Updated tool descriptions
+	- Re-ordered tools to show newest first
+	- Added new project tags for 2017 tools
+	- Links now open in new tabs
+
+- Toolkit:
+	- Added step names to navigation
+	- Added additional resource links
+	- Removed snap scroll feature
