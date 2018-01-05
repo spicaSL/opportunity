@@ -1,4 +1,4 @@
-Changes made as of 1/6/2018
+Changes made as of 1/5/2018
 
 - All pages:
 	- Removed special quote characters that weren’t rendering properly
