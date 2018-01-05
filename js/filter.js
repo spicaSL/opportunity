@@ -4,7 +4,7 @@ $(document).ready( function(){
 
   // Instantiate MixItUp:
 
-  $('#Container').mixItUp({ 
+  $('#gallery-body').mixItUp({ 
     load: {
       filter: 'all'
     }
@@ -24,6 +24,12 @@ $('button.otherFilters').click(function() {
   }
 })
 
+$(document).ready(function(){
+  $( ".filter" ).click(function() {
+    $( ".filter" ).removeClass( "unselected-filter");
+    this.addClass( "selected-filter" );
+  })
+});
 
 // external js: isotope.pkgd.js
 
