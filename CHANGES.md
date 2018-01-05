@@ -1,5 +1,22 @@
-Changes made as of 9/21/2017
+Changes made as of 1/5/2018
 
-- updated all copy so that all "t"s in "The" are capitalized in The Opportunity Project
-- corrected grammar of content on index.html
-- added a link to The Opportunity Project Slack channel (https://join.slack.com/t/opportunity-data/shared_invite/MjM3MTQwNzI3MzE2LTE1MDQ3MTUxOTQtOTQ4YTQ3NjczOA) so people can join the Slack channel
+- All pages:
+	- Removed special quote characters that weren’t rendering properly
+	- Updated Logos in Footer
+- Home:
+	- Updated email address
+	- Fixed media links
+	- Updated tool descriptions
+	- Updated 2016 video to 2017 video
+
+- Projects:
+	- Added descriptive intro sentence 
+	- Updated tool images
+	- Updated tool descriptions
+	- Re-ordered tools to show newest first
+	- Added new project tags
+	- Links now open in new tabs
+
+- Toolkit:
+	- Added step names to navigation
+	- Added additional resource links
