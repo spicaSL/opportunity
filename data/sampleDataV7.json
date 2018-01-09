@@ -51,7 +51,7 @@
     "Category": "veterans housing health",
     "Short-Message":"Care Partners Plus's tool uses Census Bureau and HUD data to help veterans communicate needs to their care team in real time, identifying high-risk veterans for suicide, homelessness and substance use for improved follow-up, transparency, and accountability.",
     "Image-File": "CarePartners.png",
-    "Gallery-Link": "www.carepartnersplus.com",
+    "Gallery-Link": "https://www.carepartnersplus.com/",
     "ClearDiv": "yes"
   },
   {
@@ -78,7 +78,7 @@
     "Category": "discovery census",
     "Short-Message":"Measure of America created a free mapping and data tool for visualizing Census Bureau, state, and city data that can help with decennial Census outreach in NYC communities by answering questions like 'What happens with Census data?' and 'Why does the Census matter to me?'",
     "Image-File": "Measure.png",
-    "Gallery-Link": "http://www.measureofamerica.org/SegregatedOpportunity",
+    "Gallery-Link": "https://data2go.nyc/",
     "ClearDiv": "yes"
   },
   {
@@ -87,7 +87,7 @@
     "Category": "discovery census",
     "Short-Message":"Measure of America used their data platform data2go.nyc to create a free mapping and data tool for visualizing Census Bureau, state, and city data that can help with decennial Census outreach in NYC communities by answering questions like 'What happens with Census data?' and 'Why does the Census matter to me?'",
     "Image-File": "censusOutreach.png",
-    "Gallery-Link": "www.measureofamerica.org/census2020",
+    "Gallery-Link": "https://www.measureofamerica.org/census2020",
     "ClearDiv": "yes"
   },
   {
