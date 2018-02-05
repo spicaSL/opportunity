@@ -3739,9 +3739,12 @@ button {
     text-transform: uppercase;
     font-family: "Source Sans Pro"; }
   .white-section p, .blue-section p {
-    font-size: 18px; }
+    font-size: 20px; }
 
 nav {
+  z-index: 100;
+  top: 0;
+  position: fixed;
   background-color: #004469;
   width: 100%;
   height: 70px; }
@@ -3786,7 +3789,7 @@ nav {
 #splash {
   width: 100vw;
   text-align: center;
-  height: calc(100vh - 70px);
+  height: 100vh;
   min-height: 400px;
   background-image: url(../img/hero.png);
   -webkit-background-size: cover;
@@ -3798,7 +3801,7 @@ nav {
     text-align: center;
     font-size: 35px;
     margin-bottom: 27px;
-    margin-top: calc(50vh - 70px - 115px); }
+    margin-top: calc(50vh - 115px); }
   #splash p {
     color: #F6F6F6;
     max-width: 577px;
@@ -3827,14 +3830,14 @@ nav {
 
 @media (max-width: 520px) {
   #splash h1 {
-    margin-top: 100px; } }
+    margin-top: 170px; } }
 
 #what-is .call-to-action {
   margin-top: 89px;
   text-align: center; }
   #what-is .call-to-action .usa-width-one-half {
     max-width: 496px;
-    padding: 21px 86px; }
+    padding: 21px 42px; }
     #what-is .call-to-action .usa-width-one-half h3 {
       color: #004469;
       font-size: 18px; }
@@ -3849,6 +3852,7 @@ nav {
       min-height: 243px; }
 
 #in-action .usa-width-one-third {
+  z-index: 1;
   color: white;
   margin-top: 40px;
   border: solid 2px #F6F6F6;
@@ -3857,7 +3861,7 @@ nav {
   margin-right: 13px; }
   #in-action .usa-width-one-third p {
     font-size: 15px;
-    min-height: 154px; }
+    min-height: 176px; }
   #in-action .usa-width-one-third img {
     width: 283px;
     height: 202px;
@@ -3875,6 +3879,10 @@ nav {
       width: auto;
       margin-right: 6px;
       margin-left: -35px; }
+  #in-action .usa-width-one-third #action-links {
+    display: block; }
+  #in-action .usa-width-one-third #action-links-mobile {
+    display: none; }
 
 #in-action .usa-width-one-third:hover {
   cursor: pointer;
@@ -3902,8 +3910,14 @@ nav {
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
+#in-the-media #in-the-media-links {
+  display: block; }
+
+#in-the-media #in-the-media-links-mobile {
+  display: none; }
+
 #projects-head {
-  padding-top: 86px; }
+  padding-top: 156px; }
   #projects-head h1, #projects-head p {
     color: black; }
   #projects-head p {
@@ -4013,7 +4027,7 @@ nav {
     font-size: 25px;
     margin-bottom: 9px;
     color: black;
-    margin-top: 129px;
+    margin-top: 199px;
     font-weight: 600; }
   #intro h2 {
     font-size: 82px;
@@ -4116,7 +4130,7 @@ nav {
       float: left;
       text-align: right;
       text-transform: uppercase;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
       padding-right: 16px;
       min-width: 92px; }
@@ -4124,7 +4138,7 @@ nav {
       padding-top: 20px;
       max-width: 359px;
       display: block;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 19px;
       border-left: solid 3px white;
       padding-left: 18px;
@@ -4212,7 +4226,7 @@ nav {
   .resource h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 18px !important;
     margin-top: 8px;
     margin-bottom: 6px; }
   .resource p {
@@ -4389,3 +4403,109 @@ footer {
 
 #what-is p {
   font-size: 20px; }
+
+.slick-slider {
+  display: none !important; }
+
+@media (max-width: 375px) {
+  .white-section, .blue-section {
+    padding: 100px 0px; }
+  #what-is img {
+    margin-top: 40px;
+    margin-bottom: -30px; }
+  #what-is .call-to-action #department-of-commerce {
+    border-right: none; }
+  .slick-slider {
+    display: block !important; }
+  #action-links-mobile {
+    display: block; }
+  #action-links {
+    display: none; }
+  #in-the-media-links {
+    display: none !important; }
+  #in-the-media-links-mobile {
+    display: block !important; } }
+
+@media (max-width: 661px) {
+  footer {
+    padding-top: 50px; }
+  footer #images {
+    float: none;
+    padding-left: 20px; }
+  footer img {
+    padding-left: 20px;
+    padding-bottom: 20px; } }
+
+#mobile-playbook-nav {
+  width: 100%;
+  position: fixed;
+  top: 70px;
+  display: none;
+  color: white;
+  background-color: #C8002C;
+  font-size: 13px;
+  margin-top: 0px; }
+
+#mobile-playbook-nav ul {
+  padding-top: 14px;
+  padding-bottom: 34px; }
+
+#mobile-playbook-nav li {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  list-style: none; }
+
+#mobile-playbook-nav li:hover {
+  opacity: .8; }
+
+#playbook-mobile-nav-top {
+  margin: auto;
+  border-bottom: solid .5px white;
+  width: 100%;
+  text-align: center; }
+
+#playbook-mobile-nav-top p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  height: 49px;
+  display: inline-block;
+  margin: auto;
+  padding-top: 12px; }
+
+#playbook-mobile-nav-top:hover {
+  cursor: pointer; }
+
+#playbook-mobile-nav-top p:hover {
+  opacity: .8; }
+
+@media (max-width: 700px) {
+  #scroll-to-top {
+    display: none; } }
+
+@media (max-width: 900px) {
+  #playbook-nav {
+    display: none; }
+  #mobile-playbook-nav {
+    display: block; }
+  #mobile-playbook-nav ul {
+    display: none; } }
+
+@media (max-width: 400px) {
+  .playbook-section h1 {
+    font-size: 25px; }
+  #intro #see-the-steps {
+    margin-top: 20px; }
+  #timeline {
+    margin-left: -40px; }
+  #timeline .description {
+    width: 250px; }
+  #form-a-team h3:first-child {
+    padding-top: 50px; }
+  #roles img {
+    padding: 30px 0px; } }
+
+.slick-dots button:hover, .slick-dots button:active, .slick-dots button:focus, .slick-dots button:visited, .slick-dots [type=button]:active, .slick-dots [type=button]:hover, [type=button]:focus {
+  background-color: transparent !important;
+  z-index: 0; }
