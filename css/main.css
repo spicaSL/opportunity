@@ -3786,7 +3786,7 @@ nav {
 #splash {
   width: 100vw;
   text-align: center;
-  height: calc(90vh - 70px);
+  height: calc(100vh - 70px);
   min-height: 400px;
   background-image: url(../img/hero.png);
   -webkit-background-size: cover;
@@ -3837,7 +3837,7 @@ nav {
     padding: 21px 86px; }
     #what-is .call-to-action .usa-width-one-half h3 {
       color: #004469;
-      font-size: 15px; }
+      font-size: 18px; }
     #what-is .call-to-action .usa-width-one-half img {
       width: 324px;
       height: 119px;
@@ -4107,7 +4107,6 @@ nav {
       border-radius: 7px;
       float: left;
       background-color: white;
-      border: 3px solid #0078AC;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
       margin-top: 23px;
       z-index: 2; }
@@ -4117,7 +4116,7 @@ nav {
       float: left;
       text-align: right;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 600;
       padding-right: 16px;
       min-width: 92px; }
@@ -4125,7 +4124,7 @@ nav {
       padding-top: 20px;
       max-width: 359px;
       display: block;
-      font-size: 15px;
+      font-size: 18px;
       line-height: 19px;
       border-left: solid 3px white;
       padding-left: 18px;
@@ -4142,8 +4141,12 @@ nav {
     .playbook-section #timeline #week1 p {
       padding-top: 0px;
       margin-top: -2px; }
+    .playbook-section #timeline #week9-10 p {
+      padding-right: 11px; }
     .playbook-section #timeline #week9-10 .description {
       margin-bottom: -30px; }
+    .playbook-section #timeline #week11-12 p {
+      padding-right: 3px; }
     .playbook-section #timeline #week11-12 .description {
       border-left: none; }
     .playbook-section #timeline #timeline-afterword {
@@ -4198,17 +4201,10 @@ nav {
         font-size: 17px;
         margin: 0px; }
 
-.blue {
-  background-color: #004469;
-  color: white; }
-  .blue p {
-    color: white; }
-  .blue h1, .blue h2, .blue h3 {
-    color: white; }
-  .blue .checklist li {
-    list-style-image: url("../img/checkbox-white.png"); }
+.gray {
+  background-color: #F6F6F6; }
 
-.white .checklist li {
+.white .checklist li, .gray .checklist li {
   list-style-image: url("../img/checkbox-black.png"); }
 
 .resource {
@@ -4300,7 +4296,7 @@ a:focus {
   box-shadow: 0px; }
 
 footer {
-  height: 358px;
+  height: 300px;
   background-color: #004469;
   color: white;
   padding-top: 91px; }
@@ -4366,7 +4362,8 @@ footer {
 
 #scroll-to-top {
   position: fixed;
-  text-align: center; }
+  text-align: center;
+  left: calc(100vw - 150px); }
 
 #scroll-to-top:hover {
   opacity: .6;
@@ -4389,3 +4386,6 @@ footer {
 
 #helpUs p {
   font-size: 15px; }
+
+#what-is p {
+  font-size: 20px; }
