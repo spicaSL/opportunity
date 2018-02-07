@@ -1,24 +1,14 @@
-Changes made as of 1/5/2018
+Changes made as of 2/7/2018
 
 - All pages:
-	- Removed special quote characters that weren’t rendering properly
-	- Updated Logos in Footer
+	- Updated footer to collapse properly on mobile
 
 - Home:
-	- Updated email address
-	- Fixed media links
-	- Corrected tool names
-	- Updated 2016 video to 2017 video
+	- Updated Cisco link
+	- Added mobile compatibility
 
 - Projects:
-	- Added descriptive intro sentence 
-	- Fixed missing tool images
-	- Updated tool descriptions
-	- Re-ordered tools to show newest first
-	- Added new project tags for 2017 tools
-	- Links now open in new tabs
+	- Added mobile compatibility
 
 - Toolkit:
-	- Added step names to navigation
-	- Added additional resource links
-	- Removed snap scroll feature
+	- Added mobile compatibility, including a collapsed mobile nav
