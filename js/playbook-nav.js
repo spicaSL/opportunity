@@ -36,6 +36,10 @@ $("#playbook-mobile-nav-top").click(function(){
   }
 })
 
+$("#mobile-playbook-nav a").click(function(){
+    $('#mobile-playbook-nav ul').hide();
+})
+
 
 function setNav(){
     currentSection($("#intro"), "#intro");
