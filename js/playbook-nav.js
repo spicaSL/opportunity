@@ -17,26 +17,31 @@ function currentSection(section, string) {
   }
 }
 
-function setNav(){
-      if (touching($("#intro"), $("#playbook-nav")) ||
-        touching($("#02"), $("#playbook-nav")) ||
-        touching($("#04"), $("#playbook-nav")) ||
-        touching($("#06"), $("#playbook-nav"))
-      ){
-      $( "#playbook-nav > li > a > div" ).addClass( "dark-circle" );
-      $( "#playbook-nav > li > a > div" ).removeClass( "light-circle" );
-      $( "#playbook-nav > li" ).css({'color': 'black'});
-    }
+function currentSectionMobile(section, string) {
+  if (touching(section, $("#mobile-playbook-nav"))){
+      $('#playbook-mobile-nav-top-text').text(string);
+  }
+}
 
-    if (touching($("#01"), $("#playbook-nav")) ||
-        touching($("#03"), $("#playbook-nav")) ||
-        touching($("#05"), $("#playbook-nav")) ||
-        touching($("#section-07"), $("#playbook-nav"))
-      ){
-      $( "#playbook-nav > li > a > div" ).addClass( "light-circle" );
-      $( "#playbook-nav > li > a > div" ).removeClass( "dark-circle" );
-      $( "#playbook-nav > li" ).css({'color': 'white'});
-    }
+$("#playbook-mobile-nav-top").click(function(){
+  if($( "#playbook-mobile-nav-top i" ).hasClass( "fa-caret-up" )){
+    $('#playbook-mobile-nav-top i').addClass("fa-caret-down");
+    $('#playbook-mobile-nav-top i').removeClass("fa-caret-up");
+    $('#mobile-playbook-nav ul').show();
+  }
+  else{
+    $('#playbook-mobile-nav-top i').addClass("fa-caret-up");
+    $('#playbook-mobile-nav-top i').removeClass("fa-caret-down");    
+    $('#mobile-playbook-nav ul').hide();
+  }
+})
+
+$("#mobile-playbook-nav a").click(function(){
+    $('#mobile-playbook-nav ul').hide();
+})
+
+
+function setNav(){
     currentSection($("#intro"), "#intro");
     currentSection($("#01"), "#01");
     currentSection($("#02"), "#02");
@@ -45,6 +50,14 @@ function setNav(){
     currentSection($("#05"), "#05");
     currentSection($("#06"), "#06");
     currentSection($("#section-07"), "#section-07");
+    currentSectionMobile($("#intro"), "Introduction");
+    currentSectionMobile($("#01"), "01 - Choose a Problem to Solve");
+    currentSectionMobile($("#02"), "02 - Form a Team");
+    currentSectionMobile($("#03"), "03 - Conduct User Research");
+    currentSectionMobile($("#04"), "04 - Explore Data");
+    currentSectionMobile($("#05"), "05 - Design & Build a Product");
+    currentSectionMobile($("#06"), "06 - Share with End Users & Stakeholders");
+    currentSectionMobile($("#section-07"), "07 - Keep Improving, Share Metrics & Feedback");
 }
 
 $(document).ready(function(){
