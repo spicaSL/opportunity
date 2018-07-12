@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/uswds.min.js"></script>
+    <script src="js/hide-show-toggle.js"></script>
     <link href="img/icon.png" rel="icon" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" charset="UTF-8"/>
@@ -27,7 +28,7 @@
               slidesToShow: 1,
               slidesToScroll: 1
             }
-          }         
+          }
         ]
       }),
       $('#in-the-media-links-mobile').slick({
@@ -41,9 +42,9 @@
               slidesToShow: 1,
               slidesToScroll: 1
             }
-          }         
+          }
         ]
-      });      
+      });
       });
     </script>
   </head>
@@ -57,11 +58,13 @@
             <div id="links">
               <a href="index.html" id="home-link"> Home </a>
               <a href="projects.html" id="see-the-projects"> See the Projects </a>
-              <a href="toolkit.html"> Get Started </a>
+              <a href="toolkit.html"> Our Toolkit </a>
             </div>
       </div>
     </div>
     </nav>
+
+
   <div id="splash">
     <div class="usa-grid"> <br>
       <div class="usa-width-one-whole">
@@ -72,6 +75,8 @@
       </div>
     </div>
   </div>
+
+
   <section id="what-is" class="white-section">
   <div class="usa-grid">
       <div class="usa-width-one-half">
@@ -86,7 +91,7 @@
       <div class="usa-width-one-half" id="department-of-commerce">
         <h3>A Department of Commerce Initiative</h3>
         <p> The Department of Commerce connects tech developers, local leaders, and non-profits with problem statements on issues like jobs, transportation, and housing, and facilitates user-centered tech development sprints to create new digital solutions. </p>
-        <a href="mailto:OpportunityProject@doc.gov"><button class="unfilled-button-blue"> Join the Next Cohort </button></a>
+        <a href="mailto:census.opportunityproject@census.gov"><button class="unfilled-button-blue"> Join the Next Cohort </button></a>
       </div>
     <div class="usa-width-one-half">
       <h3>A Way to Engage your community</h3>
@@ -95,6 +100,22 @@
     </div>
     </div>
   </section>
+
+  <section class="gray-section">
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <h2> Our Process </h2>
+        <p> The Opportunity Project works with federal agencies to identify problem statements or high value data sets that are relevant to their missions. From there, our team at the U.S. Census Bureau facilitates a 12-week sprint that combines the technical abilities of participating tech teams, federal policy experts, product mentors, and end user advocates. The teams themselves drive their tools through research, design, and development, and own the final products. <b>Our goal is to create a scalable model for government and tech industry collaboration</b>.</p>
+      </div>
+      <div class="usa-width-one-whole">
+         <br><br>
+         <div align="center">
+            <a href="sprint.html"><button id="sprint-button"> More About Sprints </button></a>
+          </div>
+       </div>
+    </div>
+    </section>
+
     <section id="in-action" class="blue-section">
     <div class="usa-grid">
     <div class="usa-width-one-whole">
@@ -162,111 +183,114 @@
     </div>
       </div>
     </section>
- <section class="white-section" id="in-the-media">
-      <div class="usa-grid">
-      <div class="usa-width-one-whole">
-        <h2> In the Media </h2>
-        <p class="constrained-p"> View past press releases, videos, and blogs to learn more about The Opportunity Project and how to get involved. </p>
-      </div>
-      <div id="in-the-media-links">
-      <div class="usa-grid">
-          <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank" class="usa-width-one-third">
-          <div class="usa-width-one-whole">
-              <h3> Blog </h3>
-              <p> How The Opportunity Project is engaging the private sector  </p>
-              <img src="img/media-01.png" alt="Blog Screenshot">
-          </div>
-          </a>
-          <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&amp;feature=youtu.be&amp;list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank" class="usa-width-one-third">
-          <div class="usa-width-one-whole">
-            <h3> Video </h3>
-            <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
-            <img src="img/media-02.png" alt="Video Screenshot">
-          </div> 
-        </a>
-        <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank" class="usa-width-one-third">
-          <div class="usa-width-one-whole">
-            <h3> Fact Sheet </h3>
-            <p> The Opportunity Project tools and projects launched in October 2016 </p>
-            <img src="img/media-03.png" alt="Fact Sheet Screenshot">
-          </div> 
-        </a>
-        </div>
-<div class="usa-grid">
-    <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-        <h3> Fact Sheet  </h3>
-        <p> The Opportunity Project tools and projects launched in March 2016</p>
-        <img src="img/media-04.png" alt="Fact Sheet Screenshot">
-      </div> 
-    </a>
-    <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&amp;feature=youtu.be" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-        <h3> Video </h3>
-        <p> The Opportunity Project Demo Day 2017 </p>
-        <img src="img/media-07.png" alt="Video Screenshot">
-      </div> 
-    </a>
-    <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&amp;feature=youtu.be" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-        <h3> Blog </h3>
-        <p> The Opportunity Project Demo Day: Open Innovation in Action </p>
-        <img src="img/media-06.png" alt="Video Screenshot">
-      </div> 
-    </a>
-    </div>
-  </div>
-    <div id="in-the-media-links-mobile">
-      <div>
-      <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-          <h3> Blog </h3>
-          <p> How The Opportunity Project is engaging the private sector  </p>
-          <img src="img/media-01.png" alt="Blog Screenshot">
-      </div>
-      </a>
-      </div>
-      <div>
-      <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&feature=youtu.be&list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-        <h3> Video </h3>
-        <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
-        <img src="img/media-02.png" alt="Video Screenshot">
-      </div> 
-    </a>
-    </div>
-    <div>
-    <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank" class="usa-width-one-third">
-        <div class="usa-width-one-whole">
-        <h3> Fact Sheet </h3>
-        <p> The Opportunity Project tools and projects launched in October 2016 </p>
-        <img src="img/media-03.png" alt="Fact Sheet Screenshot">
-        </div>
-    </a>
-    </div>
-    <div>
-    <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-        <h3> Fact Sheet  </h3>
-        <p> The Opportunity Project tools and projects launched in March 2016</p>
-        <img src="img/media-04.png" alt="Fact Sheet Screenshot">
-      </div> 
-    </a>
-    </div>
-    <div>
-    <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&feature=youtu.be" target="_blank" class="usa-width-one-third">
-      <div class="usa-width-one-whole">
-        <h3> Video </h3>
-        <p> The Opportunity Project Demo Day 2017 </p>
-        <img src="img/media-07.png" alt="Video Screenshot">
-      </div> 
-    </a>
-    </div>
-    </div>
-    </div>
 
-    </div>
-  </section>
+
+    <section class="white-section" id="in-the-media">
+         <div class="usa-grid">
+         <div class="usa-width-one-whole">
+           <h2> Media Archive </h2>
+           <p class="constrained-p"> View past press releases, videos, and blogs to learn more about The Opportunity Project and how to get involved. </p>
+         </div>
+         <div id="in-the-media-links">
+         <div class="usa-grid">
+             <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank" class="usa-width-one-third">
+             <div class="usa-width-one-whole">
+                 <h3> Blog </h3>
+                 <p> How The Opportunity Project is engaging the private sector  </p>
+                 <img src="img/media-01.png" alt="Blog Screenshot">
+             </div>
+             </a>
+             <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&amp;feature=youtu.be&amp;list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank" class="usa-width-one-third">
+             <div class="usa-width-one-whole">
+               <h3> Video </h3>
+               <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
+               <img src="img/media-02.png" alt="Video Screenshot">
+             </div>
+           </a>
+           <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank" class="usa-width-one-third">
+             <div class="usa-width-one-whole">
+               <h3> Fact Sheet </h3>
+               <p> The Opportunity Project tools and projects launched in October 2016 </p>
+               <img src="img/media-03.png" alt="Fact Sheet Screenshot">
+             </div>
+           </a>
+           </div>
+   <div class="usa-grid">
+       <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Fact Sheet  </h3>
+           <p> The Opportunity Project tools and projects launched in March 2016</p>
+           <img src="img/media-04.png" alt="Fact Sheet Screenshot">
+         </div>
+       </a>
+       <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&amp;feature=youtu.be" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Video </h3>
+           <p> The Opportunity Project Demo Day 2017 </p>
+           <img src="img/media-07.png" alt="Video Screenshot">
+         </div>
+       </a>
+       <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&amp;feature=youtu.be" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Blog </h3>
+           <p> The Opportunity Project Demo Day: Open Innovation in Action </p>
+           <img src="img/media-06.png" alt="Video Screenshot">
+         </div>
+       </a>
+       </div>
+     </div>
+       <div id="in-the-media-links-mobile">
+         <div>
+         <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+             <h3> Blog </h3>
+             <p> How The Opportunity Project is engaging the private sector  </p>
+             <img src="img/media-01.png" alt="Blog Screenshot">
+         </div>
+         </a>
+         </div>
+         <div>
+         <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&feature=youtu.be&list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Video </h3>
+           <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
+           <img src="img/media-02.png" alt="Video Screenshot">
+         </div>
+       </a>
+       </div>
+       <div>
+       <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank" class="usa-width-one-third">
+           <div class="usa-width-one-whole">
+           <h3> Fact Sheet </h3>
+           <p> The Opportunity Project tools and projects launched in October 2016 </p>
+           <img src="img/media-03.png" alt="Fact Sheet Screenshot">
+           </div>
+       </a>
+       </div>
+       <div>
+       <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Fact Sheet  </h3>
+           <p> The Opportunity Project tools and projects launched in March 2016</p>
+           <img src="img/media-04.png" alt="Fact Sheet Screenshot">
+         </div>
+       </a>
+       </div>
+       <div>
+       <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&feature=youtu.be" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Video </h3>
+           <p> The Opportunity Project Demo Day 2017 </p>
+           <img src="img/media-07.png" alt="Video Screenshot">
+         </div>
+       </a>
+       </div>
+       </div>
+       </div>
+
+       </div>
+   </section>
+
     <footer>
       <div class="usa-grid">
         <div class="usa-width-one-whole">
@@ -274,14 +298,14 @@
             <li>Site Map</li>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">See the Projects</a></li>
-            <li><a href="toolkit.html">Get Started</a></li>        
+            <li><a href="toolkit.html">Our Toolkit</a></li>
           </ul>
           <ul>
             <li>Resources</li>
             <li><a href="http://data.gov/"> Data.gov</a></li>
             <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
             <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
-            <li><a href="mailto:OpportunityProject@doc.gov">Get in Touch</a></li>
+            <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
           </ul>
           <div id="images">
             <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
