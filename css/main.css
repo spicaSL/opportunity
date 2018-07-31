@@ -4632,7 +4632,7 @@ footer {
   }
 
   .timeline-bar {
-    padding-left: 31.5%;
+    padding-left: 23.6%;
     background-color: #112e51;
     display: inline;
     -o-transition:.5s;
@@ -4642,7 +4642,7 @@ footer {
     transition:.5s;
   }
 
-  #bar1, #bar2 {
+  #bar1, #bar2, #bar3 {
     border-right: solid white 2.5px;
   }
 
@@ -4656,6 +4656,8 @@ footer {
 
   .problem-statement {
     border: solid #4A4A4A 2px;
+    padding-left: 4%;
+    padding-right: 4%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -4666,17 +4668,7 @@ footer {
   .problem-statement:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
-
-  .ps-image{
-    margin-left: 3.5%;
-    margin-right: 0.5%;
-    padding-right: 3%;
-    padding-top: 2.5%;
-    height: 180px;
-    width: 25%;
-    float: left;
-  }
-
+  
   .ps-title {
     display: inline;
   }
@@ -4693,6 +4685,7 @@ footer {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+    height: 400px;
   }
 
   .role-card:hover {

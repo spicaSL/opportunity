@@ -13,8 +13,8 @@ function growText(block) {
     headers[0].style.color = "#00A6D2";
   }
 
-  if (block === "development") {
-    let element = document.getElementById("development-text");
+  if (block === "data") {
+    let element = document.getElementById("data-text");
     element.style.webkitTransform = "scale(1.1,1.1)";
 
     let text = document.getElementsByClassName("timeline-text-content");
@@ -27,8 +27,8 @@ function growText(block) {
     headers[1].style.color = "#00A6D2";
   }
 
-  if (block === "demo") {
-    let element = document.getElementById("demo-text");
+  if (block === "development") {
+    let element = document.getElementById("development-text");
     element.style.webkitTransform = "scale(1.1,1.1)";
 
     let text = document.getElementsByClassName("timeline-text-content");
@@ -39,6 +39,20 @@ function growText(block) {
 
     let headers = document.getElementsByClassName("timeline-text-header");
     headers[2].style.color = "#00A6D2";
+  }
+
+  if (block === "demo") {
+    let element = document.getElementById("demo-text");
+    element.style.webkitTransform = "scale(1.1,1.1)";
+
+    let text = document.getElementsByClassName("timeline-text-content");
+    text[3].style.color = "black";
+
+    let bar = document.getElementsByClassName("timeline-bar");
+    bar[3].style.backgroundColor = "#00a6d2";
+
+    let headers = document.getElementsByClassName("timeline-text-header");
+    headers[3].style.color = "#00A6D2";
   }
 
 }
@@ -58,8 +72,8 @@ function normalText(block) {
     headers[0].style.color = "#000";
   }
 
-  if (block === "development") {
-    let element = document.getElementById("development-text");
+  if (block === "data") {
+    let element = document.getElementById("data-text");
     element.style.webkitTransform = "scale(1.0, 1.0)";
 
     let text = document.getElementsByClassName("timeline-text-content");
@@ -72,8 +86,8 @@ function normalText(block) {
     headers[1].style.color = "#000";
   }
 
-  if (block === "demo") {
-    let element = document.getElementById("demo-text");
+  if (block === "development") {
+    let element = document.getElementById("development-text");
     element.style.webkitTransform = "scale(1.0, 1.0)";
 
     let text = document.getElementsByClassName("timeline-text-content");
@@ -84,5 +98,19 @@ function normalText(block) {
 
     let headers = document.getElementsByClassName("timeline-text-header");
     headers[2].style.color = "#000";
+  }
+
+  if (block === "demo") {
+    let element = document.getElementById("demo-text");
+    element.style.webkitTransform = "scale(1.0, 1.0)";
+
+    let text = document.getElementsByClassName("timeline-text-content");
+    text[3].style.color = "#aeb0b5";
+
+    let bar = document.getElementsByClassName("timeline-bar");
+    bar[3].style.backgroundColor = "#112e51";
+
+    let headers = document.getElementsByClassName("timeline-text-header");
+    headers[3].style.color = "#000";
   }
 }
