@@ -4665,17 +4665,12 @@ footer {
     transition:.5s;
   }
 
-  .problem-statement > p {
-    margin: 0.7%;
-  }
-
   .problem-statement:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
-
+  
   .ps-title {
     display: inline;
-    color: #5F8FC3;
   }
 
   .timeline-section {
@@ -4742,34 +4737,6 @@ footer {
 
   .ps-2017, .ps-2016 {
     display: none;
-  }
-
-  .sprint-see-more {
-    padding-bottom: 3%;
-  }
-
-  .ps-image {
-    width: 23%;
-    height: 250px;
-    float: left;
-    margin-top: 3%;
-    margin-right: 2%;
-  }
-
-  .ps-image-small {
-    float: left;
-    width: 20%;
-    height: 150px;
-    margin-top: 3%;
-    margin-right: 2%;
-  }
-
-  .ps-image-mid {
-    float: left;
-    width: 20%;
-    height: 200px;
-    margin-top: 3%;
-    margin-right: 2%;
   }
 
   #join-btn-sprint-wrapper {
