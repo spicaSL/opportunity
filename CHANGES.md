@@ -28,3 +28,17 @@
 
 ### Files Added:
 * return-top-mobile.js
+
+## Changes made as of 9/18
+
+### Home:
+* Added "Sprints" section that links to a new page
+
+### Sprints: 
+* Added problem statement archive
+* Added role descriptions + timeline
+
+### Files Added:
+* sprint.html
+* sprint-ps-menu.js
+* grow-text.js
