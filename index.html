@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--
+  Build by Civic Digital Fellows (https://codingitforward.com/)
+  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> The Opportunity Project</title>
+    <meta name="description" content="">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/uswds.min.js"></script>
+    <script src="js/hide-show-toggle.js"></script>
+    <link href="img/icon.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" charset="UTF-8"/>
+    <script>
+      $(document).ready(function(){
+      $('#action-links-mobile').slick({
+        dots: true,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 375,
+            settings: {
+              speed: 300,
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      }),
+      $('#in-the-media-links-mobile').slick({
+        arrows: false,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 375,
+            settings: {
+              speed: 300,
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      });
+    </script>
+  </head>
+
+<body>
+    <nav>
+    <div class="usa-grid-wide">
+      <div class="usa-width-one-whole">
+        <a href="index.html"><img src="img/logo.png" alt="The Opportunity Project Logo" id="logo"></a>
+            <div id="links">
+              <a href="index.html" id="home-link"> Home </a>
+              <a href="projects.html" id="see-the-projects"> See the Projects </a>
+              <a href="toolkit.html"> Our Toolkit </a>
+            </div>
+      </div>
+    </div>
+    </nav>
+
+
+  <div id="splash">
+    <div class="usa-grid"> <br>
+      <div class="usa-width-one-whole">
+        <h1> The Opportunity Project </h1>
+        <p> Bringing  together government, technologists, and communities to create digital tools that help strengthen American economic opportunity. </p>
+        <a href="#what-is"><button id="learn-more"> Learn More </button></a>
+        <a href="toolkit.html"><button id='start-a-project'> Start a Project </button></a>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="what-is" class="white-section">
+  <div class="usa-grid">
+      <div class="usa-width-one-half">
+        <h2> What is The Opportunity Project? </h2>
+        <p> The Opportunity Project is a process for engaging government, communities, and the technology industry to create digital tools that address our greatest challenges as a nation. This process helps to empower people with technology, make government data more accessible and user-friendly, and facilitate cross-sector collaboration to build new digital solutions.  </p>
+      </div>
+      <div class="usa-width-one-half">
+        <img src="img/diagram.png" alt="Venn Diagram of Government, Tech, and Communities">
+      </div>
+    </div>
+    <div class="usa-grid call-to-action">
+      <div class="usa-width-one-half" id="department-of-commerce">
+        <h3>A Department of Commerce Initiative</h3>
+        <p> The Department of Commerce connects tech developers, local leaders, and non-profits with problem statements on issues like jobs, transportation, and housing, and facilitates user-centered tech development sprints to create new digital solutions. </p>
+        <a href="mailto:census.opportunityproject@census.gov"><button class="unfilled-button-blue"> Join the Next Cohort </button></a>
+      </div>
+    <div class="usa-width-one-half">
+      <h3>A Way to Engage your community</h3>
+      <p> Anyone can replicate this process.  Local leaders, technologists, students, or anyone interested in collaborating on technology and data-driven solutions can start a project. View The Opportunity Project toolkit, a step-by-step guide to the process used by the Department of Commerce project team, and adapt it for your own project.  </p>
+      <a href="toolkit.html"><button class="unfilled-button-red"> See the Process </button></a>
+    </div>
+    </div>
+  </section>
+
+  <section class="gray-section">
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <h2> How does The Opportunity Project work? </h2>
+        <p> <strong>The Opportunity Project</strong> works through collaborative sprints that bring technology developers, communities, and government together to solve problems using open data</b>.</p>
+      </div>
+      <div class="usa-width-one-whole">
+         <br><br>
+         <div align="center">
+            <a href="sprint.html"><button id="sprint-button"> Learn More About Sprints </button></a>
+          </div>
+       </div>
+    </div>
+    </section>
+
+    <section id="in-action" class="blue-section">
+    <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h2> The Opportunity Project in Action </h2>
+      <p class="constrained-p"> Since launching in 2016, The Opportunity Project has yielded dozens of new digital tools that help solve problems like connecting veterans and their families with jobs, connecting people experiencing homelessness with services and shelter, and rebuilding rural economies. Here are three featured projects created through The Opportunity Project. See the rest <a href="projects.html" style="color: white; text-decoration: underline!important;">here</a>.
+      </p>
+    </div>
+      <div id="action-links">
+      <div>
+      <a href=" https://devnet.cisco.com/site/census/" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Cisco DevNet City Data Tool</h3>
+          <p>Cisco DevNet's tool uses American Community Survey data from the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.</p>
+          <img src="img/data-consumers/cisco.png" alt="Cisco Project Logo">
+        </div>
+      </a>
+      </div>
+      <div>
+      <a href="https://www.findmyspot.org" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Myspot</h3>
+          <p>Excella Consulting's tool uses data sets from the DC Department of Human Services to help youth experiencing homelessness find and access services in the Washington, DC area.</p>
+          <img src="img/data-consumers/excella.png" alt="Excella Project Logo">
+        </div>
+      </a>
+      </div>
+      <div>
+      <a href="https://intel.ecivis.com" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Grants Intelligence</h3>
+          <p>eCivis's tool uses USA Spending, Single Audit, Census Bureau and Catalog of Federal Domestic Assistance data to help local, state, federal, and tribal governments navigate federal grants and maximize the return on investment of federal grant dollars.</p>
+          <img src="img/data-consumers/eCivis.png" alt="eCivis Project Logo">
+        </div>
+      </a>
+    </div>
+    </div>
+    <div id="action-links-mobile">
+      <div>
+      <a href="https://devnet.cisco.com/site/census/" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Cisco DevNet City Data Tool</h3>
+          <p>Cisco DevNet's tool uses American Community Survey data from the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.</p>
+          <img src="img/data-consumers/cisco.png" alt="Cisco Project Logo">
+        </div>
+      </a>
+      </div>
+      <div>
+      <a href="https://www.findmyspot.org" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Myspot</h3>
+          <p>Excella Consulting's tool uses data sets from the DC Department of Human Services to help youth experiencing homelessness find and access services in the Washington, DC area.</p>
+          <img src="img/data-consumers/excella.png" alt="Excella Project Logo">
+        </div>
+      </a>
+      </div>
+      <div>
+      <a href="https://intel.ecivis.com" target="_blank">
+        <div class="usa-width-one-third">
+          <h3>Grants Intelligence</h3>
+          <p>eCivis's tool uses USA Spending, Single Audit, Census Bureau and Catalog of Federal Domestic Assistance data to help local, state, federal, and tribal governments navigate federal grants and maximize the return on investment of federal grant dollars.</p>
+          <img src="img/data-consumers/eCivis.png" alt="eCivis Project Logo">
+        </div>
+      </a>
+    </div>
+    </div>
+      </div>
+    </section>
+
+
+    <section class="white-section" id="in-the-media">
+         <div class="usa-grid">
+         <div class="usa-width-one-whole">
+           <h2> Media Archive </h2>
+           <p class="constrained-p"> View past press releases, videos, and blogs to learn more about The Opportunity Project and how to get involved. </p>
+         </div>
+         <div id="in-the-media-links">
+         <div class="usa-grid">
+             <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank" class="usa-width-one-third">
+             <div class="usa-width-one-whole">
+                 <h3> Blog </h3>
+                 <p> How The Opportunity Project is engaging the private sector  </p>
+                 <img src="img/media-01.png" alt="Blog Screenshot">
+             </div>
+             </a>
+             <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&amp;feature=youtu.be&amp;list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank" class="usa-width-one-third">
+             <div class="usa-width-one-whole">
+               <h3> Video </h3>
+               <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
+               <img src="img/media-02.png" alt="Video Screenshot">
+             </div>
+           </a>
+           <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank" class="usa-width-one-third">
+             <div class="usa-width-one-whole">
+               <h3> Fact Sheet </h3>
+               <p> The Opportunity Project tools and projects launched in October 2016 </p>
+               <img src="img/media-03.png" alt="Fact Sheet Screenshot">
+             </div>
+           </a>
+           </div>
+   <div class="usa-grid">
+       <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Fact Sheet  </h3>
+           <p> The Opportunity Project tools and projects launched in March 2016</p>
+           <img src="img/media-04.png" alt="Fact Sheet Screenshot">
+         </div>
+       </a>
+       <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&amp;feature=youtu.be" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Video </h3>
+           <p> The Opportunity Project Demo Day 2017 </p>
+           <img src="img/media-07.png" alt="Video Screenshot">
+         </div>
+       </a>
+       <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&amp;feature=youtu.be" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Blog </h3>
+           <p> The Opportunity Project Demo Day: Open Innovation in Action </p>
+           <img src="img/media-06.png" alt="Video Screenshot">
+         </div>
+       </a>
+       </div>
+     </div>
+       <div id="in-the-media-links-mobile">
+         <div>
+         <a href="https://www.esa.gov/content/opportunity-project-and-ciscos-devnet-create-conference-attendees-harness-open-data-create" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+             <h3> Blog </h3>
+             <p> How The Opportunity Project is engaging the private sector  </p>
+             <img src="img/media-01.png" alt="Blog Screenshot">
+         </div>
+         </a>
+         </div>
+         <div>
+         <a href="https://www.youtube.com/watch?v=i7wTqgcg81s&feature=youtu.be&list=PL2k86RlAekM_avNfCwtJpwus38BwfvB6A" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Video </h3>
+           <p> The Opportunity Project at Cisco's DevNet Create Conference  </p>
+           <img src="img/media-02.png" alt="Video Screenshot">
+         </div>
+       </a>
+       </div>
+       <div>
+       <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build" target="_blank" class="usa-width-one-third">
+           <div class="usa-width-one-whole">
+           <h3> Fact Sheet </h3>
+           <p> The Opportunity Project tools and projects launched in October 2016 </p>
+           <img src="img/media-03.png" alt="Fact Sheet Screenshot">
+           </div>
+       </a>
+       </div>
+       <div>
+       <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Fact Sheet  </h3>
+           <p> The Opportunity Project tools and projects launched in March 2016</p>
+           <img src="img/media-04.png" alt="Fact Sheet Screenshot">
+         </div>
+       </a>
+       </div>
+       <div>
+       <a href="https://www.youtube.com/watch?v=hiqn9a64wlo&feature=youtu.be" target="_blank" class="usa-width-one-third">
+         <div class="usa-width-one-whole">
+           <h3> Video </h3>
+           <p> The Opportunity Project Demo Day 2017 </p>
+           <img src="img/media-07.png" alt="Video Screenshot">
+         </div>
+       </a>
+       </div>
+       </div>
+       </div>
+
+       </div>
+   </section>
+
+    <footer>
+      <div class="usa-grid">
+        <div class="usa-width-one-whole">
+          <ul style="margin-top: 1em">
+            <li>Site Map</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">See the Projects</a></li>
+            <li><a href="toolkit.html">Our Toolkit</a></li>
+          </ul>
+          <ul>
+            <li>Resources</li>
+            <li><a href="http://data.gov/"> Data.gov</a></li>
+            <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+            <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+            <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
+          </ul>
+          <div id="images">
+            <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+            <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</body>
+</html>
