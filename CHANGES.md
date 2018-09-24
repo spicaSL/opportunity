@@ -34,7 +34,7 @@
 ### Home:
 * Added "Sprints" section that links to a new page
 
-### Sprints: 
+### Sprints:
 * Added problem statement archive
 * Added role descriptions + timeline
 
@@ -42,3 +42,9 @@
 * sprint.html
 * sprint-ps-menu.js
 * grow-text.js
+
+### Changes made as of 9/19
+
+### Sprints:
+* Cursor change on the problem statement menu
+* Changed <title> tag to match other parts of the site

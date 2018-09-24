@@ -3805,15 +3805,16 @@ nav {
   nav #links {
     float: right;
     width: 65%;
-    margin-right: 5%; }
+    margin-right: 5%;
+   }
     nav #links a {
       display: block;
       float: left;
       text-align: center;
-      width: 40%;
+      width: 33%;
       margin-right: 0px; }
     nav #links #see-the-projects {
-      width: 60%; }
+      width: 33%; }
     nav #links #home-link {
       display: none; }
   nav img {
@@ -4738,6 +4739,7 @@ footer {
     padding-bottom: 5px;
     float: right;
     border-radius: 5px;
+    cursor: pointer;
   }
 
   .ps-2017, .ps-2016 {
