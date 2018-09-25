@@ -48,3 +48,8 @@
 ### Sprints:
 * Cursor change on the problem statement menu
 * Changed <title> tag to match other parts of the site
+
+### All Pages:
+* Updated the nav menu to include the sprints page
+* Changed titles of links ("See the Projects" > "Projects" and "Our Toolkit" > "Toolkit")
+* Changed padding between links on mobile version so they fit on one screen
