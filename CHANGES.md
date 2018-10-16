@@ -53,3 +53,6 @@
 * Updated the nav menu to include the sprints page
 * Changed titles of links ("See the Projects" > "Projects" and "Our Toolkit" > "Toolkit")
 * Changed padding between links on mobile version so they fit on one screen
+
+### Changes made as of 10/17
+* All PDF links on Sprints page open to new windows
