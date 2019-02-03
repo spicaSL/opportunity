@@ -56,3 +56,6 @@
 
 ### Changes made as of 10/17
 * All PDF links on Sprints page open to new windows
+
+### Changes made as of 2/2/19
+* Merged pull request from Cisco team, fixed broken product links
