@@ -56,3 +56,7 @@
 
 ### Changes made as of 10/17
 * All PDF links on Sprints page open to new windows
+
+### Changes made as of 2/22
+* Added more projects to project gallery
+* Added image thumbnails of corresponding projects
