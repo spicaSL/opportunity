@@ -1583,7 +1583,8 @@ body {
 p {
   line-height: 1.5;
   margin-bottom: 1em;
-  margin-top: 1em; }
+  margin-top: 1em;
+  color: #112E51;}
 
 a {
   color: #0071bc;
@@ -1646,7 +1647,8 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #112E51;}
 
 h3 {
   font-size: 2rem;
@@ -3712,8 +3714,8 @@ h1 {
 
 button {
   border-radius: 0px;
-  min-height: 59px;
-  min-width: 237px;
+  min-height: 50px;
+  min-width: 200px;
   display: inline;
 }
 
@@ -3737,7 +3739,7 @@ button {
 }
 
 .blue-section {
-  background-color: #0078AC;
+  background-color: #205393;
   color: white;
 }
 
@@ -3759,7 +3761,7 @@ button {
 
 
 .white-section, .blue-section, .gray-section {
-  padding: 180px 0px;
+  padding: 100px 0px;
 }
 
 .white-section h2, .blue-section h2, .gray-section h2 {
@@ -3780,16 +3782,17 @@ nav {
   z-index: 100;
   top: 0;
   position: fixed;
-  background-color: #004469;
+  background-color: #132F50;
   width: 100%;
   height: 70px; }
   nav #logo {
     margin-left: 3%;
-    width: 120px;
-    margin-top: 14px; }
+    text-decoration: none;
+    font-family: "Merriweather", sans-serif;
+    color: white;
+   }
   nav #links {
-    float: right;
-    margin-top: 22px; }
+    float: right; }
     nav #links :hover {
       cursor: pointer;
       opacity: .8; }
@@ -3825,76 +3828,117 @@ nav {
 #splash {
   width: 100vw;
   text-align: center;
-  height: 100vh;
+  height: 65vh;
   min-height: 400px;
   background-image: url(../img/hero.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
   #splash h1 {
-    color: #E3E3E3;
-    text-align: center;
-    font-size: 35px;
+    text-align: left;
+    color: white;
+    font-size: 25px;
     margin-bottom: 27px;
-    margin-top: calc(50vh - 115px); }
+    margin-top: 2vh; }
+
   #splash p {
     color: #F6F6F6;
     max-width: 577px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     font-size: 20px;
     margin-bottom: 42px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200; }
-  #splash #learn-more, #splash #start-a-project {
-    display: inline; }
-  #splash #learn-more {
-    background-color: #C8002C;
-    margin-right: 100px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  @media (max-width: 940px) {
-    #splash #learn-more {
-      margin-right: 10px; } }
-  #splash #start-a-project {
-    background-color: #0078AC;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  #splash #learn-more:hover {
+
+  #splash img {
+    width: 60%;
+  }
+  #splash button {
+    width: 20px;
+  }
+
+  #splash #join-sprint, #splash #get-involved {
+    float:left; }
+
+  #splash #join-sprint {
+    background-color: #E02142;
+    border-radius: 5px;
+    width: 10px;
+  }
+
+@media (max-width: 940px) {
+  #splash {
+    height: 80vh;
+    }
+  #splash #join-sprint {
+    margin-right: 10px; }
+  #splash #get-involved {
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding-left: 15px;}
+  #splash #:hover {
     background-color: #84001d; }
   #splash #start-a-project:hover {
     background-color: #004469; }
+  }
 
 @media (max-width: 520px) {
-  #splash h1 {
-    margin-top: 170px; } }
+  #splash {
+    height: 90vh;
+  }
 
-#what-is .call-to-action {
-  margin-top: 89px;
-  text-align: center; }
-  #what-is .call-to-action .usa-width-one-half {
-    max-width: 496px;
-    padding: 21px 42px; }
-    #what-is .call-to-action .usa-width-one-half h3 {
-      color: #004469;
-      font-size: 18px; }
-    #what-is .call-to-action .usa-width-one-half img {
-      width: 324px;
-      height: 119px;
-      margin-top: 31px;
-      margin-bottom: 57px; }
-  #what-is .call-to-action #department-of-commerce {
-    border-right: solid 1px #979797; }
-    #what-is .call-to-action #department-of-commerce p {
-      min-height: 243px; }
+  #splash h1 {
+    margin-top: 20px;
+    text-align: center }
+
+  #splash button {
+    margin-left: 80px;
+  }
+}
+
+.gray-section button {
+  border-radius: 5px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  max-height: 360px;
+}
+
+#participate {
+  border-right: #0071BB solid 12px;
+}
+
+#run {
+  border-right: #E31C3E solid 12px;
+}
+
+.card h4 {
+  color: #0071BB;
+  font-size: 25px;
+}
+
+.card .container {
+  padding: 20px;
+}
 
 #in-action .usa-width-one-third {
   z-index: 1;
-  color: white;
+  color: #0071BA;
+  border-radius: 8px;
   margin-top: 40px;
-  border: solid 2px #F6F6F6;
-  background-color: rgba(0, 68, 105, 0.2);
+  border: solid 1px gray;
   padding: 40px 22px;
-  margin-right: 13px; }
+  margin-right: 13px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  max-height: 700px;
+ }
   #in-action .usa-width-one-third p {
     font-size: 15px;
     min-height: 176px; }
@@ -3922,15 +3966,26 @@ nav {
 
 #in-action .usa-width-one-third:hover {
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+}
+
+#in-action button {
+  min-width: 20px;
+}
+
 
 #in-the-media a {
   display: inline-block; }
 
 #in-the-media .usa-width-one-third {
   margin-top: 31px;
-  border: solid 1px #4A4A4A;
-  padding: 40px 25px; }
+  height: 330px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 40px 25px;
+  width: 48%;
+  float: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+ }
   #in-the-media .usa-width-one-third h3 {
     color: #0078AC;
     text-transform: none;
@@ -4005,7 +4060,7 @@ nav {
 .filters-div h2 {
   text-transform: uppercase;
   font-size: 13px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 13px; }
 
 .filters-div button {
@@ -4347,7 +4402,7 @@ a:focus {
 
 footer {
   height: 300px;
-  background-color: #004469;
+  background-color: #122E50;
   color: white;
   padding-top: 91px; }
   footer img {
@@ -4440,6 +4495,12 @@ footer {
 #what-is p {
   font-size: 20px; }
 
+#additional-contact button {
+  background: transparent;
+  border: solid white 2px;
+  border-radius: 2px;
+}
+
 .slick-slider {
   display: none !important; }
 
@@ -4449,8 +4510,6 @@ footer {
   #what-is img {
     margin-top: 40px;
     margin-bottom: -30px; }
-  #what-is .call-to-action #department-of-commerce {
-    border-right: none; }
   .slick-slider {
     display: block !important; }
   #action-links-mobile {
