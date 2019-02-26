@@ -1,4 +1,4 @@
-/*! uswds @version */
+Open Sans/*! uswds @version */
 html {
   box-sizing: border-box; }
 
@@ -362,25 +362,25 @@ th {
 
 /* stylelint-disable at-rule-empty-line-before */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-light-webfont.woff") format("woff"), url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: italic;
   font-weight: 400;
   src: url("../fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-italic-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-italic-webfont.woff") format("woff"), url("../fonts/sourcesanspro-italic-webfont.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-bold-webfont.woff") format("woff"), url("../fonts/sourcesanspro-bold-webfont.ttf") format("truetype"); }
@@ -712,7 +712,7 @@ button,
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1;
@@ -1320,7 +1320,7 @@ legend {
 
 .usa-form-hint {
   color: #757575;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 0; }
 
 [type=checkbox],
@@ -1574,7 +1574,7 @@ caption {
   text-align: left; }
 
 html {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 10px; }
 
 body {
@@ -1639,7 +1639,7 @@ h5 {
   margin-top: 1.5em; }
 
 h6 {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 h1 {
   font-size: 4rem;
@@ -1648,7 +1648,7 @@ h1 {
 h2 {
   font-size: 3rem;
   font-weight: 700;
-  color: #112E51;}
+  color: #112D51;}
 
 h3 {
   font-size: 2rem;
@@ -1686,7 +1686,7 @@ dfn {
 .usa-sans a,
 .usa-sans li,
 .usa-sans span {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 .usa-sans a {
   border-bottom: none;
@@ -1847,7 +1847,7 @@ dfn {
     .usa-accordion > ul > li,
     .usa-accordion-bordered > ul > li {
       background-color: #f1f1f1;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       list-style: none;
       margin-bottom: 0.5rem;
       width: 100%; }
@@ -1870,7 +1870,7 @@ dfn {
       color: #212121;
       cursor: pointer;
       display: inline-block;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       font-weight: 700;
       margin: 0;
       padding: 1.5rem 5.5rem 1.5rem 2rem;
@@ -1904,7 +1904,7 @@ dfn {
   .usa-accordion > li,
   .usa-accordion-bordered > li {
     background-color: #f1f1f1;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     list-style: none;
     margin-bottom: 0.5rem;
     width: 100%; }
@@ -1946,7 +1946,7 @@ dfn {
   color: #212121;
   cursor: pointer;
   display: inline-block;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 700;
   margin: 0;
   padding: 1.5rem 5.5rem 1.5rem 2rem;
@@ -2019,7 +2019,7 @@ dfn {
   margin-bottom: 0; }
 
 .usa-alert-text {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 0;
   margin-top: 0; }
 
@@ -2682,7 +2682,7 @@ form [name=confirmPassword] {
 
 .usa-form-note {
   float: right;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.5rem;
   margin: 0 0 1.5rem; }
   .usa-form-note + * {
@@ -3135,7 +3135,7 @@ input.usa-input-medium {
     border: none;
     color: #212121;
     display: block;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     line-height: 1.3;
     padding: 0.85rem 1rem 0.85rem 1.8rem;
     text-decoration: none; }
@@ -3630,7 +3630,7 @@ input[type=search] {
     border: none;
     color: #212121;
     display: block;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     line-height: 1.3;
     padding: 0.85rem 1rem 0.85rem 1.8rem;
     text-decoration: none; }
@@ -3698,7 +3698,7 @@ a, a:visited, a:-webkit-any-link {
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   color: #4A4A4A;
 }
@@ -3756,12 +3756,16 @@ button {
 }
 
 .gray-section h2 {
-  color: #004469;
+  color: #112D51;
 }
 
 
 .white-section, .blue-section, .gray-section {
   padding: 100px 0px;
+}
+
+.white-section h1, .gray-section h1, .white-section h2, .gray-section h2, .white-section h3, .gray-section h3, .white-section h4, .gray-section h4, {
+  color: #112D51;
 }
 
 .white-section h2, .blue-section h2, .gray-section h2 {
@@ -3770,7 +3774,7 @@ button {
 
 .white-section h3, .blue-section h3, .gray-section h3 {
     text-transform: uppercase;
-    font-family: "Source Sans Pro";
+    font-family: "Open Sans";
 }
 
 .white-section p, .blue-section p, .gray-section p {
@@ -3825,7 +3829,7 @@ nav {
     margin-right: 0px;
     max-width: 25%; } }
 
-#splash {
+.splash {
   width: 100vw;
   text-align: center;
   height: 65vh;
@@ -3836,66 +3840,66 @@ nav {
   -o-background-size: cover;
   background-size: cover; }
 
-  #splash h1 {
+  .splash h1 {
     text-align: left;
     color: white;
     font-size: 25px;
     margin-bottom: 27px;
     margin-top: 2vh; }
 
-  #splash p {
+  .splash p {
     color: #F6F6F6;
     max-width: 577px;
     text-align: left;
     margin: auto;
     font-size: 20px;
     margin-bottom: 42px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200; }
 
-  #splash img {
+  .splash img {
     width: 60%;
   }
-  #splash button {
+  .splash button {
     width: 20px;
   }
 
-  #splash #join-sprint, #splash #get-involved {
+  .splash #join-sprint, .splash #get-involved {
     float:left; }
 
-  #splash #join-sprint {
+  .splash #join-sprint {
     background-color: #E02142;
     border-radius: 5px;
     width: 10px;
   }
 
 @media (max-width: 940px) {
-  #splash {
+  .splash {
     height: 80vh;
     }
-  #splash #join-sprint {
+  .splash #join-sprint {
     margin-right: 10px; }
-  #splash #get-involved {
+  .splash #get-involved {
     background-color: transparent;
     border: solid white 2px;
     border-radius: 5px;
     padding-left: 15px;}
-  #splash #:hover {
+  .splash #:hover {
     background-color: #84001d; }
-  #splash #start-a-project:hover {
+  .splash #start-a-project:hover {
     background-color: #004469; }
   }
 
 @media (max-width: 520px) {
-  #splash {
+  .splash {
     height: 90vh;
   }
 
-  #splash h1 {
+  .splash h1 {
     margin-top: 20px;
     text-align: center }
 
-  #splash button {
+  .splash button {
     margin-left: 80px;
   }
 }
@@ -4031,7 +4035,7 @@ nav {
       float: right;
       margin-top: -30px; }
     #gallery-body .project h2 {
-      color: black;
+      color: #112D51;
       font-size: 22px;
       width: 100%;
       float: left;
@@ -4143,7 +4147,7 @@ nav {
   .playbook-section h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     letter-spacing: .025px;
     margin-bottom: 0px; }
@@ -4282,7 +4286,7 @@ nav {
       float: left; }
       .playbook-section .role .description h4 {
         text-transform: uppercase;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         letter-spacing: .28px;
         font-size: 17px;
@@ -4297,7 +4301,7 @@ nav {
       float: left; }
       .playbook-section .role ul li {
         font-weight: 100;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         list-style-type: circle;
         margin-left: 13px;
         max-width: 321px;
@@ -4315,7 +4319,7 @@ nav {
 .resource {
   margin-bottom: 39px; }
   .resource h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px !important;
     margin-top: 8px;
@@ -4678,6 +4682,11 @@ footer {
     background-color: #84001d;
   }
 
+  #sprint-splash h1, #sprint-splash p {
+
+    text-align: center;
+  }
+
   .timeline-text {
     text-align: center;
     -o-transition:.5s;
@@ -4715,22 +4724,17 @@ footer {
   }
 
   .problem-statement {
-    border: solid #4A4A4A 2px;
+    background-color: white;
+    border-right: solid #0071BA 13px;
     padding-left: 4%;
     padding-right: 4%;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
   }
 
   .problem-statement > p {
     margin: 0.7%;
-  }
-
-  .problem-statement:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   .ps-title {
@@ -4743,24 +4747,18 @@ footer {
   }
 
   .role-card {
-    border: solid #4A4A4A 2px;
-    color: black;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     height: 400px;
   }
 
-  .role-card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  }
 
   .role-card-header {
+    padding-top: 30px;
     text-align: left;
     padding-left: 10%;
-    color: #0084C0;
+    color: #0071B9;
   }
 
   .role-card-p {
@@ -4768,6 +4766,10 @@ footer {
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 8%;
+  }
+
+  #bottom-spacer {
+    padding-bottom: 100px;
   }
 
   .yr-btn {
