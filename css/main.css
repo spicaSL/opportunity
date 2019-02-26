@@ -3873,6 +3873,10 @@ nav {
     width: 10px;
   }
 
+  .splash #get-involved {
+    border-radius: 5px;
+  }
+
 @media (max-width: 940px) {
   .splash {
     height: 80vh;
