@@ -3868,14 +3868,9 @@ nav {
     float:left; }
 
   .splash #join-sprint {
-    background-color: #E02142;
-    border-radius: 5px;
     width: 10px;
   }
 
-  .splash #get-involved {
-    border-radius: 5px;
-  }
 
 @media (max-width: 940px) {
   .splash {
@@ -3884,8 +3879,6 @@ nav {
   .splash #join-sprint {
     margin-right: 10px; }
   .splash #get-involved {
-    background-color: transparent;
-    border: solid white 2px;
     border-radius: 5px;
     padding-left: 15px;}
   .splash #:hover {
@@ -3895,8 +3888,13 @@ nav {
   }
 
 @media (max-width: 520px) {
+
+  nav #logo {
+    display: none;
+  }
+
   .splash {
-    height: 90vh;
+    height: 110vh;
   }
 
   .splash h1 {
@@ -3921,6 +3919,33 @@ nav {
 
 #participate {
   border-right: #0071BB solid 12px;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+.clear-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.blue-btn {
+  border-radius: 5px;
+  background-color: #0071BB;
+}
+.blue-btn:hover {
+  background-color: #205593;
+}
+
+.red-btn {
+  border-radius: 5px;
+  background-color: #DF2142;
+}
+.red-btn:hover {
+  background-color: #af1831;
 }
 
 #run {
@@ -4507,12 +4532,6 @@ footer {
 
 #what-is p {
   font-size: 20px; }
-
-#additional-contact button {
-  background: transparent;
-  border: solid white 2px;
-  border-radius: 2px;
-}
 
 .slick-slider {
   display: none !important; }
