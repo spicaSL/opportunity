@@ -4027,10 +4027,11 @@ nav {
   margin-top: 43px; }
   #gallery-body .project:hover {
     cursor: pointer;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  }
   #gallery-body .project {
     max-width: 737px;
-    border: solid 2px #4A4A4A;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin-right: 14px;
     margin-bottom: 28px;
     padding: 22px 22px; }
@@ -4687,8 +4688,11 @@ footer {
   }
 
   #sprint-splash h1, #sprint-splash p {
-
     text-align: center;
+  }
+
+  #sprint-splash button {
+    margin-left: 40%;
   }
 
   .timeline-text {
