@@ -93,7 +93,7 @@
     {
       "Title": "Puerto Rico Land Grid",
       "Owner": "Loveland Technologies",
-      "Category": "census",
+      "Category": "disasters",
       "Short-Message": "Puerto Rico Land Grid by Loveland Technologies combines a parcel map of Puerto Rico with a scalable mobile survey platform and federal open data sets and overlays. An accompanying survey plan and budget details an approach to assessing the occupancy, condition, land use, and needs of all 1.5 million properties on the island.",
       "Image-File": "loveland.png",
       "Gallery-Link": "pr.landgrid.com",
