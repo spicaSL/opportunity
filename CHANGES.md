@@ -57,5 +57,20 @@
 ### Changes made as of 10/17
 * All PDF links on Sprints page open to new windows
 
-### Changes made as of 2/2/19
-* Merged pull request from Cisco team, fixed broken product links
+### Changes made as of 2/22
+* Added more projects to project gallery
+* Added image thumbnails of corresponding projects
+
+### Changes made as of 2/27
+## Files Added
+* action.html
+* contact.html
+
+## Other Updates
+* Major redesign of site
+* Added visual elements and image files
+* Restructured design of the content boxes to add roundedness and updated visuals
+* Changed featured projects on the homepage
+* Updated site map in footer and contact link (now goes to the contact page)
+* Added embedded Typeform for contact page
+* Added new data filters for the projects page 
