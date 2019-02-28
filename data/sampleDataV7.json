@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "Title": "Fulcrum Community for Addressing & Disaster Preparedness",
+      "Title": "Fulcrum Community for Addressing and Disaster Preparedness",
       "Owner": "Spatial Networks",
       "Category": "addressing",
       "Short-Message": "Spatial Networks’ Fulcrum mobile app is a field data collection platform that allows communities to collect crowdsourced data. Spatial Networks used the Census Bureau’s National Address Database schema and USDA’s NAIP imagery to create a Community account for The Opportunity Project, which provides a field data crowdsourcing platform for government or agency stakeholders with gaps in their address data on the ground.",
@@ -15,7 +15,7 @@
       "Category": "disasters",
       "Short-Message": "Geoslug, a partnership between UC Santa Cruz and Motivf, created a serious game that uses federal disaster declaration and protective actions data to engage young adults in preparing for emergencies.",
       "Image-File": "geoslug.png",
-      "Gallery-Link": "dagames.us",
+      "Gallery-Link": "http://www.thedagames.com/",
       "ClearDiv": ""
     },
     {
@@ -96,7 +96,7 @@
       "Category": "disasters",
       "Short-Message": "Puerto Rico Land Grid by Loveland Technologies combines a parcel map of Puerto Rico with a scalable mobile survey platform and federal open data sets and overlays. An accompanying survey plan and budget details an approach to assessing the occupancy, condition, land use, and needs of all 1.5 million properties on the island.",
       "Image-File": "loveland.png",
-      "Gallery-Link": "pr.landgrid.com",
+      "Gallery-Link": "https://landgrid.com/us/pr#b=admin",
       "ClearDiv": ""
     },
     {
@@ -127,7 +127,7 @@
       "ClearDiv": ""
     },
     {
-      "Title": "iCASA - Civic Address Governance Platform for Puerto Rico",
+      "Title": "iCASA — Civic Address and Governance Platform for Puerto Rico",
       "Owner": "iCASA",
       "Category": "addressing",
       "Short-Message": "ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service, and the National Address Database (NAD) schema to help the municipalities and communities in Puerto Rico enhance their address infrastructure to support the reconstruction process, improve emergency response and foster a more resilient future.",
@@ -141,7 +141,7 @@
       "Category": "environment",
       "Short-Message": "Bloomberg used Economic Census and American Community Survey data for Baltimore, coupled with self-reported volunteer activity, to allow organizations to target areas to volunteer in and potential partners to successfully steward the environment.",
       "Image-File": "bloomberg.png",
-      "Gallery-Link": "https://docs.google.com/presentation/d/1W2AJQqMkd6kdH-1COaKYbimwP4uimaJtdvVXkB3SJgU/edit#slide=id.p",
+      "Gallery-Link": "https://communityanalyst.arcgis.com/esriCA/login/index.html",
       "ClearDiv": ""
     },
   {
