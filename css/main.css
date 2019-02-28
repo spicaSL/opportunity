@@ -1,4 +1,4 @@
-/*! uswds @version */
+Open Sans/*! uswds @version */
 html {
   box-sizing: border-box; }
 
@@ -362,25 +362,25 @@ th {
 
 /* stylelint-disable at-rule-empty-line-before */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-light-webfont.woff") format("woff"), url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: italic;
   font-weight: 400;
   src: url("../fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-italic-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-italic-webfont.woff") format("woff"), url("../fonts/sourcesanspro-italic-webfont.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-bold-webfont.woff") format("woff"), url("../fonts/sourcesanspro-bold-webfont.ttf") format("truetype"); }
@@ -712,7 +712,7 @@ button,
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1;
@@ -1320,7 +1320,7 @@ legend {
 
 .usa-form-hint {
   color: #757575;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 0; }
 
 [type=checkbox],
@@ -1574,7 +1574,7 @@ caption {
   text-align: left; }
 
 html {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 10px; }
 
 body {
@@ -1583,7 +1583,8 @@ body {
 p {
   line-height: 1.5;
   margin-bottom: 1em;
-  margin-top: 1em; }
+  margin-top: 1em;
+  color: #112E51;}
 
 a {
   color: #0071bc;
@@ -1638,7 +1639,7 @@ h5 {
   margin-top: 1.5em; }
 
 h6 {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 h1 {
   font-size: 4rem;
@@ -1646,7 +1647,8 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #112D51;}
 
 h3 {
   font-size: 2rem;
@@ -1684,7 +1686,7 @@ dfn {
 .usa-sans a,
 .usa-sans li,
 .usa-sans span {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 .usa-sans a {
   border-bottom: none;
@@ -1845,7 +1847,7 @@ dfn {
     .usa-accordion > ul > li,
     .usa-accordion-bordered > ul > li {
       background-color: #f1f1f1;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       list-style: none;
       margin-bottom: 0.5rem;
       width: 100%; }
@@ -1868,7 +1870,7 @@ dfn {
       color: #212121;
       cursor: pointer;
       display: inline-block;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       font-weight: 700;
       margin: 0;
       padding: 1.5rem 5.5rem 1.5rem 2rem;
@@ -1902,7 +1904,7 @@ dfn {
   .usa-accordion > li,
   .usa-accordion-bordered > li {
     background-color: #f1f1f1;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     list-style: none;
     margin-bottom: 0.5rem;
     width: 100%; }
@@ -1944,7 +1946,7 @@ dfn {
   color: #212121;
   cursor: pointer;
   display: inline-block;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 700;
   margin: 0;
   padding: 1.5rem 5.5rem 1.5rem 2rem;
@@ -2017,7 +2019,7 @@ dfn {
   margin-bottom: 0; }
 
 .usa-alert-text {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 0;
   margin-top: 0; }
 
@@ -2680,7 +2682,7 @@ form [name=confirmPassword] {
 
 .usa-form-note {
   float: right;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.5rem;
   margin: 0 0 1.5rem; }
   .usa-form-note + * {
@@ -3133,7 +3135,7 @@ input.usa-input-medium {
     border: none;
     color: #212121;
     display: block;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     line-height: 1.3;
     padding: 0.85rem 1rem 0.85rem 1.8rem;
     text-decoration: none; }
@@ -3628,7 +3630,7 @@ input[type=search] {
     border: none;
     color: #212121;
     display: block;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     line-height: 1.3;
     padding: 0.85rem 1rem 0.85rem 1.8rem;
     text-decoration: none; }
@@ -3696,7 +3698,7 @@ a, a:visited, a:-webkit-any-link {
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   color: #4A4A4A;
 }
@@ -3712,8 +3714,8 @@ h1 {
 
 button {
   border-radius: 0px;
-  min-height: 59px;
-  min-width: 237px;
+  min-height: 50px;
+  min-width: 200px;
   display: inline;
 }
 
@@ -3737,7 +3739,7 @@ button {
 }
 
 .blue-section {
-  background-color: #0078AC;
+  background-color: #205393;
   color: white;
 }
 
@@ -3754,12 +3756,16 @@ button {
 }
 
 .gray-section h2 {
-  color: #004469;
+  color: #112D51;
 }
 
 
 .white-section, .blue-section, .gray-section {
-  padding: 180px 0px;
+  padding: 100px 0px;
+}
+
+.white-section h1, .gray-section h1, .white-section h2, .gray-section h2, .white-section h3, .gray-section h3, .white-section h4, .gray-section h4, {
+  color: #112D51;
 }
 
 .white-section h2, .blue-section h2, .gray-section h2 {
@@ -3768,7 +3774,7 @@ button {
 
 .white-section h3, .blue-section h3, .gray-section h3 {
     text-transform: uppercase;
-    font-family: "Source Sans Pro";
+    font-family: "Open Sans";
 }
 
 .white-section p, .blue-section p, .gray-section p {
@@ -3780,16 +3786,17 @@ nav {
   z-index: 100;
   top: 0;
   position: fixed;
-  background-color: #004469;
+  background-color: #132F50;
   width: 100%;
   height: 70px; }
   nav #logo {
     margin-left: 3%;
-    width: 120px;
-    margin-top: 14px; }
+    text-decoration: none;
+    font-family: "Merriweather", sans-serif;
+    color: white;
+   }
   nav #links {
-    float: right;
-    margin-top: 22px; }
+    float: right; }
     nav #links :hover {
       cursor: pointer;
       opacity: .8; }
@@ -3804,97 +3811,245 @@ nav {
 @media (max-width: 690px) {
   nav #links {
     float: right;
-    width: 65%;
-    margin-right: 5%;
+    width: 100%;
+    margin-left: 35px;
    }
     nav #links a {
       display: block;
       float: left;
       text-align: center;
-      width: 33%;
-      margin-right: 0px; }
+      width: 23%;
+      margin-right: 0px;
+      font-size: 12px; }
     nav #links #see-the-projects {
-      width: 33%; }
-    nav #links #home-link {
-      display: none; }
+      margin-right: 10px;
+    }
+    nav #links #home-left {
+      padding-right: 10px;
+    }
   nav img {
     margin-left: 5%;
     margin-right: 0px;
-    max-width: 25%; } }
+    max-width: 25%; }
+  }
 
-#splash {
-  width: 100vw;
+.splash {
+  width: 100%;
   text-align: center;
-  height: 100vh;
+  height: 65vh;
   min-height: 400px;
-  background-image: url(../img/hero.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  #splash h1 {
-    color: #E3E3E3;
-    text-align: center;
-    font-size: 35px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+#index-splash-img {
+  background-image: url(../img/index-hero.png);
+}
+
+#sprint-splash-img {
+  background-image: url(../img/sprint-hero.png);
+}
+
+#projects-splash-img {
+  background-image: url(../img/projects-hero.png);
+}
+
+#involved-splash-img {
+  background-image: url(../img/involved-hero.jpeg);
+}
+
+#faq-splash-img {
+  width: 100%;
+  text-align:left;
+  background-image: url(../img/question.png);
+}
+
+#faq2-splash-img {
+  width: 100%;
+  text-align:left;
+  background-image: url(../img/question2.png);
+}
+
+  .splash h1 {
+    text-align: left;
+    color: white;
+    font-size: 25px;
     margin-bottom: 27px;
-    margin-top: calc(50vh - 115px); }
-  #splash p {
+    margin-top: 2vh; }
+
+  .splash p {
     color: #F6F6F6;
     max-width: 577px;
-    text-align: center;
+    text-align: left;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 42px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200; }
-  #splash #learn-more, #splash #start-a-project {
-    display: inline; }
-  #splash #learn-more {
-    background-color: #C8002C;
-    margin-right: 100px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  @media (max-width: 940px) {
-    #splash #learn-more {
-      margin-right: 10px; } }
-  #splash #start-a-project {
-    background-color: #0078AC;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  #splash #learn-more:hover {
+
+  .splash img {
+    width: 60%;
+  }
+  .splash button {
+    width: 20px;
+  }
+
+  .splash #join-sprint, .splash #get-involved {
+    float:left; }
+
+  .splash #join-sprint {
+    width: 10px;
+  }
+
+
+@media (max-width: 940px) {
+  .splash {
+    height: 80vh;
+    }
+  .splash #join-sprint {
+    margin-right: 10px; }
+  .splash #get-involved {
+    border-radius: 5px;
+    padding-left: 15px;}
+  .splash #:hover {
     background-color: #84001d; }
-  #splash #start-a-project:hover {
+  .splash #start-a-project:hover {
     background-color: #004469; }
+  }
 
 @media (max-width: 520px) {
-  #splash h1 {
-    margin-top: 170px; } }
 
-#what-is .call-to-action {
-  margin-top: 89px;
-  text-align: center; }
-  #what-is .call-to-action .usa-width-one-half {
-    max-width: 496px;
-    padding: 21px 42px; }
-    #what-is .call-to-action .usa-width-one-half h3 {
-      color: #004469;
-      font-size: 18px; }
-    #what-is .call-to-action .usa-width-one-half img {
-      width: 324px;
-      height: 119px;
-      margin-top: 31px;
-      margin-bottom: 57px; }
-  #what-is .call-to-action #department-of-commerce {
-    border-right: solid 1px #979797; }
-    #what-is .call-to-action #department-of-commerce p {
-      min-height: 243px; }
+  nav #logo {
+    display: none;
+  }
+
+  .splash {
+    height: 100vh;
+  }
+
+  .splash h1 {
+    margin-top: 20px;
+    text-align: center }
+
+  .splash button {
+  }
+
+  #index-splash-img {
+    text-align:center;
+    height: 100vh;
+    background-image: url(../img/index-hero-mobile.png);
+  }
+
+  #join-sprint, #get-involved {
+    margin-left: 85px;
+  }
+
+  #projects-splash-img {
+    text-align:center;
+    height: 70vh;
+    background-image: url(../img/projects-hero-mobile.png);
+  }
+
+  #involved-splash-img {
+    text-align:center;
+    height: 70vh;
+    background-image: url(../img/involved-hero-mobile.png);
+  }
+
+  #sprint-splash-img {
+    text-align:center;
+    height: 80vh;
+    background-image: url(../img/sprint-hero-mobile.png);
+  }
+
+  #sprint-splash-img #join-sprint {
+    margin-left: 85px;
+  }
+
+  #run {
+    margin-top: 40px;
+  }
+
+  #faq-splash-img {
+      text-align:center;
+      height: 70vh;
+      background-image: url(../img/question-mobile.png);
+    }
+
+  #faq2-splash-img {
+      text-align:center;
+      height: 80vh;
+      background-image: url(../img/question2-mobile.png);
+    }
+}
+
+.gray-section button {
+  border-radius: 5px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  max-height: 360px;
+}
+
+#participate {
+  border-right: #0071BB solid 12px;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+.clear-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.blue-btn {
+  border-radius: 5px;
+  background-color: #0071BB;
+}
+.blue-btn:hover {
+  background-color: #205593;
+}
+
+.red-btn {
+  border-radius: 5px;
+  background-color: #DF2142;
+}
+.red-btn:hover {
+  background-color: #af1831;
+}
+
+#run {
+  border-right: #E31C3E solid 12px;
+}
+
+.card h4 {
+  color: #0071BB;
+  font-size: 25px;
+}
+
+.card .container {
+  padding: 20px;
+}
 
 #in-action .usa-width-one-third {
   z-index: 1;
-  color: white;
+  color: #0071BA;
+  border-radius: 8px;
   margin-top: 40px;
-  border: solid 2px #F6F6F6;
-  background-color: rgba(0, 68, 105, 0.2);
+  border: solid 1px gray;
   padding: 40px 22px;
-  margin-right: 13px; }
+  margin-right: 13px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  max-height: 700px;
+ }
   #in-action .usa-width-one-third p {
     font-size: 15px;
     min-height: 176px; }
@@ -3922,15 +4077,26 @@ nav {
 
 #in-action .usa-width-one-third:hover {
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+}
+
+#in-action button {
+  min-width: 20px;
+}
+
 
 #in-the-media a {
   display: inline-block; }
 
 #in-the-media .usa-width-one-third {
   margin-top: 31px;
-  border: solid 1px #4A4A4A;
-  padding: 40px 25px; }
+  height: 330px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 40px 25px;
+  width: 48%;
+  float: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+ }
   #in-the-media .usa-width-one-third h3 {
     color: #0078AC;
     text-transform: none;
@@ -3953,21 +4119,26 @@ nav {
   display: none; }
 
 #projects-head {
-  padding-top: 156px; }
+  padding-top: 50px; }
   #projects-head h1, #projects-head p {
     color: black; }
   #projects-head p {
     margin-bottom: 25px;
     font-size: 20px; }
 
+  #project-gray {
+    padding-top: 20px;
+  }
 #gallery-body {
   margin-top: 43px; }
   #gallery-body .project:hover {
     cursor: pointer;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  }
   #gallery-body .project {
+    background-color: white;
     max-width: 737px;
-    border: solid 2px #4A4A4A;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin-right: 14px;
     margin-bottom: 28px;
     padding: 22px 22px; }
@@ -3976,7 +4147,7 @@ nav {
       float: right;
       margin-top: -30px; }
     #gallery-body .project h2 {
-      color: black;
+      color: #112D51;
       font-size: 22px;
       width: 100%;
       float: left;
@@ -4005,7 +4176,7 @@ nav {
 .filters-div h2 {
   text-transform: uppercase;
   font-size: 13px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 13px; }
 
 .filters-div button {
@@ -4088,7 +4259,7 @@ nav {
   .playbook-section h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     letter-spacing: .025px;
     margin-bottom: 0px; }
@@ -4227,7 +4398,7 @@ nav {
       float: left; }
       .playbook-section .role .description h4 {
         text-transform: uppercase;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         letter-spacing: .28px;
         font-size: 17px;
@@ -4242,7 +4413,7 @@ nav {
       float: left; }
       .playbook-section .role ul li {
         font-weight: 100;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         list-style-type: circle;
         margin-left: 13px;
         max-width: 321px;
@@ -4260,7 +4431,7 @@ nav {
 .resource {
   margin-bottom: 39px; }
   .resource h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px !important;
     margin-top: 8px;
@@ -4347,7 +4518,7 @@ a:focus {
 
 footer {
   height: 300px;
-  background-color: #004469;
+  background-color: #122E50;
   color: white;
   padding-top: 91px; }
   footer img {
@@ -4449,8 +4620,6 @@ footer {
   #what-is img {
     margin-top: 40px;
     margin-bottom: -30px; }
-  #what-is .call-to-action #department-of-commerce {
-    border-right: none; }
   .slick-slider {
     display: block !important; }
   #action-links-mobile {
@@ -4619,6 +4788,14 @@ footer {
     background-color: #84001d;
   }
 
+  #sprint-splash h1, #sprint-splash p {
+    text-align: center;
+  }
+
+  #sprint-splash button {
+    margin-left: 40%;
+  }
+
   .timeline-text {
     text-align: center;
     -o-transition:.5s;
@@ -4656,22 +4833,17 @@ footer {
   }
 
   .problem-statement {
-    border: solid #4A4A4A 2px;
+    background-color: white;
+    border-right: solid #0071BA 13px;
     padding-left: 4%;
     padding-right: 4%;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
   }
 
   .problem-statement > p {
     margin: 0.7%;
-  }
-
-  .problem-statement:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   .ps-title {
@@ -4684,24 +4856,18 @@ footer {
   }
 
   .role-card {
-    border: solid #4A4A4A 2px;
-    color: black;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     height: 400px;
   }
 
-  .role-card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  }
 
   .role-card-header {
+    padding-top: 30px;
     text-align: left;
     padding-left: 10%;
-    color: #0084C0;
+    color: #0071B9;
   }
 
   .role-card-p {
@@ -4709,6 +4875,10 @@ footer {
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 8%;
+  }
+
+  #bottom-spacer {
+    padding-bottom: 100px;
   }
 
   .yr-btn {
