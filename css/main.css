@@ -3811,34 +3811,65 @@ nav {
 @media (max-width: 690px) {
   nav #links {
     float: right;
-    width: 65%;
-    margin-right: 5%;
+    width: 100%;
+    margin-left: 35px;
    }
     nav #links a {
       display: block;
       float: left;
       text-align: center;
-      width: 33%;
-      margin-right: 0px; }
+      width: 23%;
+      margin-right: 0px;
+      font-size: 12px; }
     nav #links #see-the-projects {
-      width: 33%; }
-    nav #links #home-link {
-      display: none; }
+      margin-right: 10px;
+    }
+    nav #links #home-left {
+      padding-right: 10px;
+    }
   nav img {
     margin-left: 5%;
     margin-right: 0px;
-    max-width: 25%; } }
+    max-width: 25%; }
+  }
 
 .splash {
-  width: 100vw;
+  width: 100%;
   text-align: center;
   height: 65vh;
   min-height: 400px;
-  background-image: url(../img/hero.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+#index-splash-img {
+  background-image: url(../img/index-hero.png);
+}
+
+#sprint-splash-img {
+  background-image: url(../img/sprint-hero.png);
+}
+
+#projects-splash-img {
+  background-image: url(../img/projects-hero.png);
+}
+
+#involved-splash-img {
+  background-image: url(../img/involved-hero.jpeg);
+}
+
+#faq-splash-img {
+  width: 100%;
+  text-align:left;
+  background-image: url(../img/question.png);
+}
+
+#faq2-splash-img {
+  width: 100%;
+  text-align:left;
+  background-image: url(../img/question2.png);
+}
 
   .splash h1 {
     text-align: left;
@@ -3894,7 +3925,7 @@ nav {
   }
 
   .splash {
-    height: 110vh;
+    height: 100vh;
   }
 
   .splash h1 {
@@ -3902,8 +3933,19 @@ nav {
     text-align: center }
 
   .splash button {
-    margin-left: 80px;
   }
+
+  #faq-splash-img {
+      text-align:center;
+      height: 70vh;
+      background-image: url(../img/question-mobile.png);
+    }
+
+  #faq2-splash-img {
+      text-align:center;
+      height: 70vh;
+      background-image: url(../img/question2-mobile.png);
+    }
 }
 
 .gray-section button {
@@ -4041,7 +4083,7 @@ nav {
   display: none; }
 
 #projects-head {
-  padding-top: 156px; }
+  padding-top: 50px; }
   #projects-head h1, #projects-head p {
     color: black; }
   #projects-head p {
