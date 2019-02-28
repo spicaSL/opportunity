@@ -4950,25 +4950,6 @@ footer {
     text-align: right;
   }
 
-  .join-btn-sprint {
-    background-color: #C8002C;
-    color: white;
-    border-radius: 5px;
-    border: solid 2px #C8002C;
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
-    -webkit-transition:.2s;
-    transition:.2s;
-  }
-
-  .join-btn-sprint:hover {
-    background-color: white;
-    color: #004469;
-    border: solid 2px #C8002C;
-  }
-
-
   @media screen and (max-width: 850px) {
     #join-btn-sprint-wrapper {
       margin: 0;
