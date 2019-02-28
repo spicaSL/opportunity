@@ -3935,6 +3935,30 @@ nav {
   .splash button {
   }
 
+  #index-splash-img {
+    text-align:center;
+    height: 70vh;
+    background-image: url(../img/index-hero-mobile.png);
+  }
+
+  #projects-splash-img {
+    text-align:center;
+    height: 70vh;
+    background-image: url(../img/projects-hero-mobile.png);
+  }
+
+  #involved-splash-img {
+    text-align:center;
+    height: 70vh;
+    background-image: url(../img/involved-hero-mobile.png);
+  }
+
+  #sprint-splash-img {
+    text-align:center;
+    height: 70vh;
+    background-image: url(../img/sprint-hero-mobile.png);
+  }
+
   #faq-splash-img {
       text-align:center;
       height: 70vh;
