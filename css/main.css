@@ -3937,8 +3937,12 @@ nav {
 
   #index-splash-img {
     text-align:center;
-    height: 70vh;
+    height: 100vh;
     background-image: url(../img/index-hero-mobile.png);
+  }
+
+  #join-sprint, #get-involved {
+    margin-left: 85px;
   }
 
   #projects-splash-img {
@@ -3955,8 +3959,16 @@ nav {
 
   #sprint-splash-img {
     text-align:center;
-    height: 70vh;
+    height: 80vh;
     background-image: url(../img/sprint-hero-mobile.png);
+  }
+
+  #sprint-splash-img #join-sprint {
+    margin-left: 85px;
+  }
+
+  #run {
+    margin-top: 40px;
   }
 
   #faq-splash-img {
@@ -3967,7 +3979,7 @@ nav {
 
   #faq2-splash-img {
       text-align:center;
-      height: 70vh;
+      height: 80vh;
       background-image: url(../img/question2-mobile.png);
     }
 }
