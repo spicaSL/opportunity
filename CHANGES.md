@@ -73,4 +73,7 @@
 * Changed featured projects on the homepage
 * Updated site map in footer and contact link (now goes to the contact page)
 * Added embedded Typeform for contact page
-* Added new data filters for the projects page 
+* Added new data filters for the projects page
+
+### Changes made as of 3/1
+* Homepage media archive edits

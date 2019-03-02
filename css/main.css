@@ -3992,7 +3992,7 @@ nav {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
-  max-height: 360px;
+  height: 360px;
 }
 
 #participate {
@@ -4084,39 +4084,22 @@ nav {
 }
 
 
-#in-the-media a {
-  display: inline-block; }
+.media-card {
+  border: solid 1px gray;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 40px 22px;
+  margin-top: 20px;
+  height: 370px;
+}
 
-#in-the-media .usa-width-one-third {
-  margin-top: 31px;
-  height: 330px;
-  border-radius: 8px;
-  background-color: white;
-  padding: 40px 25px;
-  width: 48%;
-  float: left;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
- }
-  #in-the-media .usa-width-one-third h3 {
-    color: #0078AC;
-    text-transform: none;
-    margin-bottom: 0px; }
-  #in-the-media .usa-width-one-third img {
-    width: 275px;
-    height: 108px; }
-  #in-the-media .usa-width-one-third p {
-    margin-top: 0px;
-    min-height: 81px; }
+.media-card h3 {
+  color: #0071BA;
+}
 
-#in-the-media .usa-width-one-third:hover {
-  cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
-#in-the-media #in-the-media-links {
-  display: block; }
-
-#in-the-media #in-the-media-links-mobile {
-  display: none; }
+.media-link {
+  text-decoration: none;
+}
 
 #projects-head {
   padding-top: 50px; }
