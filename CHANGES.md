@@ -78,3 +78,4 @@
 ### Changes made as of 3/1
 * Homepage media archive edits
 * Projects in Action edits
+* Mobile formatting for the get involved cards
