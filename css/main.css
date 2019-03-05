@@ -3982,6 +3982,10 @@ nav {
       height: 80vh;
       background-image: url(../img/question2-mobile.png);
     }
+
+    .container p {
+      font-size: 16px;
+    }
 }
 
 .gray-section button {
