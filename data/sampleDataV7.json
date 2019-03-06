@@ -78,7 +78,7 @@
       "Category": "opioids",
       "Short-Message": "Esri’s ArcGIS Insights uses local emergency response and Census Bureau data to predict geographic areas where opioid emergencies are likely to occur to help public safety and health officials pre-position the appropriate response units in order to save lives at the moment of crisis.",
       "Image-File": "esri-opioids.png",
-      "Gallery-Link": "https://insights.demo.geocloud.com/portal/apps/insights",
+      "Gallery-Link": "https://go.esri.com/opioidprediction",
       "ClearDiv": ""
     },
     {
@@ -123,7 +123,7 @@
       "Category": "environment",
       "Short-Message": "Mapbox used U.S. Forest Service environmental stewardship data to build STEWMAP Explorer which makes it simple to see what organizations are working in which turfs for local groups to better connect with others caring for their local environment.",
       "Image-File": "Mapbox.png",
-      "Gallery-Link": "https://labs.mapbox.com/community/stew-map/",
+      "Gallery-Link": "https://labs.mapbox.com/narratives/stewards/",
       "ClearDiv": ""
     },
     {
