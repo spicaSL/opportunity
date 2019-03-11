@@ -79,3 +79,4 @@
 * Homepage media archive edits
 * Projects in Action edits
 * Mobile formatting for the get involved cards
+* Updated project links
