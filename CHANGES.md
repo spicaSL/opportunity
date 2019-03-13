@@ -80,3 +80,7 @@
 * Projects in Action edits
 * Mobile formatting for the get involved cards
 * Updated project links
+
+### Changes made as of 3/12
+* Updated media archive and homepage project gallery
+* Fixed links
