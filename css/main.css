@@ -3871,6 +3871,10 @@ nav {
   background-image: url(../img/question2.png);
 }
 
+#proposal-splash-img {
+  background-image: url(../img/proposal-hero.jpeg);
+}
+
   .splash h1 {
     text-align: left;
     color: white;
