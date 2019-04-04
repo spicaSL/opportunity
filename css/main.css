@@ -3902,6 +3902,15 @@ nav {
     width: 10px;
   }
 
+  .splash #proposal1, #proposal2 {
+    margin-left: 29%;
+    float: left;
+  }
+
+  .splash #proposal2 {
+    margin-left: auto;
+  }
+
 
 @media (max-width: 940px) {
   .splash {
@@ -3917,9 +3926,9 @@ nav {
   .splash #start-a-project:hover {
     background-color: #004469; }
   }
+/* end max-width: 940 */
 
 @media (max-width: 520px) {
-
   nav #logo {
     display: none;
   }
@@ -3932,7 +3941,11 @@ nav {
     margin-top: 20px;
     text-align: center }
 
-  .splash button {
+  .splash #proposal1 {
+    margin-left: 15%;
+  }
+  .splash #proposal2 {
+    margin-left: 15%;
   }
 
   #index-splash-img {
@@ -3975,7 +3988,7 @@ nav {
       text-align:center;
       height: 70vh;
       background-image: url(../img/question-mobile.png);
-    }
+  }
 
   #faq2-splash-img {
       text-align:center;
@@ -3987,6 +4000,7 @@ nav {
       font-size: 16px;
     }
 }
+/* end max-width: 520 */
 
 .gray-section button {
   border-radius: 5px;
