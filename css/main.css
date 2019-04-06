@@ -3980,6 +3980,12 @@ nav {
     background-image: url(../img/sprint-hero-mobile.png);
   }
 
+  #proposal-splash-img {
+    text-align:center;
+    height: 80vh;
+    background-image: url(../img/proposal-hero-mobile.jpeg);
+  }
+
   #sprint-splash-img #join-sprint {
     margin-left: 85px;
   }

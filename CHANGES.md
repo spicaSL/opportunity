@@ -84,3 +84,6 @@
 ### Changes made as of 3/12
 * Updated media archive and homepage project gallery
 * Fixed links
+
+### Changes made as of 4/4
+* Added unlisted proposal.html page
