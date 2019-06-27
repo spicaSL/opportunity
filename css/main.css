@@ -4862,6 +4862,10 @@ footer {
     color: #5F8FC3;
   }
 
+  .ps-active {
+      display: inline;
+  }
+
   .timeline-section {
     background-color: blue;
   }
@@ -4908,7 +4912,7 @@ footer {
     transition:.2s;
   }
 
-  .yr-btn:hover {
+  .yr-btn:hover, .yr-btn-active {
     color: white;
     background-color: #004469;
   }
@@ -4923,8 +4927,12 @@ footer {
     cursor: pointer;
   }
 
-  .ps-2017, .ps-2016 {
+  .ps {
     display: none;
+  }
+
+  .ps-active {
+    display: inline;
   }
 
   .sprint-see-more {
@@ -4932,7 +4940,7 @@ footer {
   }
 
   .ps-image {
-    width: 23%;
+    width: auto;
     height: 250px;
     float: left;
     margin-top: 3%;
@@ -4941,7 +4949,7 @@ footer {
 
   .ps-image-small {
     float: left;
-    width: 20%;
+    width: auto;
     height: 150px;
     margin-top: 3%;
     margin-right: 2%;
@@ -4949,7 +4957,7 @@ footer {
 
   .ps-image-mid {
     float: left;
-    width: 20%;
+    width: auto;
     height: 200px;
     margin-top: 3%;
     margin-right: 2%;
