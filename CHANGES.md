@@ -1,3 +1,11 @@
+
+### Changes made as of 6/27
+
+### Sprints:
+* Added 2019 sprints
+* Cleaned year toggle script
+* Add 2019 document
+
 ## Changes made as of 2/7/2018
 
 ### All pages:
