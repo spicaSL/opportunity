@@ -27,15 +27,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coil.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coil.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+            <state relative-caret-position="308">
+              <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
               <folding>
-                <element signature="e#4574#4580#0" expanded="true" />
-                <element signature="e#6525#6531#0" expanded="true" />
-                <element signature="e#7418#7424#0" expanded="true" />
+                <element signature="e#5224#5230#0" expanded="true" />
+                <element signature="e#7175#7181#0" expanded="true" />
+                <element signature="e#8068#8074#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accelerate.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="accelerate.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/accelerate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="4089" column="24" lean-forward="true" selection-start-line="4089" selection-start-column="24" selection-end-line="4089" selection-end-column="24" />
+            <state relative-caret-position="351">
+              <caret line="3709" column="16" lean-forward="false" selection-start-line="3709" selection-start-column="16" selection-end-line="3709" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -85,8 +85,9 @@
       <find>accelerate is</find>
       <find>nationa</find>
       <find>#splash</find>
-      <find>’</find>
       <find>display</find>
+      <find>spacer</find>
+      <find>’</find>
     </findStrings>
     <replaceStrings>
       <replace>DM Sans</replace>
@@ -102,8 +103,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/accelerate.html" />
-        <option value="$PROJECT_DIR$/css/accelerate.css" />
         <option value="$PROJECT_DIR$/coil.html" />
+        <option value="$PROJECT_DIR$/css/accelerate.css" />
       </list>
     </option>
   </component>
@@ -181,12 +182,12 @@
       <updated>1561995811941</updated>
       <workItem from="1561995814152" duration="152000" />
       <workItem from="1563395400546" duration="8458000" />
-      <workItem from="1563508473568" duration="8293000" />
+      <workItem from="1563508473568" duration="9185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16903000" />
+    <option name="totallyTimeSpent" value="17795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
@@ -261,14 +262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/accelerate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="4089" column="24" lean-forward="true" selection-start-line="4089" selection-start-column="24" selection-end-line="4089" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accelerate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -279,13 +272,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+        <state relative-caret-position="308">
+          <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
           <folding>
-            <element signature="e#4574#4580#0" expanded="true" />
-            <element signature="e#6525#6531#0" expanded="true" />
-            <element signature="e#7418#7424#0" expanded="true" />
+            <element signature="e#5224#5230#0" expanded="true" />
+            <element signature="e#7175#7181#0" expanded="true" />
+            <element signature="e#8068#8074#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/accelerate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="3709" column="16" lean-forward="false" selection-start-line="3709" selection-start-column="16" selection-end-line="3709" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
