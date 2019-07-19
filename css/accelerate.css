@@ -3678,7 +3678,7 @@ button {
 }
 
 .gray-section {
-  background-color: #f1f1f1;
+  background-color: #f0f6ff;
 }
 
 .white-section, .blue-section, .gray-section {
@@ -3737,19 +3737,31 @@ nav {
   text-align: center;
   height: 80vh;
   min-height: 400px;
-  background-image: url(../img/hero.png);
+  /*background-image: url(../img/hero.png);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #splash img {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    right: -100px;
+    z-index: 99;
+  }
   #splash h1 {
-    color: #E3E3E3;
-    text-align: center;
-    font-size: 5em;
-    font-style: italic;
-    letter-spacing: 2px;
+    position: absolute;
+    color: #5bc0de;
+    text-align: left;
+    font-size: 3em;
+    font-family: 'DM Sans', sans-serif;
     margin-bottom: 27px;
-    margin-top: calc(40vh - 115px); }
+    margin-top: calc(30vh - 115px);
+    line-height: 0.8em;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    z-index: 100;}
   #splash p {
     color: #F6F6F6;
     max-width: 577px;
@@ -3916,8 +3928,8 @@ footer {
 }
 
 .accelerate-title {
-  font-family: "DM Serif Display";
-  font-size: 2.5em;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2em;
   font-style: italic;
   font-weight: 800;
   margin-bottom: 1em;
@@ -3944,8 +3956,8 @@ footer {
 }
 
 .accelerate-subheader {
-  font-family: "DM Serif Display";
-  font-size: 1.5em;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3em;
   font-style: italic;
   font-weight: 900;
   margin: 1em 0em;
@@ -3956,17 +3968,22 @@ footer {
   text-align: center;
 }
 
+.small {
+  font-size: 0.5em;
+  line-height: 0.5em;
+}
+
 .collaborate-item {
-  width: 60%;
+  width: 80%;
   text-align: center;
   display: block;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 .collaborate-item > img {
-  width: 50%;
+  width: 70%;
   height: auto;
-  margin-left: 25%;
+  margin-left: 15%;
   margin-bottom: 1em;
   display: block;
 
@@ -3992,4 +4009,28 @@ footer {
   font-weight: 900;
   margin-top: 1em;
   margin-bottom: 1em !important;
+}
+
+.accelerate-img-half-overlay {
+  z-index: 150;
+  display: block;
+  position: inherit;
+  margin-top: -50vh;
+  margin-left: -10vw;
+  margin-bottom: 3em;
+}
+
+.half-image {
+  display: block;
+  margin-bottom: 20vh;
+  /*position: absolute;*/
+}
+
+.left {
+  float: left;
+}
+
+.get-involved-img {
+  width: 100%;
+  height: auto;
 }
