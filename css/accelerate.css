@@ -3707,7 +3707,8 @@ nav {
     margin-left: 3%;
     width: 400px;
     margin-top: 22px;
-    float: left
+    float: left;
+    color: #5bc0de;
   }
   nav #links {
     float: right;
@@ -3719,7 +3720,7 @@ nav {
       font-size: 16px;
       font-weight: 600;
       text-decoration: none;
-      color: #004469;
+      color: #5bc0de;
       margin-right: 76px;
       letter-spacing: .5px; }
 
@@ -4003,6 +4004,10 @@ footer {
   margin-bottom: 3em;
 }
 
+.spacer-top {
+  margin-top: 6em;
+}
+
 .sprint-title, .sprint-location {
   color: #5bc0de;
 }
@@ -4074,6 +4079,10 @@ footer {
   font-weight: 800;
   border-bottom: 1px solid lightgray;
   font-size: 1.2em;
+}
+
+.initiative-interactive .initiative-title {
+  border-bottom: 6px solid #5bc0de;
 }
 
 .initiative-interactive:hover {
