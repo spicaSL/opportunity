@@ -3681,6 +3681,17 @@ button {
   background-color: #f0f6ff;
 }
 
+
+.blue-section {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.blue-section .accelerate-label {
+  color: white;
+}
+
+
 .white-section, .blue-section, .gray-section {
   padding: 180px 0px;
 }
@@ -3910,7 +3921,6 @@ footer {
 
 
 .accelerate-brand {
-  text-align: center;
   vertical-align: middle;
   font-weight: 900;
 }
@@ -4033,4 +4043,61 @@ footer {
 .get-involved-img {
   width: 100%;
   height: auto;
+}
+
+
+
+
+
+/* COIL LANDING */
+
+.usa-row {
+  display: flex;
+}
+
+.initiative-card {
+  background-color: white;
+  /*border-radius: 25px;*/
+  flex: 1;
+  padding: 2em;
+  margin: 1em;
+  -webkit-box-shadow: 3px 3px 32px -19px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 3px 32px -19px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 32px -19px rgba(0,0,0,0.5);
+}
+
+.initiative-text {
+  font-size: 0.85em;
+}
+
+.initiative-title {
+  font-weight: 800;
+  border-bottom: 1px solid lightgray;
+  font-size: 1.2em;
+}
+
+.initiative-interactive:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 3px 3px 32px -19px rgba(0,0,0,1);
+  -moz-box-shadow: 3px 3px 32px -19px rgba(0,0,0,1);
+  box-shadow: 3px 3px 32px -19px rgba(0,0,0,1);
+}
+
+.initiative-card a {
+  color: #5bc0de;
+}
+
+.initiative-card a:hover {
+  color: #4700cc;
+}
+
+
+.coil-icon-img {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+  /*margin-top: 1em;*/
+  display: inline;
+  float: left;
+  vertical-align: middle;
 }
