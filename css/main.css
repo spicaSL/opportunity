@@ -3878,9 +3878,11 @@ nav {
   .splash h1 {
     text-align: left;
     color: white;
-    font-size: 25px;
+    font-size: 3em;
+    font-family: "DM Sans", sans-serif;
     margin-bottom: 27px;
-    margin-top: 2vh; }
+    margin-top: 2vh;
+  }
 
   .splash p {
     color: #F6F6F6;
@@ -3943,13 +3945,9 @@ nav {
 
   .splash h1 {
     margin-top: 20px;
-    text-align: center }
-
-  .splash #proposal1 {
-    margin-left: 15%;
-  }
-  .splash #proposal2 {
-    margin-left: 15%;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 4em;
   }
 
   #index-splash-img {
