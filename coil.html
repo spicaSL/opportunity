@@ -8,21 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> COIL </title>
   <meta name="description" content="">
-  <link type="text/css" rel="stylesheet" href="css/main.css">
+  <link type="text/css" rel="stylesheet" href="css/accelerate.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/uswds.min.js"></script>
   <script src="js/hide-show-toggle.js"></script>
   <link href="img/icon.png" rel="icon" type="image/png">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i|DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
-  <nav>
+
+  <nav id="accel-nav">
     <div class="usa-grid-wide">
       <div class="usa-width-one-whole">
-        <br>
-        <a id="logo" href="coil.html">Census Open Innovation Labs</a>
+        <a href="#" id="logo" class="accelerate-brand">Census Open Innovation Labs</a>
         <div id="links">
           <a href="#in-action"> Initiatives </a>
           <a href="#about"> About </a>
@@ -32,68 +32,74 @@
     </div>
   </nav>
 
-  <div id="center-photo">
-    <img src="img/2017-census.jpg" alt="COIL landing photo" id="auditorium">
-  </div>
 
-  <section class="white-section" id="about" style="padding: 40px 0px;">
+  <!--<div id="center-photo">-->
+    <!--<img src="img/2017-census.jpg" alt="COIL landing photo" id="auditorium">-->
+  <!--</div>-->
+
+  <section class="white-section" id="about">
     <div class="usa-grid">
-      <div class="usa-width-two-thirds">
-        <h2>What is the Census Open Innovation Labs?</h2>
-        <p>Census Open Innovation Labs (COIL) is a nimble, startup-like team within the U.S. Census Bureau with a
-          portfolio of projects that are setting a standard for open innovation across government. </p>
-        <p>COIL leverages the networks, talents, and expertise of companies, organizations, and individuals
-          outside our own walls to deliver on two key objectives:</p>
-        <ol>
-          <li>increasing American prosperity by disseminating federal open data, and</li>
-          <li>increasing response rates for the 2020 Census, particularly among communities
-            considered “hard to count”— those historically yielding low response rates.</li>
-        </ol>
-        <p>COIL’s open innovation strategies include ideation workshops, user-centered design, user experience
+      <br>
+      <div class="usa-width-one-whole">
+        <div class="accelerate-label">What is the Census Open Innovation Labs?</div>
+        <div class="accelerate-title">
+          Census Open Innovation Labs (COIL) is a nimble, startup-like team within the U.S. Census Bureau with a portfolio of projects that are setting a standard for open innovation across government.
+        </div>
+        <div class="accelerate-text usa-width-three-fourths">
+          <p>COIL leverages the networks, talents, and expertise of companies, organizations, and individuals
+            outside our own walls to deliver on two key objectives:</p>
+          <ul>
+            <li>increasing American prosperity by disseminating federal open data, and</li>
+            <li>increasing response rates for the 2020 Census, particularly among communities
+              considered <strong>"hard to count"</strong> - those historically yielding low response rates.</li>
+          </ul>
+          <br>
+          <p>COIL's open innovation strategies include ideation workshops, user-centered design, user experience
           research, technology development sprints, prize competitions, crowdsourcing, and creative partnerships.
           These initiatives solve major national problems by engaging a diverse ecosystem of stakeholders from
           the tech, media, and entertainment industries; federal, state and local government; nonprofit organizations,
-          advocates, local communities, and more.</p>
-      </div>
-      <div class="usa-width-one-third">
-        <img src="img/2017-veterans.jpg" alt="COIL landing photo">
+          advocates, local communities, and more.</p></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <div class="coil-splash" id="mission">
-    <div class="usa-grid"> <br>
-      <div class="usa-width-one-whole">
-        <h1> Our Mission </h1>
-        <p> COIL’s mission is to source knowledge and solutions to solve key challenges for the Census Bureau
-          and the public at large through user-centered design, data, creative media, and technology. </p>
-      </div>
-    </div>
-  </div>
 
-  <section id="in-action" class="white-section" style="padding: 40px 0px;">
+  <section class="blue-section" id="mission">
     <div class="usa-grid">
-      <h2> Initiatives </h2>
-      <div id="action-links">
-        <div>
-          <a href="https://opportunity.census.gov/" target="_blank">
-            <div style="height:550px;" class="usa-width-one-third">
-              <h3>The Opportunity Project</h3>
-              <p>The Opportunity Project (TOP) is a technology accelerator program that brings together the tech
-                industry, government, and communities, to generate digital products that benefit the public and drive
-                the economy by using federal open data. TOP works through 12-week tech development sprints, facilitated
-                by COIL, to drive new digital solutions that leverage federal, state and local open data to directly
-                serve families, local leaders, and businesses and communities at large. To date, 80 products have been
-                created through TOP, addressing problems like the opioid crisis, disaster response, veterans’
-                employment, and more.
-              </p>
-            </div>
-          </a>
+      <br>
+      <div class="usa-width-one-whole">
+        <div class="accelerate-label">Our Mission</div>
+        <div class="accelerate-title">
+          COIL's mission is to source knowledge and solutions to solve key challenges for the Census Bureau and the public at large through user-centered design, data, creative media, and technology.
         </div>
-        <div>
-          <div style="height:550px;" class="usa-width-one-third">
-            <h3>Census Accelerate </h3>
-            <p>Census Accelerate is an initiative that matches creative talent with organizations serving
+    </div>
+    </div>
+  </section>
+
+
+  <section id="in-action" class="gray-section" id="initiatives">
+    <div class="usa-grid">
+      <div class="accelerate-label">Our Work</div>
+      <div class="accelerate-header">Initiatives</div>
+      <div id="action-links">
+        <div class="usa-row usa-grid">
+          <div class="usa-width-one-half initiative-card initiative-interactive">
+            <div class="initiative-title">The Opportunity Project</div>
+            <p class="initiative-text">The Opportunity Project (TOP) is a technology accelerator program that brings together the tech
+              industry, government, and communities, to generate digital products that benefit the public and drive
+              the economy by using federal open data. TOP works through 12-week tech development sprints, facilitated
+              by COIL, to drive new digital solutions that leverage federal, state and local open data to directly
+              serve families, local leaders, and businesses and communities at large. To date, 80 products have been
+              created through TOP, addressing problems like the opioid crisis, disaster response, veterans'
+              employment, and more.
+            </p>
+              <br>
+              <a href="https://opportunity.census.gov/" target="_blank">Learn More &rarr;</a>
+          </div>
+          <div class="usa-width-one-half initiative-card">
+            <div class="initiative-title">Census Accelerate </div>
+            <p class="initiative-text">Census Accelerate is an initiative that matches creative talent with organizations serving
               hard-to-count communities in order to increase 2020 Census response rates. Like The Opportunity Project,
               Census Accelerate works in user-centered sprints and workshops in which participating companies,
               organizations, creative professionals, and influencers develop outreach materials for specific
@@ -102,46 +108,42 @@
             </p>
           </div>
         </div>
-        <div>
-          <a href="https://www.usability.gov/what-and-why/user-centered-design.html" target="_blank">
-            <div style="height:550px;" class="usa-width-one-third">
-              <h3>User-Centered Design Training Program</h3>
-              <p>User-Centered Design is a critical approach to creating effective, user-friendly products and services
-                by putting people first. COIL trains federal staff and leadership in user-centered design and design
-                thinking as a means of creative problem solving to yield better outcomes, increase cost savings, improve
-                customer engagement, and reduce burden on data users and the public. This program infuses the day-to-day
-                business of the Census Bureau with a new approach to engaging stakeholders across various fields,
-                industries, as well as the government sector, helping to make the Census Bureau a benchmark leader in
-                user experience and citizen services.
-              </p>
-            </div>
-          </a>
+        <div class="usa-row usa-grid">
+          <div class="usa-width-one-half initiative-card initiative-interactive">
+            <div class="initiative-title">User-Centered Design Training Program</div>
+            <p class="initiative-text">User-Centered Design is a critical approach to creating effective, user-friendly products and services
+              by putting people first. COIL trains federal staff and leadership in user-centered design and design
+              thinking as a means of creative problem solving to yield better outcomes, increase cost savings, improve
+              customer engagement, and reduce burden on data users and the public. This program infuses the day-to-day
+              business of the Census Bureau with a new approach to engaging stakeholders across various fields,
+              industries, as well as the government sector, helping to make the Census Bureau a benchmark leader in
+              user experience and citizen services.
+            </p>
+            <br>
+            <a href="https://www.usability.gov/what-and-why/user-centered-design.html" target="_blank">Learn More &rarr;</a>
+          </div>
+          <div class="usa-width-one-half initiative-card initiative-interactive">
+            <div class="initiative-title">Civic Digital Fellows Program (CDF)</div>
+            <p class="initiative-text">COIL manages the Census Bureau's participation in The Civic Digital Fellows program (CDF), a
+              first-of-its-kind technology, data science, and design internship program for innovative students and
+              recent grads to solve pressing problems in federal agencies. Student-led nonprofit Coding It Forward
+              places fellows across government to empower computer science, data science, and design students to
+              create social good by breaking down the barriers to entry in social impact spaces.
+            </p>
+            <br>
+            <a href="https://www.codingitforward.com/fellowship" target="_blank">Learn More &rarr;</a>
+          </div>
         </div>
-        <div>
-          <a href="https://www.codingitforward.com/fellowship" target="_blank">
-            <div style="height:550px;" class="usa-width-one-third">
-              <h3>Civic Digital Fellows Program (CDF) </h3>
-              <p>COIL manages the Census Bureau’s participation in The Civic Digital Fellows program (CDF), a
-                first-of-its-kind technology, data science, and design internship program for innovative students and
-                recent grads to solve pressing problems in federal agencies. Student-led nonprofit Coding It Forward
-                places fellows across government to empower computer science, data science, and design students to
-                create social good by breaking down the barriers to entry in social impact spaces.
-              </p>
-            </div>
-          </a>
-        </div>
-        <div>
-          <div style="height:550px;" class="usa-width-one-third">
-            <h3>Big Tech Engagements</h3>
-            <p>COIL leverages its unique technology industry experience to engage with some of the world’s largest
+        <div class="usa-row usa-grid">
+          <div class="usa-width-one-half initiative-card">
+            <div class="initiative-title">Big Tech Engagements</div>
+            <p class="initiative-text">COIL leverages its unique technology industry experience to engage with some of the world's largest
               platforms on 2020 Census-related issues and data dissemination.
             </p>
           </div>
-        </div>
-        <div>
-          <div style="height:550px;" class="usa-width-one-third">
-            <h3>User Engagement Research & Workshops</h3>
-            <p>COIL's team includes experts in user experience design and engagement. We engage data consumers, and
+          <div class="usa-width-one-half initiative-card">
+            <div class="initiative-title">User Engagement Research & Workshops</div>
+            <p class="initiative-text">COIL's team includes experts in user experience design and engagement. We engage data consumers, and
               members of the public around responding to our Censuses and surveys through in-person user engagement
               workshops, ideation activities, and direct user research.
             </p>
@@ -151,31 +153,61 @@
     </div>
   </section>
 
-  <section class="blue-section" id="contact" style="padding: 40px 0px;">
+
+  <section class="white-section" id="contact">
     <div class="usa-grid">
+      <br>
       <div class="usa-width-one-whole">
-        <h2> Get Involved </h2>
-        <div class="usa-grid">
-          <div class="usa-width-two-thirds">
-            <h3>This all sounds great - how can I contact COIL?</h3>
-            <p>The Opportunity Project is a process for engaging government, communities,
-              and the technology industry to create digital tools that address our greatest
-              challenges as a nation.
-            </p>
-          </div>
-          <div class="usa-width-one-third">
-            <p>Engage with the community! <br> <a href="https://slack.com/"
-                style="color: #fff; text-decoration: underline!important; font-style: italic;">Join our Slack
-                channel</a> </p>
-            <!-- Don't have link for Slack-->
-          </div>
+        <div class="accelerate-label">Contact</div>
+        <div class="accelerate-text">
+          <strong>This all sounds great - how can I contact COIL?</strong>
+          <p>The Opportunity Project is a process for engaging government, communities,
+            and the technology industry to create digital tools that address our greatest
+            challenges as a nation.
+          </p>
+          <br>
+          <br>
+          <strong>Engage with the Community</strong>
+          <br>
+          <br>
+          <a href="https://slack.com/" class="coil-icon-text">
+            <img src="img/coil-slack.png" class="coil-icon-img">
+            Join our Slack Channel
+          </a>
         </div>
       </div>
+    </div>
   </section>
 
   <script src="js/smooth-scroll.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
-</body>
 
+
+<footer>
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <ul style="margin-top: 1em">
+        <li>Site Map</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#initiatives">Initiatives</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul>
+        <li>Resources</li>
+        <li><a href="http://data.gov/"> Data.gov</a></li>
+        <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+        <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+        <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
+      </ul>
+      <div id="images">
+        <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+        <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
 </html>
