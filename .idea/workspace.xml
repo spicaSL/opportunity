@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e9dde1e-0a2a-45fc-81be-ccfe7a1f44f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2016-ag1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2016-doe2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2016-dol1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2016-dot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2016-sg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2017-veterans.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2018-disasters.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2018-grants.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2018-reportcard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2018-stem.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2019-workforce-eship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2019-workforce-pathways.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2019-workforce-talent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2019-workforce-zones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/data-consumers/Socrata.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/proposal_2019.pdf" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/accel.css" afterPath="$PROJECT_DIR$/css/accelerate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/accelerate-data.png" afterPath="$PROJECT_DIR$/img/accelerate-data.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/accelerate-information.png" afterPath="$PROJECT_DIR$/img/accelerate-information.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/accelerate-marginalized-communities.png" afterPath="$PROJECT_DIR$/img/accelerate-marginalized-communities.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/accelerate-representation.png" afterPath="$PROJECT_DIR$/img/accelerate-representation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accelerate.html" afterPath="$PROJECT_DIR$/accelerate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/accelerate.css" afterPath="$PROJECT_DIR$/css/accelerate.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +25,18 @@
       <file leaf-file-name="accelerate.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accelerate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="270" column="42" lean-forward="false" selection-start-line="270" selection-start-column="42" selection-end-line="270" selection-end-column="42" />
+            <state relative-caret-position="304">
+              <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coil.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coil.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,8 +45,8 @@
       <file leaf-file-name="accelerate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/accelerate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="3982" column="3" lean-forward="false" selection-start-line="3982" selection-start-column="3" selection-end-line="3982" selection-end-column="3" />
+            <state relative-caret-position="391">
+              <caret line="3985" column="16" lean-forward="false" selection-start-line="3985" selection-start-column="16" selection-end-line="3985" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,8 +75,9 @@
       <find>accelerate</find>
       <find>accelerate is</find>
       <find>nationa</find>
-      <find>splash</find>
       <find>’</find>
+      <find>#splash</find>
+      <find>display</find>
     </findStrings>
     <replaceStrings>
       <replace>DM Sans</replace>
@@ -173,12 +171,12 @@
       <updated>1561995811941</updated>
       <workItem from="1561995814152" duration="152000" />
       <workItem from="1563395400546" duration="8458000" />
-      <workItem from="1563508473568" duration="110000" />
+      <workItem from="1563508473568" duration="5038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8720000" />
+    <option name="totallyTimeSpent" value="13648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
@@ -245,18 +243,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/accelerate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="3982" column="3" lean-forward="false" selection-start-line="3982" selection-start-column="3" selection-end-line="3982" selection-end-column="3" />
+        <state relative-caret-position="391">
+          <caret line="3985" column="16" lean-forward="false" selection-start-line="3985" selection-start-column="16" selection-end-line="3985" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accelerate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="270" column="42" lean-forward="false" selection-start-line="270" selection-start-column="42" selection-end-line="270" selection-end-column="42" />
+        <state relative-caret-position="304">
+          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
           <folding />
         </state>
       </provider>
