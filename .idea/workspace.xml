@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e9dde1e-0a2a-45fc-81be-ccfe7a1f44f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coil.html" afterPath="$PROJECT_DIR$/coil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/accelerate.css" afterPath="$PROJECT_DIR$/css/accelerate.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coil.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="coil.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+            <state relative-caret-position="323">
+              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#5224#5230#0" expanded="true" />
                 <element signature="e#7175#7181#0" expanded="true" />
@@ -51,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accelerate.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="accelerate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/accelerate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="267">
               <caret line="3709" column="16" lean-forward="false" selection-start-line="3709" selection-start-column="16" selection-end-line="3709" selection-end-column="16" />
               <folding />
             </state>
@@ -86,8 +85,8 @@
       <find>nationa</find>
       <find>#splash</find>
       <find>display</find>
-      <find>spacer</find>
       <find>’</find>
+      <find>spacer</find>
     </findStrings>
     <replaceStrings>
       <replace>DM Sans</replace>
@@ -103,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/accelerate.html" />
-        <option value="$PROJECT_DIR$/coil.html" />
         <option value="$PROJECT_DIR$/css/accelerate.css" />
+        <option value="$PROJECT_DIR$/coil.html" />
       </list>
     </option>
   </component>
@@ -182,12 +181,12 @@
       <updated>1561995811941</updated>
       <workItem from="1561995814152" duration="152000" />
       <workItem from="1563395400546" duration="8458000" />
-      <workItem from="1563508473568" duration="9185000" />
+      <workItem from="1563508473568" duration="9516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17795000" />
+    <option name="totallyTimeSpent" value="18126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
@@ -270,23 +269,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/accelerate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="3709" column="16" lean-forward="false" selection-start-line="3709" selection-start-column="16" selection-end-line="3709" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+        <state relative-caret-position="323">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#5224#5230#0" expanded="true" />
             <element signature="e#7175#7181#0" expanded="true" />
             <element signature="e#8068#8074#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/accelerate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="3709" column="16" lean-forward="false" selection-start-line="3709" selection-start-column="16" selection-end-line="3709" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
