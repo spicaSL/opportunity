@@ -3747,7 +3747,6 @@ button {
 #splash {
   width: 100vw;
   text-align: center;
-  height: 80vh;
   min-height: 400px;
   /*background-image: url(../img/hero.png);*/
   -webkit-background-size: cover;
@@ -3755,12 +3754,12 @@ button {
   -o-background-size: cover;
   background-size: cover; }
   #splash img {
-    width: 80vw;
+    width: 100vw;
     height: auto;
-    position: absolute;
-    top: 100px;
-    right: -100px;
     z-index: 99;
+    /* margin-right: -100px; */
+    display: initial;
+    margin-top: 80px;
   }
   #splash h1 {
     position: absolute;
@@ -4026,6 +4025,9 @@ footer {
 .sprint-location {
   text-align: left;
   padding-right: 2em;
+  vertical-align: top;
+  margin-top: 1em;
+  font-weight: 800;
 }
 
 .sprint-title {
@@ -4037,12 +4039,15 @@ footer {
   margin-bottom: 1em !important;
 }
 
-.accelerate-img-half-overlay {
+.accelerate-img-half-overlay, #accelerate-splash-img {
   display: block;
   position: inherit;
-  margin-top: -50vh;
   margin-left: -10vw;
   margin-bottom: 3em;
+}
+
+.accelerate-img-half-overlay {
+  margin-top: -50vh;
 }
 
 .half-image {
@@ -4235,7 +4240,7 @@ footer {
   }
 
   .usa-menu-btn {
-    max-width: 20vw;
+    max-width: 23vw;
     font-size: 1em !important;
   }
 
@@ -4286,6 +4291,25 @@ footer {
 
   .white-section, .blue-section, .gray-section {
     padding: 80px 0px;
+  }
+
+  footer {
+    padding-top: 50px;
+    bottom: 0px;
+    height: auto;
+  }
+
+  .sprint-title {
+    font-size: 1em;
+  }
+
+  .sprint-location {
+    font-size: 1em;
+    margin-top: 4em;
+  }
+
+  .grid-row {
+    word-wrap: break-word;
   }
 
 }

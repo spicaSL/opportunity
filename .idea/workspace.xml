@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e9dde1e-0a2a-45fc-81be-ccfe7a1f44f9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/accelerate-blob-1.png" afterPath="$PROJECT_DIR$/img/accelerate-blob-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accelerate.html" afterPath="$PROJECT_DIR$/accelerate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coil.html" afterPath="$PROJECT_DIR$/coil.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/accelerate.css" afterPath="$PROJECT_DIR$/css/accelerate.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,9 +22,12 @@
       <file leaf-file-name="accelerate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accelerate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1720">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="252">
+              <caret line="206" column="14" lean-forward="false" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+              <folding>
+                <marker date="1563990719583" expanded="true" signature="9907:14733" ph="..." />
+                <marker date="1563990719583" expanded="false" signature="15040:15055" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +35,8 @@
       <file leaf-file-name="coil.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="184" column="10" lean-forward="false" selection-start-line="184" selection-start-column="10" selection-end-line="206" selection-end-column="14" />
+            <state relative-caret-position="1290">
+              <caret line="86" column="49" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="86" selection-end-column="49" />
               <folding>
                 <element signature="e#5733#5739#0" expanded="true" />
                 <element signature="e#7684#7690#0" expanded="true" />
@@ -58,8 +62,8 @@
       <file leaf-file-name="accelerate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/accelerate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="4206" column="23" lean-forward="false" selection-start-line="4206" selection-start-column="23" selection-end-line="4206" selection-end-column="23" />
+            <state relative-caret-position="328">
+              <caret line="4029" column="19" lean-forward="false" selection-start-line="4029" selection-start-column="19" selection-end-line="4029" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -90,7 +94,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Source Sans Pro</find>
-      <find>splash</find>
       <find>#logo</find>
       <find>.splash h1</find>
       <find>merriweather</find>
@@ -111,11 +114,16 @@
       <find>usa-navbar</find>
       <find>\&lt;section class\=\&quot;white\-section\&quot; id\=\&quot;collaboration\&quot;\&gt;\n    \&lt;div class\=\&quot;usa\-grid\&quot;\&gt;\n      \&lt;div class\=\&quot;usa\-width\-one\-whole\&quot;\&gt;\n        \&lt;div class\=\&quot;accelerate\-label\&quot;\&gt;Collaboration\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;accelerate\-header\&quot;\&gt;\n          Why Collaborate\?\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;usa\-grid spacer\&quot;\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-half\&quot;\&gt;\n            \&lt;div class\=\&quot;collaborate\-item\&quot;\&gt;\n              \&lt;img src\=\&quot;img\/accelerate\-representation\.png\&quot;\&gt;\n              Help your community receive its fair share of funding for public services and representation in Congress\n            \&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-half\&quot;\&gt;\n            \&lt;div class\=\&quot;collaborate\-item\&quot;\&gt;\n              \&lt;img src\=\&quot;img\/accelerate\-information\.png\&quot;\&gt;\n              Counteract mis\- and disinformation\n            \&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;usa\-grid\&quot;\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-half\&quot;\&gt;\n            \&lt;div class\=\&quot;collaborate\-item\&quot;\&gt;\n              \&lt;img src\=\&quot;img\/accelerate\-data\.png\&quot;\&gt;\n              Maintain the integrity of our nation\'s data infrastructure for the future\n            \&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-half\&quot;\&gt;\n            \&lt;div class\=\&quot;collaborate\-item\&quot;\&gt;\n              \&lt;img src\=\&quot;img\/accelerate\-marginalized\-communities\.png\&quot;\&gt;\n              Support marginalized communities\n            \&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n      \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n  \&lt;\/section\&gt;\n\n\n  \&lt;section class\=\&quot;white\-section\&quot; id\=\&quot;get\-involved\&quot;\&gt;\n    \&lt;div class\=\&quot;usa\-grid\&quot;\&gt;\n      \&lt;div class\=\&quot;usa\-width\-one\-whole\&quot;\&gt;\n        \&lt;div class\=\&quot;accelerate\-label\&quot;\&gt;Get Involved\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;accelerate\-header\&quot;\&gt;How can people and organizations get involved\?\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;usa\-grid spacer\&quot;\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-third\&quot;\&gt;\n            \&lt;img src\=\&quot;img\/accelerate\-makeathon\.png\&quot; class\=\&quot;get\-involved\-img\&quot;\&gt;\n          \&lt;\/div\&gt;\n          \&lt;div class\=\&quot;usa\-width\-two\-thirds\&quot;\&gt;\n            \&lt;div class\=\&quot;accelerate\-subheader\&quot;\&gt;Create\-a\-thons\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;accelerate\-text\&quot;\&gt;Join one of the many \#CreativesForTheCount events across cities and communities across the U\.S\. in 2019 and 2020 to rapidly generate targeted media for hard\-to\-count groups\. At these create\-a\-thons\, creators and organizations of all kinds come together in person for just a few hours to generate compelling media that spread Census awareness and inoculate against disinformation\.\&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;usa\-grid spacer\&quot;\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-third\&quot;\&gt;\n            \&lt;img src\=\&quot;img\/accelerate\-content\.png\&quot; class\=\&quot;get\-involved\-img\&quot;\&gt;\n          \&lt;\/div\&gt;\n          \&lt;div class\=\&quot;usa\-width\-two\-thirds\&quot;\&gt;\n            \&lt;div class\=\&quot;accelerate\-subheader\&quot;\&gt;Content Development Partnerships\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;accelerate\-text\&quot;\&gt;Lead an organizational or brand production partnership in your region or nationally\. Individuals and organizations can work independently and at their own pace to create content\. To support this work\, we provide you with target audience prompts\, messaging best practices\, and facilitate intra\-organizational partnerships among collaborators\.\&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;usa\-grid spacer\&quot;\&gt;\n          \&lt;div class\=\&quot;usa\-width\-one\-third\&quot;\&gt;\n            \&lt;img src\=\&quot;img\/accelerate\-outreach\.png\&quot; class\=\&quot;get\-involved\-img\&quot;\&gt;\n          \&lt;\/div\&gt;\n          \&lt;div class\=\&quot;usa\-width\-two\-thirds\&quot;\&gt;\n            \&lt;div class\=\&quot;accelerate\-subheader\&quot;\&gt;Outreach Campaigns\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;accelerate\-text\&quot;\&gt;\n              \&lt;p\&gt;Use your personal or organizational influence to get the word out to our nation\'s most vulnerable communities about the 2020 Census\.\&lt;\/p\&gt;\n              \&lt;p\&gt;Influencers can draw from media generated by \#CreativesForTheCount and collaborate with brilliant partners to get the content that works best for their audience\, regionally or nationally\. Distribution can be done in conjunction with our organized content pushes or by designing your own content rollout\.\&lt;\/p\&gt;\&lt;\/p\&gt;\&lt;\/div\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n      \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n  \&lt;\/section\&gt;</find>
       <find>test</find>
+      <find>that all people</find>
+      <find>accelerate-splash-img</find>
+      <find>spacer usa-row</find>
+      <find>splash</find>
     </findStrings>
     <replaceStrings>
       <replace>DM Sans</replace>
       <replace>DM Serif Display</replace>
       <replace>'</replace>
+      <replace>grid-row</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -125,9 +133,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/coil.html" />
         <option value="$PROJECT_DIR$/accelerate.html" />
         <option value="$PROJECT_DIR$/css/accelerate.css" />
-        <option value="$PROJECT_DIR$/coil.html" />
       </list>
     </option>
   </component>
@@ -210,12 +218,12 @@
       <workItem from="1561995814152" duration="152000" />
       <workItem from="1563395400546" duration="8458000" />
       <workItem from="1563508473568" duration="9545000" />
-      <workItem from="1563822890677" duration="12481000" />
+      <workItem from="1563822890677" duration="18445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30636000" />
+    <option name="totallyTimeSpent" value="36600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -254,7 +262,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4065">
           <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1563990719583" expanded="true" signature="9907:14733" ph="..." />
+            <marker date="1563990719583" expanded="false" signature="15040:15055" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -301,7 +312,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1563990719583" expanded="true" signature="9907:14733" ph="..." />
+            <marker date="1563990719583" expanded="false" signature="15040:15055" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -309,7 +323,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1563990719583" expanded="true" signature="9907:14733" ph="..." />
+            <marker date="1563990719583" expanded="false" signature="15040:15055" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -347,24 +364,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accelerate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1720">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="206" column="14" lean-forward="false" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+          <folding>
+            <marker date="1563990719583" expanded="true" signature="9907:14733" ph="..." />
+            <marker date="1563990719583" expanded="false" signature="15040:15055" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/accelerate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="4206" column="23" lean-forward="false" selection-start-line="4206" selection-start-column="23" selection-end-line="4206" selection-end-column="23" />
+        <state relative-caret-position="328">
+          <caret line="4029" column="19" lean-forward="false" selection-start-line="4029" selection-start-column="19" selection-end-line="4029" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="184" column="10" lean-forward="false" selection-start-line="184" selection-start-column="10" selection-end-line="206" selection-end-column="14" />
+        <state relative-caret-position="1290">
+          <caret line="86" column="49" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="86" selection-end-column="49" />
           <folding>
             <element signature="e#5733#5739#0" expanded="true" />
             <element signature="e#7684#7690#0" expanded="true" />
