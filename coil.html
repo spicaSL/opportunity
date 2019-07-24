@@ -12,14 +12,13 @@
   <link type="text/css" rel="stylesheet" href="css/accelerate.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/uswds.min.js"></script>
-  <script src="js/hide-show-toggle.js"></script>
   <link href="img/icon.png" rel="icon" type="image/png">
   <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i|DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <div class="usa-grid" id="navbar">
+  <div id="navbar">
     <div class="usa-navbar">
       <div class="usa-logo accelerate-brand">
         <em class="usa-logo__text"><a href="#" title="Home" aria-label="Home">Census Open Innovation Labs</a></em>
@@ -63,9 +62,6 @@
       </div>
   </section>
 
-  <!--<div id="center-photo">-->
-    <!--<img src="img/2017-census.jpg" alt="COIL landing photo" id="auditorium">-->
-  <!--</div>-->
 
   <section class="white-section" id="about">
     <div class="usa-grid">
@@ -110,7 +106,7 @@
 
 
   <section id="initiatives" class="gray-section">
-    <div class="usa-grid">
+    <div class="usa-grid accelerate-large-screen">
       <div class="accelerate-label">Our Work</div>
       <div class="accelerate-header">Initiatives</div>
       <div id="action-links">
@@ -182,6 +178,72 @@
         </div>
       </div>
     </div>
+    <div class="usa-grid accelerate-small-screen">
+      <div class="accelerate-label">Our Work</div>
+      <div class="accelerate-header">Initiatives</div>
+      <div id="action-links">
+        <div class="initiative-card initiative-interactive">
+          <div class="initiative-title">The Opportunity Project</div>
+          <p class="initiative-text">The Opportunity Project (TOP) is a technology accelerator program that brings together the tech
+            industry, government, and communities, to generate digital products that benefit the public and drive
+            the economy by using federal open data. TOP works through 12-week tech development sprints, facilitated
+            by COIL, to drive new digital solutions that leverage federal, state and local open data to directly
+            serve families, local leaders, and businesses and communities at large. To date, 80 products have been
+            created through TOP, addressing problems like the opioid crisis, disaster response, veterans'
+            employment, and more.
+          </p>
+          <br>
+          <a href="https://opportunity.census.gov/" target="_blank">Learn More &rarr;</a>
+        </div>
+        <div class="initiative-card">
+          <div class="initiative-title">Census Accelerate </div>
+          <p class="initiative-text">Census Accelerate is an initiative that matches creative talent with organizations serving
+            hard-to-count communities in order to increase 2020 Census response rates. Like The Opportunity Project,
+            Census Accelerate works in user-centered sprints and workshops in which participating companies,
+            organizations, creative professionals, and influencers develop outreach materials for specific
+            hard-to-count populations, such as families with children under the age of 5, mobile millennials, and
+            LGBTQ populations.
+          </p>
+        </div>
+        <div class="initiative-card initiative-interactive">
+          <div class="initiative-title">User-Centered Design Training Program</div>
+          <p class="initiative-text">User-Centered Design is a critical approach to creating effective, user-friendly products and services
+            by putting people first. COIL trains federal staff and leadership in user-centered design and design
+            thinking as a means of creative problem solving to yield better outcomes, increase cost savings, improve
+            customer engagement, and reduce burden on data users and the public. This program infuses the day-to-day
+            business of the Census Bureau with a new approach to engaging stakeholders across various fields,
+            industries, as well as the government sector, helping to make the Census Bureau a benchmark leader in
+            user experience and citizen services.
+          </p>
+          <br>
+          <a href="https://www.usability.gov/what-and-why/user-centered-design.html" target="_blank">Learn More &rarr;</a>
+        </div>
+        <div class="initiative-card initiative-interactive">
+          <div class="initiative-title">Civic Digital Fellows Program (CDF)</div>
+          <p class="initiative-text">COIL manages the Census Bureau's participation in The Civic Digital Fellows program (CDF), a
+            first-of-its-kind technology, data science, and design internship program for innovative students and
+            recent grads to solve pressing problems in federal agencies. Student-led nonprofit Coding It Forward
+            places fellows across government to empower computer science, data science, and design students to
+            create social good by breaking down the barriers to entry in social impact spaces.
+          </p>
+          <br>
+          <a href="https://www.codingitforward.com/fellowship" target="_blank">Learn More &rarr;</a>
+        </div>
+        <div class="initiative-card">
+          <div class="initiative-title">Big Tech Engagements</div>
+          <p class="initiative-text">COIL leverages its unique technology industry experience to engage with some of the world's largest
+            platforms on 2020 Census-related issues and data dissemination.
+          </p>
+        </div>
+        <div class="initiative-card">
+          <div class="initiative-title">User Engagement Research & Workshops</div>
+          <p class="initiative-text">COIL's team includes experts in user experience design and engagement. We engage data consumers, and
+            members of the public around responding to our Censuses and surveys through in-person user engagement
+            workshops, ideation activities, and direct user research.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -215,30 +277,30 @@
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
 
-<footer>
-  <div class="usa-grid">
-    <div class="usa-width-one-whole">
-      <ul style="margin-top: 1em">
-        <li>Site Map</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#initiatives">Initiatives</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <ul>
-        <li>Resources</li>
-        <li><a href="http://data.gov/"> Data.gov</a></li>
-        <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
-        <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
-        <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
-      </ul>
-      <div id="images">
-        <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
-        <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+  <footer>
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <ul style="margin-top: 1em">
+          <li>Site Map</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#initiatives">Initiatives</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+          <li>Resources</li>
+          <li><a href="http://data.gov/"> Data.gov</a></li>
+          <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+          <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+          <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
+        </ul>
+        <div id="images">
+          <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+          <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>
