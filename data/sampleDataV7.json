@@ -1,12 +1,156 @@
 {
   "data": [
+    {
+      "Title": "Fulcrum Community for Addressing and Disaster Preparedness",
+      "Owner": "Spatial Networks",
+      "Category": "addressing",
+      "Short-Message": "Spatial Networks’ Fulcrum mobile app is a field data collection platform that allows communities to collect crowdsourced data. Spatial Networks used the Census Bureau’s National Address Database schema and USDA’s NAIP imagery to create a Community account for The Opportunity Project, which provides a field data crowdsourcing platform for government or agency stakeholders with gaps in their address data on the ground.",
+      "Image-File": "spatial-networks.png",
+      "Gallery-Link": "https://web.fulcrumapp.com/communities/opportunity-project",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Disaster Awareness Games",
+      "Owner": "Geoslug (UC Santa Cruz & Motivif)",
+      "Category": "disasters",
+      "Short-Message": "Geoslug, a partnership between UC Santa Cruz and Motivf, created a serious game that uses federal disaster declaration and protective actions data to engage young adults in preparing for emergencies.",
+      "Image-File": "geoslug.png",
+      "Gallery-Link": "http://www.thedagames.com/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Sille",
+      "Owner": "Ovela",
+      "Category": "disasters",
+      "Short-Message": "Datel Ovela’s tool uses census block data with open EU sentinel 1 InSAR to build a block level structural risk product that encourages local stakeholders to prepare for crisis through increased awareness of the likelihood of catastrophic failure of their structures in a disaster. Public access using login: fema@sille.space, password: Planahead2019",
+      "Image-File": "ovela-geo.png",
+      "Gallery-Link": "https://sille.space/app_fema/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Career Nav",
+      "Owner": "Shift.org",
+      "Category": "veterans",
+      "Short-Message": "Shift.org’s tool CareerNav uses data from the Department of Labor's O*NET Database and Bureau of Labor Statistics to help veterans translate their skills and visualize career and educational steps toward reaching their dream jobs in desired locations.",
+      "Image-File": "shift.png",
+      "Gallery-Link": "https://www.shift.org/careernav",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Watson Employment Manager (WEM)",
+      "Owner": "IBM",
+      "Category": "veterans",
+      "Short-Message": "IBM’s tool Watson Employment Manager uses DOL Career One Stop, O*NET  center, Walkingscore.com, and Google maps data to provide career recommendations on potential job/apprenticeship matches based on conceptual search and training recommendations, and skill gap analysis.",
+      "Image-File": "ibm-2019.png",
+      "Gallery-Link": "https://apprenticeships.mybluemix.net",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Nepris Industry Connections",
+      "Owner": "Nepris",
+      "Category": "education",
+      "Short-Message": "Nepris Industry Connections platform uses Department of Labor O*NET data to link relevant and authentic industry content to actual job descriptions to provide learners and job seekers opportunity for career exploration and exposure. Content is organized into the Department of Education’s 16 career clusters.",
+      "Image-File": "nepris.JPG",
+      "Gallery-Link": "https://nepris.com/misc/careersearch",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Grants Impact and Story Tool (GIST)",
+      "Owner": "REI",
+      "Category": "grants",
+      "Short-Message": "REI Systems’ Grants Impact and Story Tool (GIST) uses federal open data from USASpending.gov, SAM.gov, Grants.gov, FEMA, HHS, and the Department of Education to visually showcase how federal grants spending leads to desired performance outcomes, enhancing federal accountability and transparency for the American public.",
+      "Image-File": "REI-systems.png",
+      "Gallery-Link": "https://gist.reisystems.io",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Grants Intelligence – Homelessness",
+      "Owner": "eCivis",
+      "Category": "grants discovery",
+      "Short-Message": "eCivis’ tool Grants Intelligence - Homelessness uses data from the Census Bureau, USASpending.gov, SAM.gov, grants.gov, and HUD to make homelessness stats and related funding data easily accessible for grants professionals, researchers, government finance professionals, and citizens interested in transparency and accountability.",
+      "Image-File": "ecivis-grants.png",
+      "Gallery-Link": "https://intel.ecivis.com/homelessness",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Insight for ArcGIS",
+      "Owner": "Esri",
+      "Category": "opioids",
+      "Short-Message": "Esri’s ArcGIS Insights uses local emergency response and Census Bureau data to predict geographic areas where opioid emergencies are likely to occur to help public safety and health officials pre-position the appropriate response units in order to save lives at the moment of crisis.",
+      "Image-File": "esri-opioids.png",
+      "Gallery-Link": "https://go.esri.com/opioidprediction",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Socrata Citizen Education Data Cloud",
+      "Owner": "Socrata",
+      "Category": "education",
+      "Short-Message": "Socrata’s Citizen Education Data Cloud leveraged data from the Census Bureau, Civil Rights Data Collection Program, the National Center for Education Statistics, and the Department of Education to fuse together disparate, nonstandardized data, to provide nationwide analysis of metrics for federal and state decision-makers to support the Every Student Succeeds Act (ESSA).",
+      "Image-File": "Socrata.png",
+      "Gallery-Link": "https://top.demo.socrata.com",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Puerto Rico Land Grid",
+      "Owner": "Loveland Technologies",
+      "Category": "disasters",
+      "Short-Message": "Puerto Rico Land Grid by Loveland Technologies combines a parcel map of Puerto Rico with a scalable mobile survey platform and federal open data sets and overlays. An accompanying survey plan and budget details an approach to assessing the occupancy, condition, land use, and needs of all 1.5 million properties on the island.",
+      "Image-File": "loveland.png",
+      "Gallery-Link": "https://landgrid.com/us/pr#b=admin",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "The TomTom Centaur Data Logging App",
+      "Owner": "Tom Tom",
+      "Category": "addressing",
+      "Short-Message": "TomTom’s open source mobile app is an address point capture tool that incorporates the U.S. National Grid to assign coordinates, in an online or offline mode, to make nontraditionally addressed locations addressable.",
+      "Image-File": "TOMTOM.jpg",
+      "Gallery-Link": "https://s3.amazonaws.com/centaur-web/html/index.html",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Veteran Apprenticeship Matcher",
+      "Owner": "Civis Analytics",
+      "Category": "veterans",
+      "Short-Message": "Civis Analytics partnered with SkillsEngine, a workforce development and technology nonprofit, to create an algorithm that uses Department of Labor data and Natural Language Processing to show veterans the most relevant registered apprenticeships based on their declared skills, interests, and military history.",
+      "Image-File": "civis-analytics.png",
+      "Gallery-Link": "https://www.civisanalytics.com/custom-services/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "STEWMAP Explorer",
+      "Owner": "Mapbox",
+      "Category": "environment",
+      "Short-Message": "Mapbox used U.S. Forest Service environmental stewardship data to build STEWMAP Explorer which makes it simple to see what organizations are working in which turfs for local groups to better connect with others caring for their local environment.",
+      "Image-File": "Mapbox.png",
+      "Gallery-Link": "https://labs.mapbox.com/narratives/stewards/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "iCASA — Civic Address and Governance Platform for Puerto Rico",
+      "Owner": "iCASA",
+      "Category": "addressing",
+      "Short-Message": "ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service, and the National Address Database (NAD) schema to help the municipalities and communities in Puerto Rico enhance their address infrastructure to support the reconstruction process, improve emergency response and foster a more resilient future.",
+      "Image-File": "ipad-kiosk.png",
+      "Gallery-Link": "https://www.zipdatum.com/prcivicaddress",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Bloomberg DEVOP: Demographic Environmental Volunteer Opportunity Plotter",
+      "Owner": "Bloomberg",
+      "Category": "environment",
+      "Short-Message": "Bloomberg used Economic Census and American Community Survey data for Baltimore, coupled with self-reported volunteer activity, to allow organizations to target areas to volunteer in and potential partners to successfully steward the environment.",
+      "Image-File": "bloomberg.png",
+      "Gallery-Link": "https://communityanalyst.arcgis.com/esriCA/login/index.html",
+      "ClearDiv": ""
+    },
   {
     "Title": "My City Data Learning Tool",
     "Owner": "Cisco",
     "Category": "census discovery",
     "Short-Message": "Cisco DevNet's tool uses American Community Survey data from the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.",
     "Image-File": "cisco.png",
-    "Gallery-Link": "https://devnet.cisco.com/site/census/",
+    "Gallery-Link": "https://developer.cisco.com/site/census/",
     "ClearDiv": ""
   },
     {
@@ -93,7 +237,7 @@
   {
     "Title": "FindHome",
     "Owner": "Loveland",
-    "Category": "housing transportation",
+    "Category": "addressing",
     "Short-Message": "Helping low income families overcome the stress of finding affordable housing this tool combines transit access, walkability and school information into one unique feed of available properties.",
     "Image-File": "loveland-screenshot.png",
     "Gallery-Link": "http://www.findhome.io",
@@ -111,7 +255,7 @@
   {
     "Title": "Neighborhood Opportunity",
     "Owner": "Mapbox",
-    "Category": "housing",
+    "Category": "environment",
     "Short-Message": "Uses Fair Market Rent data from HUD, along with OpenStreetMap, to rapidly and easily assess neighborhood family amenities and voucher amounts for Section 8 Housing Seekers.",
     "Image-File": "mapbox-screenshot.png",
     "Gallery-Link": "https://www.mapbox.com/labs/opportunity/",
