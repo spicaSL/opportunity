@@ -1,4 +1,9 @@
 
+### Changes made as of 7/18
+
+### Accelerate:
+* Updated landing page, added some assets to images
+
 ### Changes made as of 6/27
 
 ### Sprints:

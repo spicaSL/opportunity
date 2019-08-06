@@ -1,217 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-<!--
-  Build by Civic Digital Fellows (https://codingitforward.com/)
+
+<head>
+  <!--
+  Temporary landing page during full site redevelopment
   -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Census Accelerate </title>
-    <meta name="description" content="">
-    <link type="text/css" rel="stylesheet" href="css/accel.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/uswds.min.js"></script>
-    <script src="js/hide-show-toggle.js"></script>
-    <link href="img/icon.png" rel="icon" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Census Accelerate | Census Open Innovation Labs</title>
+  <meta name="description" content="">
+  <link type="text/css" rel="stylesheet" href="css/uswds.min.css">
+  <link type="text/css" rel="stylesheet" href="css/temporary-landing-pages.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/uswds.min.js"></script>
+  <link href="img/icon.png" rel="icon" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i|DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
+</head>
 
 
 <body>
-    <nav id="accel-nav">
-    <div class="usa-grid-wide">
-      <div class="usa-width-one-whole">
-        <a href="index.html"><img src="img/accel-logo.png" alt="Census Accelerate Logo" id="logo"></a>
-            <div id="links">
-              <a href="accelerate.html" id="home-link"> Home </a>
-              <a href="#benefits"> Benefits </a>
-              <a href="#contact"> Contact </a>
-            </div>
+
+
+  <div id="navbar">
+    <div class="usa-navbar">
+      <div class="usa-logo accelerate-brand">
+        <em class="usa-logo__text"><a href="#" title="Home" aria-label="Home">Census Accelerate</a></em>
       </div>
+      <button class="usa-menu-btn">Menu</button>
     </div>
+    <nav role="navigation" class="usa-nav">
+      <button class="usa-nav__close"><img src="img/close.svg" alt="close"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item usa-nav-link">
+          <a class="usa-nav__link usa-nav-link" href="#about"><span>About</span></a>
+        </li>
+        <li class="usa-nav__primary-item usa-nav-link">
+          <a class="usa-nav__link  usa-nav-link" href="#get-involved"><span>Get Involved</span></a>
+        </li>
+        <li class="usa-nav__primary-item usa-nav-link">
+          <a class="usa-nav__link usa-nav-link" href="#timeline"><span>Timeline</span></a>
+        </li>
+      </ul>
     </nav>
-
-
-  <div id="splash">
-    <div class="usa-grid"> <br>
-      <div class="usa-width-one-whole">
-        <h1> Census Accelerate </h1>
-        <p> Census Accelerate pairs creative agencies and content strategists with community-based organizations to generate innovative digital content and campaigns for the 2020 Census. </p>
-      </div>
-    </div>
   </div>
 
 
-  <section class="white-section">
-  <div class="usa-grid">
+  <div id="splash" class="accelerate-large-screen">
+    <img id="accelerate-splash-img" src="img/accelerate-blob-1.png">
+  </div>
+
+  <section class="accelerate-small-screen">
+    <br>
+    <div class="spacer-top"></div>
     <div class="usa-grid">
-      <div class="usa-width-one-whole">
-        <h2>Background</h2>
-        <p> The Decennial Census is the largest peacetime mobilization in the United States and one of the most consequential pillars of U.S. democracy. It determines congressional redistricting and apportionment, the distribution of $675B of annual federal funding, and the formation of countless decisions for policy, business, and planning. The stakes are high — the effects of the 2020 Census will be felt for at least a decade. In a rapidly changing world, in the face of new and increasing challenges and opportunities, our mandate remains as it has been since 1790: to ensure that everyone is counted once, only once, and in the right place.  </p>
-        <p> <strong> But there are serious challenges to ensuring a complete and accurate count. They include: </strong> <p>
-        <ul>
-          <li> Rapidly declining response rates, especially within populations considered “Hard to count” such as children under 5, urban and rural low-income households, households with poor internet access, and more </li>
-          <li> Decreased trust in the government </li>
-          <li> Increased social polarization </li>
-          <li> A lack of up-to-date, accurate, and quality content on the internet, and an increasing volume of disinformation </li>
-          <li> <a href="https://www.hbs.edu/faculty/Publication%20Files/14-055_2ef21e7e-7529-4864-b0f0-c64e4169e17f.pdf"> The rising cost of attention </a></li>
-        </ul>
+      <div class="usa-width-one-third">
+        <img src="img/coil-1.jpg">
+        <br>
+        <div class="accelerate-caption"> &#8627; COIL-led Workshop for Census Pride</div>
+      </div>
+      <div class="usa-width-one-third">
+        <img src="img/coil-2.jpg">
+        <br>
+        <div class="accelerate-caption"> &#8627; Ideation at Creatives for the Count</div>
+      </div>
+      <div class="usa-width-one-third">
+        <img src="img/coil-3.jpg">
+        <br>
+        <div class="accelerate-caption"> &#8627; Sharing out results</div>
       </div>
     </div>
   </section>
 
-  <section class="gray-section">
+
+  <section class="white-section" id="about">
     <div class="usa-grid">
+      <br>
       <div class="usa-width-one-whole">
-        <h2> What is Accelerate? </h2>
-        <h3> Potential Solutions </h3>
-        <p> We invite a wide range of creative digital solutions to generate positive awareness and encourage specific hard-to-reach populations to be counted. A detailed brief will be provided prior to the sprint kick-off. <p>
-      </div>
-
-      <div class="usa-width-one-whole">
-        <h3> Participants </h3>
-        <div class="role-box" id="creatives">
-          <div>
-            <h4> creative agencies </h4>
-            <p id="p1"> Traditional agency project teams, in-house marketing teams, coalition of boutique agencies, and university students. </p>
-          </div>
+        <div class="accelerate-label">What is Census Accelerate?</div>
+        <div class="accelerate-title">
+          We match creatives with community-based organizations to generate innovative content that reaches hard-to-count communities for the 2020 Census.
         </div>
-        <div class="role-box" id="users">
-          <div>
-            <h4> user advocates </h4>
-            <p id="p2"> Community-based and national advocacy organizations; individuals representing target audiences </p>
-          </div>
+        <div class="accelerate-subtitle">
+          Led by the U.S. Census Bureau, <strong>Accelerate</strong> is an open, grassroots call for content, complementing its official campaign with the works of outside designers, content strategists, storytellers, filmmakers and others. The program works through content development sprints, partnerships, and events to bring together creatives, technologists, civic leaders and community organizers to ensure a complete and accurate count in the 2020 Census.
         </div>
-        <div class="role-box" id="mentors">
-          <div>
-            <h4> subject matter experts </h4>
-            <p id="p3"> Experts in Census, certain Hard-to-Count populations, or another relevant area of expertise </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="usa-width-one-whole">
-        <p> The strategy and planning will be developed by <strong>creative</strong> teams. We encourage a broad variety of groups to participate, such as: </p>
-        <ul>
-          <li> A project team from a traditional agency working a fixed number of hours </li>
-          <li> An in-house marketing team looking to flex its creative muscles in a new way</li>
-          <li>A coalition of boutique agencies focusing on their local region</li>
-          <li>University students from a design or media program building a portfolio</li>
-        </ul>
-
-        <p> Community-based organizations that serve hard-to-count populations will play the role of <strong>user advocates</strong> to ensure that content serves people in an appropriate cultural, historical, and language context. </p>
-        <p> We are also assembling <strong>experts and foundations</strong> to participate in framing and distributing the message. </p>
-      </div>
-
-      <div class="usa-width-one-whole">
-        <p></p>
-        <h3> Target Audiences </h3>
-        <p> A sample of Accelerate's target groups includes: </p>
-        <ul>
-          <li> Families with children under five </li>
-          <li> Rural and tribal populations </li>
-          <li> Millennials </li>
-        </ul>
       </div>
     </div>
-    </section>
+  </section>
 
-    <section class="white-section">
-      <div class="usa-grid">
-        <div class="usa-width-one-whole">
-          <h1> Process </h1>
-            <h3> Accelerate follows a six-week sprint timeline: </h3>
-            <p> visualization placeholder </p>
+  <section class="white-section accelerate-large-screen">
+    <img src="img/accelerate-blob-2.png" class="accelerate-img-half-overlay left">
+  </section>
+
+  <section class="white-section">
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <div class="accelerate-label">The U.S. Census</div>
+        <div class="accelerate-header">
+          What is the Decennial Census?
+        </div>
+        <div class="accelerate-text">
+          <p>
+            The Decennial Census is a Constitutionally-mandated count of every person living in the United States, once each decade. This population count is used to determine apportionment (the number of seats each state gets in the U.S. House of Representatives) and how to distribute over $675 billion of annual federal funds to states, cities, and local communities for critical infrastructure and services such as housing, highways, schools, hospitals, and more.
+          </p>
+          <p>
+            For the next Decennial Census, which begins in the Spring of 2020, every U.S. resident will be able to complete the Census online. (Phone and mail options are also available. If a household does not respond, an enumerator will take the Census at their doorstep.)  This Census will count an increasingly diverse and growing population of about 330 million people in more than 140 million housing units, presenting new challenges.
+          </p>
+        </div>
+        <br>
+        <div class="accelerate-header">
+          Challenges to a complete and accurate count
+        </div>
+        <div class="accelerate-text">
+          <p>
+            Historically, certain groups have been undercounted at disproportionately high rates, including millennials, rural communities, families with young children, immigrants, non-native English speakers, renters, underrepresented minorities, and people experiencing homelessness - <strong>these are called "hard-to-count" communities.</strong> If these groups aren't counted, their communities may not receive their fair share of countless services, resources, and representation. It also impacts the data upon which countless policy, legal, and business decisions are made.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="gray-section" id="benefits">
-      <div class="usa-grid">
-        <div class="usa-width-one-whole">
-          <h1> Benefits </h1>
-          <br>
+  <section class="white-section" id="collaboration">
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <div class="accelerate-label">Collaboration</div>
+        <div class="accelerate-header">
+          Why Collaborate?
         </div>
-        <div class="usa-width-one-half">
-          <h3> For creative teams: </h3>
-          <ul>
-            <li>Deliver on CSR and mission-related goals by strengthening civic engagement and directly increasing Census participation among of hard-to-count populations.</li>
-            <li>Strengthen professional capacity by broadening team members’ skills and exposing their practice to new audiences.</li>
-            <li>Improve the accuracy of the Census, and learning more about the data that form a foundation of so many agencies’ regular research.</li>
-            <li>Work alongside other purpose-driven creative teams.</li>
-            <li>Have your work featured at open press Demo Day with other industry and
-                government leaders.</li>
-          </ul>
+        <div class="usa-grid spacer">
+          <div class="usa-width-one-half">
+            <div class="collaborate-item">
+              <img src="img/accelerate-representation.png">
+              Help your community receive its fair share of funding for public services and representation in Congress
+            </div>
+          </div>
+          <div class="usa-width-one-half">
+            <div class="collaborate-item">
+              <img src="img/accelerate-information.png">
+              Counteract mis- and disinformation
+            </div>
+          </div>
         </div>
-        <div class="usa-width-one-half">
-          <h3> For user advocates: </h3>
-          <ul>
-            <li>Receive customized, high-quality strategy and materials at no cost to support your complete count efforts.</li>
-            <li>Learn new marketing and messaging concepts by working intensively with top-flight strategic and creative talent.</li>
-            <li>Educate influential professionals on the unique challenges and opportunities of the population you serve.</li>
-            <li>Work alongside other purpose-driven creative teams.</li>
-            <li>Visibility for your organization at Demo Day with open press.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="white-section" id="contact">
-      <div class="usa-grid">
-        <div class="usa-width-one-whole">
-          <h1> Join Us! </h1>
-            <p> We are currently identifying participants for both sprint cycles! For more information, please contact Mara Abrams, Managing Director of Census Accelerate, at <a href="mailto:mara.abrams@census.gov"> mara.abrams@census.gov</a>. </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="gray-section">
-      <div class="usa-grid">
-        <div class="usa-width-one-whole">
-          <h1> Schedule </h1>
-          <br>
-        </div>
-        <div class="usa-width-one-half">
-          <h3> Cohort 1 - Kickoff Sept 12 </h3>
-          <ul>
-            <li> Reach families with children under five to ensure kids are counted</li>
-            <li> Reach mobile millennials</li>
-          </ul>
-        </div>
-        <div class="usa-width-one-half">
-            <h3> Cohort 2 - Kickoff Sept 18 </h3>
-            <ul>
-              <li> Reach rural and tribal communities</li>
-              <li> Reach those experiencing the digital divide</li>
-            </ul>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="usa-grid">
-        <div class="usa-width-one-whole">
-          <ul style="margin-top: 1em">
-            <li>Site Map</li>
-            <li><a href="accelerate.html">Home</a></li>
-            <li><a href="#benefits">Benefits</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul>
-            <li>Resources</li>
-            <li><a href="http://data.gov/"> Data.gov</a></li>
-            <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
-            <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
-            <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
-          </ul>
-          <div id="images">
-            <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
-            <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+        <div class="usa-grid">
+          <div class="usa-width-one-half">
+            <div class="collaborate-item">
+              <img src="img/accelerate-data.png">
+              Maintain the integrity of our nation's data infrastructure for the future
+            </div>
+          </div>
+          <div class="usa-width-one-half">
+            <div class="collaborate-item">
+              <img src="img/accelerate-marginalized-communities.png">
+              Support marginalized communities
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script src="js/smooth-scroll.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    </div>
+  </section>
+
+
+  <section class="white-section" id="get-involved">
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <div class="accelerate-label">Get Involved</div>
+        <div class="accelerate-header">How can people and organizations get involved?</div>
+        <div class="usa-grid spacer">
+          <div class="usa-width-one-third">
+            <img src="img/accelerate-makeathon.png" class="get-involved-img">
+          </div>
+          <div class="usa-width-two-thirds">
+            <div class="accelerate-subheader">#CreativesForTheCount</div>
+            <div class="accelerate-text">Join one of the many #CreativesForTheCount events across cities and communities across the U.S. in 2019 and 2020 to rapidly generate targeted media for hard-to-count groups. At these create-a-thons, creators and organizations of all kinds come together in person for just a few hours to generate compelling media that spread Census awareness and inoculate against disinformation.</div>
+          </div>
+        </div>
+        <div class="usa-grid spacer">
+          <div class="usa-width-one-third">
+            <img src="img/accelerate-content.png" class="get-involved-img">
+          </div>
+          <div class="usa-width-two-thirds">
+            <div class="accelerate-subheader">Content Development Partnerships</div>
+            <div class="accelerate-text">Lead an organizational or brand production partnership in your region or nationally. Individuals and organizations can work independently and at their own pace to create content. To support this work, we provide you with target audience prompts, messaging best practices, and facilitate intra-organizational partnerships among collaborators.</div>
+          </div>
+        </div>
+        <div class="usa-grid spacer">
+          <div class="usa-width-one-third">
+            <img src="img/accelerate-outreach.png" class="get-involved-img">
+          </div>
+          <div class="usa-width-two-thirds">
+            <div class="accelerate-subheader">Outreach Campaigns</div>
+            <div class="accelerate-text">
+              <p>Use your personal or organizational influence to get the word out to our nation's most vulnerable communities about the 2020 Census.</p>
+              <p>Influencers can draw from media generated by #CreativesForTheCount and collaborate with brilliant partners to get the content that works best for their audience, regionally or nationally. Distribution can be done in conjunction with our organized content pushes or by designing your own content rollout.</p></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gray-section" id="timeline">
+    <div class="usa-grid">
+        <div class="accelerate-label">Sprints</div>
+        <div class="accelerate-header">#CreativesForTheCount Sprint Timeline</div>
+        <div class="accelerate-text">
+          <p>Each month in 2019 and 2020, we'll be hosting in-person and virtual #CreativesForTheCount sprints focused on specific hard-to-count communities. You can participate in one of our events or organize your own, regionally or nationally.</p>
+          <p>Below is more information on some of our past and upcoming events:</p>
+        </div>
+      <div class="grid-row">
+          <div class="tablet:grid-col-3 sprint-location">
+            Los Angeles, CA<br>
+            November 2018<br>
+          </div>
+          <div class="tablet:grid-col-9">
+            <div class="sprint-title">Young and Mobile Communities</div>
+              <p class="accelerate-text">The  first #CreativesForTheCount pilot event pulled together creative heavy-hitters from across the LA creative scene at Red Bull Studios in Los Angeles to develop content for undercounted millennials.</p>
+          </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="tablet:grid-col-3 sprint-location">
+          Portland, OR<br>
+          April 2019<br>
+        </div>
+        <div class="grid-col-9">
+          <div class="sprint-title">Underrepresented Minorities & Families with Kids Under 5</div>
+          <p class="accelerate-text">Portland is home to an increasingly young and diverse population that is representative of many of the nation's marginalized groups. In conjunction with Design Week Portland, visual designers produced content for advocacy groups across the state as well as a toolkit that can be used by creatives, nationwide.</p>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="tablet:grid-col-3 sprint-location">
+          Nashville, TN<br>
+          June 2019<br>
+        </div>
+        <div class="tablet:grid-col-9">
+          <div class="sprint-title">Rural Communities</div>
+          <p class="accelerate-text">COIL helped to facilitate a singer & songwriting-focused create-a-thon with contemporary Christian musicians and religious leaders to better reach their audiences.</p>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="tablet:grid-col-3 sprint-location">
+          Washington D.C.<br>
+          June 2019<br>
+        </div>
+        <div class="tablet:grid-col-9">
+          <div class="sprint-title">LGBTQ+ Communities</div>
+          <p class="accelerate-text">In celebration of Pride Week, LGBTQ advocates and creatives gathered from around our nation's capital to produce graphics and campaign imagery for nationally impactful organizations at a #CensusPride create-a-thon.</p>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="tablet:grid-col-3 sprint-location">
+          El Paso, TX<br>
+          July 2019<br>
+        </div>
+        <div class="tablet:grid-col-9">
+          <div class="sprint-title">Hispanic/Latinx Border Communities</div>
+          <p class="accelerate-text">COIL is working with community partners and regional Census staff to organize a create-a-thon to educate and support underrepresented communities along our nation's border.</p>
+          <br>
+          <p class="accelerate-text"><strong>RSVP:</strong> <a href="https://bordercreativesforthecount.splashthat.com/">https://bordercreativesforthecount.splashthat.com/</a></p>
+        </div>
+      </div>
+
+
+      <div class="grid-row">
+        <div class="tablet:grid-col-3 sprint-location">
+          New York, NY<br>
+          September, 2019<br>
+        </div>
+        <div class="tablet:grid-col-9">
+          <div class="sprint-title">Families with Kids Under 5</div>
+          <p class="accelerate-text">Children may be our future, but young ones are historically undercounted. Two million children under the age of five were missed in the 2010 Census, and this has dire implications for the programs and services that they need to thrive. The sprint in New York will focus on creating content for parents, caregivers, and families of children under 5 to ensure that all people - even tiny ones - receive the funding and services that benefit them.</p>
+        </div>
+      </div>
+
+
+      <div class="grid-row">
+        <div class="tablet:grid-col-3 sprint-location">
+          Columbia, SC<br>
+          October, 2019<br>
+        </div>
+        <div class="tablet:grid-col-9">
+          <div class="sprint-title">Hard-to-count Communities</div>
+          <p class="accelerate-text">Coming soon!</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="accelerate-text italic">We'll continue to update our in-person and virtual events as details become available.</div>
+  </section>
+
+  <script src="js/smooth-scroll.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <footer>
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <ul style="margin-top: 1em">
+          <li>Site Map</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#get-involved">Get Involved</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+        </ul>
+        <ul>
+          <li>Resources</li>
+          <li><a href="http://data.gov/"> Data.gov</a></li>
+          <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+          <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+          <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
+        </ul>
+        <div id="images">
+          <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+          <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
