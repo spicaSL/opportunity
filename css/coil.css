@@ -76,6 +76,18 @@
 	background-color: #FDC51D;
 }
 
+.wrapper {
+	transition: background .2s ease;
+	-webkit-transition: background 1.5s;
+	-moz-transition: background 1.5s;
+	-ms-transition: background 1.5s;
+	-o-transition: background 1.5s;
+}
+
+.section {
+	height: 100vh;
+}
+
 
 /* HERO ______________________________________*/
 #hero {
@@ -215,9 +227,39 @@
 }
 
 
+@media screen and (min-width: 951px) {
+
+}
+
+@media screen and (max-width: 600px) {
+	#navbar {
+		position: inherit;
+	}
+}
+
+@media screen and (max-width: 481px) {
+
+	#intro {
+		left: 10%;
+		right: 10%;
+		top: 25%;
+	}
+
+	#hero-text h1{
+		font-size: 80px;
+	}
+
+	#hero-subtext {
+		width: 100%;
+	}
+
+	#hero-subtext p {
+		font-size: 25px;
+	}
+}
 /* MISSION ______________________________________*/
 #mission {
-	background-image: url("../img/mission-background.png");
+	background-image: url('../img/mission-background.png');
 	background-size: cover;
 	height: 80vh;
 	padding-top: 14%;
@@ -249,6 +291,17 @@
 #mission .line {
 	margin: 8px auto;
 	max-width: 700px;
+}
+
+@media screen and (max-width: 481px)  {
+	#mission {
+		padding-top: 30%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	#mission p {
+		font-size: 1.5em;
+	}
 }
 
 
@@ -290,6 +343,16 @@
 	top: -150px;
 }
 
+@media screen and (max-width: 481px)  {
+	#coil-1, #coil-2, #coil-3 {
+		position: inherit;
+	}
+
+	.coil img {
+		max-width: 100%;
+		margin: 5% 0;
+	}
+}
 
 /* INITIATIVES ______________________________________*/
 #initiatives {
@@ -350,8 +413,17 @@
     height: 0;    
     left:0;
     bottom: 2px;                    /* <- distance */
-    border-bottom: 5px solid #FDC51D;
+    border-bottom: 4px solid #FDC51D;
     z-index: -1;  
+}
+
+
+.project-link:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fdc51d' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 8px;
+  background-repeat: repeat-x;
+  text-decoration: none;
 }
 
 .project-link:visited {
@@ -374,6 +446,46 @@
 	left: 10%;
 }
 
+@media screen and (max-width: 481px) {
+	#initiatives {
+		padding-top: 30%;
+	}
+
+	.project-body {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	#top-project-image {
+		margin-top: 10%;
+		margin-bottom: 30%;
+		width: 100%;
+		position: inherit;
+		min-width: 0;
+	}
+
+	#acc-project-image {
+		position: inherit;
+		min-width: 0;
+		width: 100%;
+	}
+
+	.acc-project {
+		position: inherit;
+	}
+
+	.project-link p{
+		font-size: 18px;
+	} 
+
+	.acc-project {
+		margin-bottom: 30% !important;
+	}
+
+	.mobile-margin {
+		margin-bottom: 30% !important; 
+	}
+}
 
 /* CONTACT ______________________________________*/
 #contact {
@@ -428,6 +540,20 @@
 	top: -500px;
 }
 
+@media screen and (max-width: 481px) {
+	#contact {
+		padding: 30% 5% 0% 5%;
+	}
+
+	.contact-card {
+		margin: 10% 0;
+	}
+
+	#contact-circle {
+		display: none;
+	}
+}
+
 /* TEST ______________________________________*/
 footer {
 	background-color: black;
@@ -436,4 +562,5 @@ footer {
 	}
 
 
-#
+
+
