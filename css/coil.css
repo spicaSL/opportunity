@@ -231,10 +231,29 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	#navbar {
 		position: inherit;
 	}
+
+	#intro {
+		left: 20%;
+		right: 20%;
+		top: 25%;
+	}
+
+	#hero-text h1{
+		font-size: 6em;
+	}
+
+	#hero-subtext {
+		width: 100%;
+	}
+
+	#hero-subtext p {
+		font-size: 25px;
+	}
+
 }
 
 @media screen and (max-width: 481px) {
@@ -256,14 +275,20 @@
 	#hero-subtext p {
 		font-size: 25px;
 	}
+
+	#hero {
+		background-image: url("../img/coil-hero-mobile.png");
+	}
 }
 /* MISSION ______________________________________*/
 #mission {
-	background-image: url('../img/mission-background.png');
+	background: white;
 	background-size: cover;
-	height: 80vh;
+	height: 85vh;
 	padding-top: 14%;
+	transition: 0.3s all;
 }
+
 
 #mission h1 {
 	margin: auto;
@@ -293,6 +318,11 @@
 	max-width: 700px;
 }
 
+@media screen and (max-width: 800px and min-width: 481px) {
+	#mission {
+		height: 60vh;
+	}
+}
 @media screen and (max-width: 481px)  {
 	#mission {
 		padding-top: 30%;
@@ -341,6 +371,12 @@
 	position: relative;
 	left: 40px;
 	top: -150px;
+}
+
+@media screen and (max-width: 800px) {
+	.coil img {
+		max-width: 300px;
+	}
 }
 
 @media screen and (max-width: 481px)  {
@@ -446,6 +482,28 @@
 	left: 10%;
 }
 
+@media screen and (max-width: 800px) {
+	#top-project-image {
+		min-width: 0;
+		position: inherit;
+		margin-top: 40%;
+	}
+
+	#acc-project-image {
+		position: inherit; 
+		min-width: 0;
+		margin-top: 30%;
+	}
+
+	.acc-project {
+		position: inherit;
+	}
+
+	.acc-project {
+		margin-bottom: 10% !important;
+	}
+}
+
 @media screen and (max-width: 481px) {
 	#initiatives {
 		padding-top: 30%;
@@ -460,18 +518,11 @@
 		margin-top: 10%;
 		margin-bottom: 30%;
 		width: 100%;
-		position: inherit;
-		min-width: 0;
 	}
 
 	#acc-project-image {
-		position: inherit;
 		min-width: 0;
 		width: 100%;
-	}
-
-	.acc-project {
-		position: inherit;
 	}
 
 	.project-link p{
@@ -480,7 +531,7 @@
 
 	.acc-project {
 		margin-bottom: 30% !important;
-	}
+	}	
 
 	.mobile-margin {
 		margin-bottom: 30% !important; 
@@ -489,10 +540,11 @@
 
 /* CONTACT ______________________________________*/
 #contact {
-	background-color: #FF3D40;
+	background: white;
 	height: 800px;
 	padding-left: 20%;
 	padding-top: 10%;
+	transition: 0.2s ease;
 }
 
 #contact .coil-subheading, #contact .coil-body {
@@ -540,6 +592,17 @@
 	top: -500px;
 }
 
+@media screen and (max-width: 800px) {
+	#contact-circle {
+		display: none;
+	}
+
+	#contact {
+		padding: 30% 10% 0% 10%;
+	}
+
+}
+
 @media screen and (max-width: 481px) {
 	#contact {
 		padding: 30% 5% 0% 5%;
@@ -547,10 +610,6 @@
 
 	.contact-card {
 		margin: 10% 0;
-	}
-
-	#contact-circle {
-		display: none;
 	}
 }
 
