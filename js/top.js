@@ -35,11 +35,11 @@ $(document).ready(function () {
 		title.animate({
 			opacity: 1,
 			top: "90",
-		}, {duration: 300});
+		}, {duration: 100});
 
 		year.animate({
 			top: "70",
-			}, {duration: 300}
+			}, {duration: 100}
 		);
 
 		linkContainer.animate({
