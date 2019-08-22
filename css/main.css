@@ -4699,6 +4699,9 @@ footer {
         opacity: .7; }
   footer #images {
     float: right; }
+}
+
+
 
 #section-07 {
   border-bottom: solid 3px white; }
@@ -4782,6 +4785,7 @@ footer {
 
 @media (max-width: 661px) {
   footer {
+    height: 100%;
     padding-top: 50px; }
   footer #images {
     float: none;
