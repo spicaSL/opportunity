@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+
 	// demo day card animations
 	$('.demo-day-card').mouseenter(function() {
 		title = $(this).find('p');
@@ -8,17 +9,16 @@ $(document).ready(function () {
 
 		title.animate({
 			opacity: 0,
-			top: "-100",
+			top: "0",
 		}, {duration: 300});
 
 		year.animate({
-			top: "-100",
+			top: "-15",
 		}, { duration: 300, 
 				complete: function() {
-				console.log("in function");
 				linkContainer.animate({
 				opacity: "show",
-				top: "-100",
+				top: "-15",
 				}, {duration: 300});
 		}, 
 
@@ -27,7 +27,6 @@ $(document).ready(function () {
 	});
 
 	$('.demo-day-card').mouseleave(function() {
-		console.log('exit');
 
 		title = $(this).find('p');
 		year = $(this).find('h1');
@@ -35,17 +34,17 @@ $(document).ready(function () {
 
 		title.animate({
 			opacity: 1,
-			top: "0",
+			top: "90",
 		}, {duration: 300});
 
 		year.animate({
-			top: "0",
+			top: "70",
 			}, {duration: 300}
 		);
 
 		linkContainer.animate({
 			opacity: "hide",
-			top: "0",
+			top: "70",
 			}, {duration: 300}
 		);
 	});

@@ -4155,6 +4155,12 @@ nav {
   margin: 0px 0px -1.8px 8px;
 }
 
+@media(max-width: 375px) {
+  .news-item {
+    margin-bottom: 50px;
+  }
+}
+
 /* Demo Day Section */
 
 .demo-day-card {
@@ -4174,7 +4180,7 @@ nav {
     text-align: center;
     letter-spacing: 0.1em;
     color: white;
-    margin-top: 30% !important;
+    top: 90px;
     transition: all 0.2s linear;
   }
 
@@ -4188,7 +4194,7 @@ nav {
     text-align: center;
     letter-spacing: 0.04em;
     color: white;
-    margin-top: 10% !important;
+    top: 70px;
     transition: all 0.2s linear;
   }
 
