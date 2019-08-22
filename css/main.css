@@ -3945,8 +3945,6 @@ nav {
   .splash h1 {
     margin-top: 20px;
     text-align: center;
-    font-family: "DM Sans", sans-serif;
-    font-size: 4em;
   }
 
   #index-splash-img {
@@ -4108,6 +4106,140 @@ nav {
   min-width: 20px;
 }
 
+/* News Section */
+
+
+.news-item {
+  border-top: 1px solid black;
+  margin-top: 30px !important;
+  padding-top: 10px;
+  position: relative;
+  height: 400px;
+}
+
+  .news-item p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+
+  .news-item h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: black;
+    margin: 0px;
+  }
+
+  .news-item h2 {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #1E3A5A;
+    margin-bottom: 31px;
+  }
+
+  .news-item img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+.right-arrow {
+  position: inherit !important;
+  display: inline-block;
+  margin: 0px 0px -1.8px 8px;
+}
+
+/* Demo Day Section */
+
+.demo-day-card {
+  margin-top: 30px !important;
+  height: 312px;
+  text-align: center;
+}
+
+  .demo-day-card p {
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: white;
+    margin-top: 30% !important;
+    transition: all 0.2s linear;
+  }
+
+  .demo-day-card h1 {
+    position: relative;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: white;
+    margin-top: 10% !important;
+    transition: all 0.2s linear;
+  }
+
+#demo-day-2016 {
+  background-image: url("../img/demo-day-2016.png");
+}
+
+#demo-day-2017 {
+  background-image: url("../img/demo-day-2017.png");
+}
+
+#demo-day-2018 {
+  background-image: url("../img/demo-day-2018.png");
+}
+
+.demo-day-link-container {
+  display: none;
+  position: relative;
+}
+
+  .demo-day-link-container img {
+    display: inline-block;
+    margin-right: 16px;
+    vertical-align: middle;
+  }
+
+  .demo-day-link-container h2 {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: white;
+    margin: 0;
+  }
+
+
+.demo-day-link {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px;
+  width: 180px;
+  margin-bottom: 15px;
+  transition: all 0.2s linear;
+}
+
+
+
 
 .media-card {
   border: solid 1px gray;
@@ -4125,6 +4257,9 @@ nav {
 .media-link {
   text-decoration: none;
 }
+
+
+/* Projects */ 
 
 #projects-head {
   padding-top: 50px; }
