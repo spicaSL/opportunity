@@ -5,7 +5,7 @@
   src: url('../fonts/GT-America-Compressed-Medium.otf') format('embedded-opentype'), 
        url('../fonts/GT-America-Compressed-Medium.ttf') format('truetype'), 
        url('../fonts/GT-America-Compressed-Medium.woff') format('woff'), 
-       url('../fonts/GT-America-Compressed-Medium.woff2')  format('Woff2'), 
+       url('../fonts/GT-America-Compressed-Medium.woff2')  format('Woff2'); 
 }
 
 @font-face {
@@ -14,7 +14,9 @@
   src: url('../fonts/GT-America-Mono-Medium.otf') format('embedded-opentype'), 
        url('../fonts/GT-America-Mono-Medium.ttf') format('truetype'), 
        url('../fonts/GT-America-Mono-Medium.woff') format('woff'), 
-       url('../fonts/GT-America-Mono-Medium.woff2')  format('Woff2'), 
+       url('../fonts/GT-America-Mono-Medium.woff2')  format('Woff2');
+  font-weight: normal;
+  font-style: normal; 
 }
 
 @font-face {
@@ -23,7 +25,7 @@
   src: url('../fonts/GT-America-Standard-Regular.eot'); /* IE9 Compat Modes */
   src: url('../fonts/GT-America-Standard-Regular.otf') format('embedded-opentype'), 
        url('../fonts/GT-America-Standard-Regular.ttf') format('truetype'), 
-       url('../fonts/GT-America-Standard-Regular') format('woff'), 
+       url('../fonts/GT-America-Standard-Regular') format('woff'); 
 }
 
 @font-face {
@@ -32,7 +34,7 @@
   src: url('../fonts/GT-America-Standard-Medium.eot'); /* IE9 Compat Modes */
   src: url('../fonts/GT-America-Standard-Medium.otf') format('embedded-opentype'), 
        url('../fonts/GT-America-Standard-Medium.ttf') format('truetype'), 
-       url('../fonts/GT-America-Standard-Medium') format('woff'), 
+       url('../fonts/GT-America-Standard-Medium') format('woff');
 }
 
 
@@ -156,7 +158,7 @@
 }
 
 .usa-nav__primary li {
-	font-family: GT America Mono;
+	font-family: GT America Mono, monotype;
 	font-weight: 500;
 	font-size: 1.4em;
 	line-height: 1.3em;
@@ -439,6 +441,7 @@
 }
 
 .project-link {
+	color: black;
 	position: relative;
 }
 
