@@ -1,3 +1,17 @@
+### Changes made as of 8/27
+### COIL
+* Changed coil landing page, updated colors for accessibility 
+
+### Accelerate:
+* Updated content language based on feedback 
+
+### Jobkit:
+* Migrated Jobkit landing page from GSA repo 
+
+### TOP: 
+* Updated media section to include links for all demo days and style
+
+
 
 ### Changes made as of 7/18
 
