@@ -58,20 +58,20 @@ $(document).ready(function () {
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
     console.log(scrollPos);
+    
+   //  if (scrollPos > 550) {
+   //       $('#mission').css('background', '#005FF3');
+   //    }
+  	// if (scrollPos > 1400 || scrollPos <=550) {
+   //       $('#mission').css('background', 'white');
+   //    }
 
-    if (scrollPos > 550) {
-         $('#mission').css('background', '#005FF3');
-      }
-  	if (scrollPos > 1400 || scrollPos <=550) {
-         $('#mission').css('background', 'white');
-      }
-
-     if (scrollPos >5000) {
-     	$('#contact').css('background', '#FF3D40');
-     }
-     if (scrollPos <= 5000) {
-     	$('#contact').css('background', 'white');
-     }
+   //   if (scrollPos >5000) {
+   //   	$('#contact').css('background', '#FF3D40');
+   //   }
+   //   if (scrollPos <= 5000) {
+   //   	$('#contact').css('background', 'white');
+   //   }
 
 
     if (scrollPos > 1440 && scrollPos < 5075) {
