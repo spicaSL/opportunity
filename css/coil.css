@@ -111,7 +111,6 @@
 	right: 87.15%;
 	top: 10%;
 	bottom: 97.5%;
-
 	font-family: 'Oswald', sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -173,15 +172,15 @@
 
 #intro {
 	position: absolute;
-	left: 41.94%;
-	right: 24.44%;
+	left: 40.94%;
+	right: auto;
 	top: 25%;
 }
 
 #hero-text {
 	position: relative;
 	display: block;
-	background-color: #FDC51D;
+	background-color: #FF552E;
 }
 #hero-text h1 {
 	text-transform: uppercase;
@@ -193,7 +192,7 @@
 	font-size: 120px;
 	letter-spacing: -2px;
 
-	color: #FFFFFF;
+	color: white;
 }
 
 #hero-subtext {
@@ -284,7 +283,7 @@
 }
 /* MISSION ______________________________________*/
 #mission {
-	background: white;
+	background: #005FF3;
 	background-size: cover;
 	height: 85vh;
 	padding-top: 14%;
@@ -543,7 +542,7 @@
 
 /* CONTACT ______________________________________*/
 #contact {
-	background: white;
+	background: #FF3D40;
 	height: 800px;
 	padding-left: 20%;
 	padding-top: 10%;
