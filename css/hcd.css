@@ -10,6 +10,21 @@
 	top: 2%;
 	left: 2%;
 	margin: 0;
+	z-index: 3;
+}
+
+@media only screen and (max-width: 700px) {
+	.coil h1 {
+		color: #FFF;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+	.coil h1 {
+		font-size: 25px;
+		line-height: 25px;
+	}
 }
 
 /* HERO _______________________ */ 
@@ -28,7 +43,32 @@
 	position: absolute;
 	right: -50px;
 	top: 250px;
+	z-index: 5;
 }
+
+@media only screen and (max-width: 700px) {
+	#hcd-hero {
+		top: 0;
+		right: 0;
+	}
+
+	#hcd-graphic {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#hcd-hero {
+		top: 0;
+		right: 0;
+	}
+
+	#hcd-graphic {
+		display: none;
+	}
+}
+
+
 /* SPLASH _______________________ */ 
 #hcd-splash {
 	position: relative;
@@ -42,7 +82,7 @@
 #white-line {
 	height: 20px;
 	background-color: #FFF;
-	width: 450px;
+	width: 80%;
 	margin-bottom: 20px;
 }
 
@@ -99,6 +139,27 @@
 #apply-button:hover {
 	background: #3071F6;
 	color: #FFF;
+}
+
+@media only screen and (max-width: 400px) {
+	#hcd-splash {
+		margin-top: 50%;
+	}
+
+	#hcd-splash h1 {
+		font-size: 38px;
+		line-height: 45px;
+	}
+
+	#hcd-splash h2 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	#hcd-splash p {
+		font-size: 20px;
+		line-height: 32px;
+	}
 }
 
 
@@ -198,6 +259,22 @@
 	margin: 0;
 }
 
+@media only screen and (max-width: 700px) {
+	#about {
+		margin-bottom: 10%;
+	}
+
+	#hcd-example-title h1 {
+		font-size: 30px;
+		line-height: 35px;
+		padding-left: 5%;
+	}
+
+	.hcd-example {
+		float: none;
+		margin-bottom: 5%;
+	}
+}
 
 
 /* Sections _______________________ */ 
@@ -251,6 +328,22 @@
 
 #events {
 	display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+	.information {
+		padding: 10% 5%;
+		border-left: none;
+		border-right: none;
+	}
+
+	.information-column {
+		padding-left: 0;
+	}
+
+	#dates ul{
+		padding-left: 0 !important;
+	}	
 }
 
 
