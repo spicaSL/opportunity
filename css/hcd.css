@@ -1,0 +1,314 @@
+/* LOGO _______________________ */ 
+.coil h1{
+	position: absolute;
+	font-family: neue-haas-grotesk-text, sans-serif !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 35px;
+	color: #222222;
+	top: 2%;
+	left: 2%;
+	margin: 0;
+}
+
+/* HERO _______________________ */ 
+#hero {
+	background: white;
+}
+
+#hcd-hero {
+	position: absolute;
+	top: 75px;
+	right: 75px;
+	z-index: 0;
+
+}
+
+/* SPLASH _______________________ */ 
+#hcd-splash {
+	position: relative;
+	background: #222222;
+	z-index: 1;
+	margin-top: 30%;
+	padding: 5%;
+	margin-bottom: 5%;
+}
+
+#white-line {
+	height: 20px;
+	background-color: #FFF;
+	width: 450px;
+	margin-bottom: 20px;
+}
+
+#hcd-splash h2 {
+	font-size: 25px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-family: input-mono-condensed, monospace !important;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+	margin: 0 0 30px 0;
+}
+
+#hcd-splash h1 {
+	font-family: neue-haas-grotesk-text, sans-serif !important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+#hcd-splash p {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 35px;
+	color: #FFFFFF;
+	padding-right: 15%;
+}
+
+#apply-button {
+	width: 208px;
+	height: 58px;
+	left: 228px;
+	top: 737px;
+	background: #F8D76E;
+	border-radius: 10px;
+}
+
+#apply-button {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 53px;
+	text-align: center;
+	color: #222222;
+}
+
+#apply-button:hover {
+	background: #3071F6;
+	color: #FFF;
+}
+
+
+/* TABLE OF CONTENTS _______________________ */ 
+#table-of-contents h1 {
+	font-family: neue-haas-grotesk-text, sans-serif !important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 55px;
+	color: #222222;
+	margin-bottom: 0;
+}
+
+#table-of-contents ul {
+	list-style: none;
+	padding-left: 0;
+}
+#table-of-contents li {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 35px;
+	color: #222222;
+	margin-bottom: 1px;
+}
+
+#table-of-contents a {
+	color: #222222;
+}
+
+#table-of-contents a:hover {
+	color: #3071F6;
+}
+
+#table-of-contents a: visited {
+	color: #222222;
+}
+
+.bottom-space {
+	margin-bottom: 5%;
+}
+/* About HCD _______________________ */ 
+#about {
+	float: right;
+}
+
+#about h1 {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	color: #222222;
+}
+
+#about p {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 34px;
+	color: #222222;
+}
+
+#hcd-example-title h1 {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 40px;
+	color: #222222;
+}
+
+.hcd-example {
+	float: right;
+	margin-left: 5%;
+}
+.hcd-example h1 {
+	margin: 0;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	color: #222222;
+}
+
+.hcd-example p {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	color: #222222;
+	margin: 0;
+}
+
+
+
+/* Sections _______________________ */ 
+.information {
+	border: 1px solid #222222;
+	padding: 5%;
+}
+
+.information h1 {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 43px;
+	color: #222222;
+}
+
+.information p {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 34px;
+	color: #222222;
+	margin: 0;
+}
+
+.information li {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 34px;
+	color: #222222;
+}
+.information-column {
+	padding-left: 75px;
+}
+
+.no-bullets ul {
+	list-style: none;
+}
+
+#dates {
+	display: inline-block;
+}
+
+#dates li {
+	font-weight: bold;
+}
+
+#events {
+	display: inline-block;
+}
+
+
+/* Learn More_______________________ */ 
+#learn-more {
+	padding-top: 10%;
+	text-align: center;
+	padding-bottom: 6%;
+}
+#learn-more h1 {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 34px;
+	color: #222222;
+}
+
+#learn-more a {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	color: #222222;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+#learn-more a:hover {
+	color: #3071F6;
+}
+
+.learn-more-button {
+	margin: auto;
+	width: 300px;
+	height: 58px;
+	left: 228px;
+	top: 737px;
+	background: #3071F6;
+	border-radius: 10px;
+}
+
+
+.learn-more-button p{
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 53px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+footer {
+	background-color: #222222;
+}
+
+
+
+
+
+
+
+
+
+
+
