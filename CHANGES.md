@@ -1,4 +1,4 @@
-### Changes made as of 8/27
+### Changes made as of 9/2
 ### COIL
 * Changed coil landing page, updated colors for accessibility 
 

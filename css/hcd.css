@@ -200,11 +200,6 @@
 }
 
 /* TABLE OF CONTENTS _______________________ */ 
-#table-of-contents {
-	border-top: 0.5px solid #222;
-	border-bottom: 0.5px solid #222;
-	padding: 50px 0;
-}
 
 #table-of-contents h1 {
 	font-family: neue-haas-grotesk-text, sans-serif !important;
@@ -223,15 +218,17 @@
 #table-of-contents li {
 	font-family: Helvetica Neue;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: normal;
 	font-size: 20px;
 	line-height: 35px;
 	color: #222222;
 	margin-bottom: 1px;
+	text-decoration: underline;
 }
 
 #table-of-contents a {
 	color: #222222;
+
 }
 
 #table-of-contents a:hover {
@@ -246,13 +243,6 @@
 	margin-bottom: 5%;
 }
 
-@media only screen and (max-width: 400px) {
-	#table-of-contents {
-		padding-bottom: 10px;
-		border-top: none;
-		padding-top: 0;
-	}
-}
 
 /* About HCD _______________________ */ 
 #about {
