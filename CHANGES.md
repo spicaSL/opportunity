@@ -1,16 +1,18 @@
 ### Changes made as of 9/2
 ### COIL
 * Changed coil landing page, updated colors for accessibility 
+* Commented out for HCD page upload
 
 ### Accelerate:
 * Updated content language based on feedback 
 
 ### Jobkit:
 * Migrated Jobkit landing page from GSA repo 
+* Commented out for HCD page upload
 
 ### TOP: 
 * Updated media section to include links for all demo days and style
-
+* Commented out demo day section for HCD page upload
 
 
 ### Changes made as of 7/18
