@@ -1,4 +1,7 @@
 ### Changes made as of 9/2
+### HCD
+* Created landing page for HCD Application
+
 ### COIL
 * Changed coil landing page, updated colors for accessibility 
 * Commented out for HCD page upload
