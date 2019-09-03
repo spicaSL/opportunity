@@ -118,6 +118,7 @@
 }
 
 #apply-button {
+	display: inline-block;
 	width: 208px;
 	height: 58px;
 	left: 228px;
@@ -130,7 +131,7 @@
 	font-family: neue-haas-grotesk-text, sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 53px;
 	text-align: center;
 	color: #222222;
@@ -139,6 +140,32 @@
 #apply-button:hover {
 	background: #3071F6;
 	color: #FFF;
+}
+
+#pdf-button {
+	display: inline-block;
+	width: 260px;
+	height: 49px;
+	left: 228px;
+	top: 737px;
+	border-bottom: 3px solid #FFF;
+
+}
+
+#pdf-button {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 53px;
+	text-align: center;
+	color: #FFF;
+	margin-left: 10px;
+}
+
+#pdf-button:hover {
+	color: #96C4FA;
+	border-bottom: 3px solid #96C4FA;
 }
 
 @media only screen and (max-width: 400px) {
@@ -160,10 +187,25 @@
 		font-size: 20px;
 		line-height: 32px;
 	}
+
+	#apply-button {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	#pdf-button {
+		display: block;
+		margin: 30px auto 20px auto;
+	}
 }
 
-
 /* TABLE OF CONTENTS _______________________ */ 
+#table-of-contents {
+	border-top: 0.5px solid #222;
+	border-bottom: 0.5px solid #222;
+	padding: 50px 0;
+}
+
 #table-of-contents h1 {
 	font-family: neue-haas-grotesk-text, sans-serif !important;
 	font-style: normal;
@@ -181,8 +223,8 @@
 #table-of-contents li {
 	font-family: Helvetica Neue;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
+	font-weight: 500;
+	font-size: 20px;
 	line-height: 35px;
 	color: #222222;
 	margin-bottom: 1px;
@@ -203,6 +245,15 @@
 .bottom-space {
 	margin-bottom: 5%;
 }
+
+@media only screen and (max-width: 400px) {
+	#table-of-contents {
+		padding-bottom: 10px;
+		border-top: none;
+		padding-top: 0;
+	}
+}
+
 /* About HCD _______________________ */ 
 #about {
 	float: right;
