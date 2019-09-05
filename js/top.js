@@ -10,15 +10,15 @@ $(document).ready(function () {
 		title.animate({
 			opacity: 0,
 			top: "0",
-		}, {duration: 300});
+		}, {duration: 100});
 
 		year.animate({
 			top: "-15",
-		}, { duration: 300, 
+		}, { duration: 100, 
 				complete: function() {
 				linkContainer.animate({
 				opacity: "show",
-				top: "-15",
+				top: "-5",
 				}, {duration: 300});
 		}, 
 

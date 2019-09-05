@@ -4114,7 +4114,8 @@ nav #links a {
   margin-top: 30px !important;
   padding-top: 10px;
   position: relative;
-  height: 400px;
+  height: 250px;
+  margin-bottom: 30px;
 }
 
   .news-item p {
@@ -4130,17 +4131,42 @@ nav #links a {
     font-weight: 600;
     line-height: 30px;
     color: black;
-    margin: 0px;
+    margin: 0 0 10px 0;
   }
 
   .news-item h2 {
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 25px;
     color: #1E3A5A;
     margin-bottom: 31px;
+  }
+
+  .news-item a {
+    border: 1px solid #1E3A5A;
+    padding: 7px 13px;
+  }
+
+    .news-item a:hover {
+      background-color: #1E3A5A;
+    }
+
+    .news-item a:hover h2 {
+      color: #FFF;
+      fill: #FFF;
+    }
+
+  .news-item h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    color: #0071BA;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
 
   .news-item img {
@@ -4153,6 +4179,7 @@ nav #links a {
   position: inherit !important;
   display: inline-block;
   margin: 0px 0px -1.8px 8px;
+  height: 17px;
 }
 
 @media(max-width: 375px) {
@@ -4162,7 +4189,6 @@ nav #links a {
 }
 
 /* Demo Day Section */
-
 .demo-day-card {
   margin-top: 30px !important;
   height: 312px;
