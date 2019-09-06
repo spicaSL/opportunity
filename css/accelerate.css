@@ -3928,13 +3928,12 @@ footer {
 
 .accelerate-label {
   text-align: left;
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  /*opacity: 0.5;*/
-  margin-bottom: 3em;
-  color: #5bc0de;
+  margin-bottom: 1.5em;
+  color: #0071BA;
 }
 
 .accelerate-caption{
@@ -3976,6 +3975,9 @@ footer {
   font-size: 1.1em;
 }
 
+.accelerate-text a:visited, a {
+  color: #0071BA;
+}
 .accelerate-subheader {
   font-family: 'DM Sans', sans-serif;
   font-size: 1.3em;
@@ -4019,7 +4021,7 @@ footer {
 }
 
 .sprint-title, .sprint-location {
-  color: #5bc0de;
+  color: #0071BA;
 }
 
 .sprint-location {
@@ -4131,7 +4133,7 @@ footer {
 
 
 .usa-logo a, .usa-logo.accelerate-brand, .usa-nav-link {
-  color: #5bc0de !important;
+  color: #0071BA !important;
   vertical-align: middle !important;
   font-family: 'DM Sans';
   font-size: 1.2em !important;
@@ -4149,7 +4151,7 @@ footer {
 }
 
 .usa-nav__primary>.usa-nav__primary-item>a:hover {
-  background-color: #5bc0de;
+  background-color: #0071BA;
   color: white !important;
 }
 
@@ -4178,7 +4180,7 @@ footer {
 
 .usa-menu-btn:hover {
   color: #fff !important;
-  background-color: #5bc0de;
+  background-color: #0071BA;
   opacity: 1;
 }
 
