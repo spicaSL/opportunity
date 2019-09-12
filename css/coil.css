@@ -1,45 +1,269 @@
-/* FONTS ______________________________________*/
-@font-face {
-  font-family: 'GT America Compressed';
-  src: url('../fonts/GT-America-Compressed-Medium.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/GT-America-Compressed-Medium.otf') format('embedded-opentype'), 
-       url('../fonts/GT-America-Compressed-Medium.ttf') format('truetype'), 
-       url('../fonts/GT-America-Compressed-Medium.woff') format('woff'), 
-       url('../fonts/GT-America-Compressed-Medium.woff2')  format('Woff2'); 
-}
-
-@font-face {
-  font-family: 'GT America Mono';
-  src: url('../fonts/GT-America-Mono-Medium.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/GT-America-Mono-Medium.otf') format('embedded-opentype'), 
-       url('../fonts/GT-America-Mono-Medium.ttf') format('truetype'), 
-       url('../fonts/GT-America-Mono-Medium.woff') format('woff'), 
-       url('../fonts/GT-America-Mono-Medium.woff2')  format('Woff2');
-  font-weight: normal;
-  font-style: normal; 
-}
-
-@font-face {
-  font-family: 'GT America';
-  font-weight: 400;
-  src: url('../fonts/GT-America-Standard-Regular.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/GT-America-Standard-Regular.otf') format('embedded-opentype'), 
-       url('../fonts/GT-America-Standard-Regular.ttf') format('truetype'), 
-       url('../fonts/GT-America-Standard-Regular') format('woff'); 
-}
-
-@font-face {
-  font-family: 'GT America';
-  font-weight: 600;
-  src: url('../fonts/GT-America-Standard-Medium.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/GT-America-Standard-Medium.otf') format('embedded-opentype'), 
-       url('../fonts/GT-America-Standard-Medium.ttf') format('truetype'), 
-       url('../fonts/GT-America-Standard-Medium') format('woff');
-}
-
-
 /* SHARED ______________________________________*/
+a {
+	text-decoration: none;
+}
 
+.usa-grid,
+.usa-grid-full {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1040px; }
+.usa-grid::after,
+.usa-grid-full::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.usa-grid {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; }
+@media screen and (min-width: 600px) {
+  .usa-grid {
+    padding-right: 3rem;
+    padding-left: 3rem; } }
+
+.usa-grid-full {
+  padding: 0; }
+
+@media screen and (min-width: 600px) {
+  .usa-width-one-whole {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 100%; }
+  .usa-width-one-whole:last-child {
+    margin-right: 0; }
+  .usa-width-one-half {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 47.58542%; }
+  .usa-width-one-half:last-child {
+    margin-right: 0; }
+  .usa-width-one-third {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 30.11389%; }
+  .usa-width-one-third:last-child {
+    margin-right: 0; }
+  .usa-width-two-thirds {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 65.05695%; }
+  .usa-width-two-thirds:last-child {
+    margin-right: 0; }
+  .usa-width-one-fourth {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 47.58542%; }
+  .usa-width-one-fourth:last-child {
+    margin-right: 0; }
+  .usa-width-one-fourth:nth-child(2n) {
+    margin-right: 0; }
+  .usa-width-three-fourths {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 100%; }
+  .usa-width-three-fourths:last-child {
+    margin-right: 0; }
+  .usa-width-one-sixth {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 30.11389%; }
+  .usa-width-one-sixth:last-child {
+    margin-right: 0; }
+  .usa-width-one-sixth:nth-child(3n) {
+    margin-right: 0; }
+  .usa-width-five-sixths {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 65.05695%; }
+  .usa-width-five-sixths:last-child {
+    margin-right: 0; }
+  .usa-width-one-twelfth {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 30.11389%; }
+  .usa-width-one-twelfth:last-child {
+    margin-right: 0; }
+  .usa-width-one-twelfth:nth-child(3n) {
+    margin-right: 0; }
+  .usa-width-five-twelfths {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 30.11389%; }
+  .usa-width-five-twelfths:last-child {
+    margin-right: 0; }
+  .usa-width-seven-twelfths {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 65.05695%; }
+  .usa-width-seven-twelfths:last-child {
+    margin-right: 0; } }
+
+@media screen and (min-width: 1201px) {
+  .usa-width-one-whole {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+  .usa-width-one-whole:last-child {
+    margin-right: 0; }
+  .usa-width-one-half {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+  .usa-width-one-half:last-child {
+    margin-right: 0; }
+  .usa-width-one-third {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+  .usa-width-one-third:last-child {
+    margin-right: 0; }
+  .usa-width-two-thirds {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+  .usa-width-two-thirds:last-child {
+    margin-right: 0; }
+  .usa-width-one-fourth {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+  .usa-width-one-fourth:last-child {
+    margin-right: 0; }
+  .usa-width-one-fourth:nth-child(2n) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+  .usa-width-one-fourth:nth-child(2n):last-child {
+    margin-right: 0; }
+  .usa-width-one-fourth:nth-child(4n) {
+    margin-right: 0; }
+  .usa-width-three-fourths {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+  .usa-width-three-fourths:last-child {
+    margin-right: 0; }
+  .usa-width-one-sixth {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+  .usa-width-one-sixth:last-child {
+    margin-right: 0; }
+  .usa-width-one-sixth:nth-child(3n) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+  .usa-width-one-sixth:nth-child(3n):last-child {
+    margin-right: 0; }
+  .usa-width-one-sixth:nth-child(6n) {
+    margin-right: 0; }
+  .usa-width-five-sixths {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+  .usa-width-five-sixths:last-child {
+    margin-right: 0; }
+  .usa-width-one-twelfth {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%; }
+  .usa-width-one-twelfth:last-child {
+    margin-right: 0; }
+  .usa-width-one-twelfth:nth-child(3n) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%; }
+  .usa-width-one-twelfth:nth-child(3n):last-child {
+    margin-right: 0; }
+  .usa-width-one-twelfth:nth-child(12n) {
+    margin-right: 0; }
+  .usa-width-five-twelfths {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+  .usa-width-five-twelfths:last-child {
+    margin-right: 0; }
+  .usa-width-seven-twelfths {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+  .usa-width-seven-twelfths:last-child {
+    margin-right: 0; } }
+
+.usa-end-row {
+  margin-right: 0; }
+
+.usa-offset-one-twelfth {
+  margin-left: 8.5298%; }
+
+.usa-offset-one-sixth {
+  margin-left: 17.05961%; }
+
+.usa-offset-one-fourth {
+  margin-left: 25.58941%; }
+
+.usa-offset-one-third {
+  margin-left: 34.11922%; }
+
+.usa-offset-five-twelfths {
+  margin-left: 42.64902%; }
+
+.usa-offset-one-half {
+  margin-left: 51.17883%; }
+
+.usa-offset-seven-twelfths {
+  margin-left: 59.70863%; }
+
+.usa-offset-two-thirds {
+  margin-left: 68.23843%; }
+
+.usa-offset-three-fourths {
+  margin-left: 76.76824%; }
+
+.usa-offset-five-sixths {
+  margin-left: 85.29804%; }
+
+.usa-offset-eleven-twelfths {
+  margin-left: 93.82785%; }
+
+.usa-sr-only {
+  position: absolute;
+  left: -999em; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
 .coil-subheading {
 	text-transform: uppercase;
 	font-family: Oswald;
@@ -63,7 +287,14 @@
 .line {
 	display: block;
 	height: 9px;
-	max-width: 430px;
+	max-width: 130px;
+}
+
+.short-line {
+	display: block;
+	height: 7px;
+	max-width: 70px;
+	margin: 0 auto 40px auto;
 }
 
 .white {
@@ -94,9 +325,30 @@
 	height: 100vh;
 }
 
+.spacing-top {
+	margin-top: 10%;
+}
+
+.coil-text h1 {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: #222;
+	text-align: center;
+}
+
+.coil-text p {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #222;
+	text-align: center;
+}
 
 /* HERO ______________________________________*/
 #hero {
+	position: relative;
 	background-color: black;
 	background-image: url("../img/coil-hero-01.png");
 	background-size: cover;
@@ -106,19 +358,18 @@
 	  -moz-animation: fade 4s infinite;
 	  -o-animation: fade 4s infinite;
 	  animation: fade 4s infinite;
+	z-index: 1;
 }
 
 .coil-brand h1{
-	text-transform: uppercase;
 	padding-left:5px;
 	left: 2.5%;
 	right: 87.15%;
 	top: 10%;
 	bottom: 97.5%;
-	font-family: 'Oswald', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 30px;
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 700;
+	font-size: 32px;
 	line-height: 33px;
 	color: white;
 	margin: 0;
@@ -129,22 +380,9 @@
 }
 
 #navbar {
-	background-color: transparent !important;
+	background-color: transparent;
 	padding-left: 2%;
-	padding-top: 2%;
 	width: auto;
-}
-
-.usa-nav {
-	float: left;
-}
-
-.coil-nav li:hover{
-	border-left: 4px solid #FDC51D;	
-}
-
-.active-nav {
-	border-left: 4px solid #FDC51D;	
 }
 
 .coil-nav a {
@@ -156,85 +394,68 @@
 	color: white;
 }
 .usa-nav__primary {
-	display: inline-block;
-	padding-top: 20%;
+	margin-top: 20px;
+	margin-right:  30px;
 }
 
-.usa-nav__primary li {
-	font-family: GT America Mono, monotype;
-	font-weight: 500;
-	font-size: 1.4em;
-	line-height: 1.3em;
-	margin: 10px 0;
-	padding-left:5px;
+.usa-nav__primary li span {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 35px 0 0;
+	letter-spacing: 0.5px;
 }
 .usa-nav-link {
 	color: white !important;
 }
 
-
-
 #intro {
-	position: absolute;
-	left: 40.94%;
-	right: auto;
-	top: 25%;
+	margin-top: 50px;
+	padding: 0 !important;
+	
 }
 
-#hero-text {
-	position: relative;
-	display: block;
-	background-color: #FF552E;
+#intro-block {
+	background-color: #222;
+	padding: 120px 30px 30px 40px;
 }
-#hero-text h1 {
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0 auto;
-	font-family: 'Oswald';
-	font-style: normal;
+
+#intro-block h1 {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 43px;
+	color: #FFF;
+}
+
+#intro-block p {
+	font-family: neue-haas-grotesk-display, sans-serif;
 	font-weight: 500;
-	font-size: 120px;
-	letter-spacing: -2px;
-
-	color: white;
+	font-size: 21px;
+	line-height: 30px;
+	color: #FFF;
+	max-width: 442px;
 }
 
-#hero-subtext {
-	max-width: 460px;
+.button {
+	border: 1px solid #FFF;
+	max-width: 150px;
+	text-align: center;
+	padding: 5px 0;
+	margin: 30px 0 70px 0;
 }
 
-#hero-subtext p {
-	font-family: GT America;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	line-height: 36px;
-	color: white;
-}
-
-#continue {
-	position: absolute;
-	top: 90vh;
-	left: 50%;
-	animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+.button p {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 11px !important;
+	text-transform: uppercase;
+	line-height: 13px !important;
 }
 
 
-@media screen and (min-width: 951px) {
-
-}
 
 @media screen and (max-width: 800px) {
 	#navbar {
@@ -287,24 +508,18 @@
 }
 /* MISSION ______________________________________*/
 #mission {
-	background: white;
-	background-size: cover;
-	height: 85vh;
-	padding-top: 14%;
+	background-image: url('../img/coil-mission-shape.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 400px;
 	transition: 0.3s all;
+	text-align: center;
+	padding-top: 60px;
+	z-index: 0;
 }
 
-
-#mission h1 {
-	margin: auto;
-	color: white;
-	text-transform: uppercase;
-	font-family: Oswald;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 27px;
-	line-height: 37px;
-	max-width: 700px;
+#mission img {
+	max-width: 584px;
 }
 
 #mission p {
@@ -339,61 +554,54 @@
 	}
 }
 
-
-/* ABOUT ______________________________________*/
-.coil {
-	padding-top: 10%;
-	padding-left: 5%;
-	background-color: white;
+/* WHO WE ARE ______________________________________*/
+#who-we-are {
+	text-align: center;
 }
 
-.coil h1 {
-	color: black;
+#who-we-are p {
+	text-align: left !important;
 }
 
-.coil p {
-	color: black;
-}
-.coil .coil-subheading {
-	margin-top: 18%;
-}
-
-.coil img {
-	max-width: 400px;
+/* SKILLS ______________________________________*/
+#skills {
+	text-align: center;
+	height: 200vh;
 }
 
-#coil-1 {
-	position: relative;
+#skills p {
+	padding-top: 25px;
+	max-width: 590px;
+	margin: auto;
 }
 
-#coil-2 {
-	position: relative;
-	left: 120px;
-	top: -100px;
+#skills-line {
+	position: absolute;
+	top: 1920px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
-#coil-3 {
-	position: relative;
-	left: 40px;
-	top: -150px;
-}
 
-@media screen and (max-width: 800px) {
-	.coil img {
-		max-width: 300px;
-	}
-}
 
-@media screen and (max-width: 481px)  {
-	#coil-1, #coil-2, #coil-3 {
-		position: inherit;
-	}
 
-	.coil img {
-		max-width: 100%;
-		margin: 5% 0;
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* INITIATIVES ______________________________________*/
 #initiatives {
