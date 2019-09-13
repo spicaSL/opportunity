@@ -3,6 +3,14 @@ a {
 	text-decoration: none;
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 .usa-grid,
 .usa-grid-full {
   max-width: 1200px;
@@ -313,6 +321,10 @@ html {
 	background-color: #FDC51D;
 }
 
+.blue {
+	background-color: #96C4FA;
+}
+
 .wrapper {
 	transition: background .2s ease;
 	-webkit-transition: background 1.5s;
@@ -565,32 +577,132 @@ html {
 
 /* SKILLS ______________________________________*/
 #skills {
+	/*background-image: url('../img/skills.svg'); */
+	background-position: center;
 	text-align: center;
-	height: 200vh;
+	max-height: 720px;
+	background-repeat: no-repeat;
+	max-width: 1250px;
+	margin: auto;
+	border: 5px solid #F8D76E;
+}
+
+
+#skills h1 {
+	position: relative;
+	top: -45px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+	width: 250px;
+
 }
 
 #skills p {
-	padding-top: 25px;
 	max-width: 590px;
 	margin: auto;
 }
 
-#skills-line {
-	position: absolute;
-	top: 1920px;
-	left: 50%;
-	transform: translateX(-50%);
+.skill {
+	display: inline-block;
+	max-width: 165px;
+	margin: 10% 35px 7% 35px;
+	vertical-align: top;
+}
+
+.skill img {
+	max-width: 135px;
+
+}
+
+.skill h2 {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 500;
+	max-width: 165px;
 }
 
 
+/* PROGRAMS ______________________________________*/
+#programs {
+	background-color: #E8F0F9;
+	padding-top: 7%;
+}
+	#programs p {
+		max-width: 590px;
+		margin: auto;
+	}
 
+#programs-container {
+	max-width: 1440px;
+	padding-top: 5%;
+}
 
+#accelerate {
+	background-image: url('../img/accelerate.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+	#accelerate h1 {
+		margin-top: 34% !important;
+		text-transform: uppercase;
+		font-family: neue-haas-grotesk-display, sans-serif;
+		font-size: 40px;
+		line-height: 44px;
+		color: #FFF;
+		letter-spacing: 2.5px;
+	}
 
+#top {
+	background-image: url('../img/top.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 
+#hcd {
+	background-image: url('../img/hcd.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 
+#cdf {
+	background-image: url('../img/cdf.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 
+.program {
+	padding: 57px;
+	width: 50%;
+	display: inline-block;
+}
+	.program h1 {
+		margin-top: 26%;
+		text-transform: uppercase;
+		font-family: neue-haas-grotesk-display, sans-serif;
+		font-size: 40px;
+		line-height: 44px;
+		color: #FFF;
+		letter-spacing: 2.5px;
+		max-width: 500px;
+	}
+	.program p {
+		font-family: neue-haas-grotesk-display, sans-serif;
+		font-weight: 600;
+		font-style: italic;
+		color: #FFF;
+		font-size: 20px;
+		line-height: 24px;
+		max-width: 465px !important;
+		margin: 0 !important;
+	}
 
-
+.program-line {
+	border: 1px solid white;
+	width: 125px;
+	margin-bottom: 30px;
+}
 
 
 
