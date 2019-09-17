@@ -12,9 +12,12 @@
   <link type="text/css" rel="stylesheet" href="css/coil.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/uswds.min.js"></script>
-  <script src="js/anime.min.js"></script>
-  <script src="js/noframework.waypoints.min.js"></script>
   <script src="js/coil-interim.js"></script>
+  <script src="js/noframework.waypoints.min.js"></script>
+  <script src="js/waypoints.debug.js"></script>
+  <script src="js/anime.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  
   <!--<script src="js/coil.js"></script>-->
 
   <link href="img/icon.png" rel="icon" type="image/png">
@@ -22,7 +25,10 @@
 </head>
 
 <body>
+  <div class="loader-wrapper">
 
+  </div>
+  
   <div class="usa-banner">
     <!-- TODO: Add Official website of the U.S. Government banner -->
   </div>
@@ -41,13 +47,13 @@
         <button class="usa-nav__close"><img src="img/close.svg" alt="close"></button>
         <ul class="usa-nav__primary usa-accordion">
           <li class="usa-nav__primary-item usa-nav-link">
-            <a class="usa-nav__link usa-nav-link" href="#about"><span>About</span></a>
+            <a class="usa-nav__link usa-nav-link" href="#mission"><span>About</span></a>
           </li>
           <li class="usa-nav__primary-item usa-nav-link">
-            <a class="usa-nav__link  usa-nav-link" href="#get-involved"><span>Our Projects</span></a>
+            <a class="usa-nav__link  usa-nav-link" href="#programs"><span>Our Projects</span></a>
           </li>
           <li class="usa-nav__primary-item usa-nav-link">
-            <a class="usa-nav__link usa-nav-link" href="#timeline"><span>Contact Us</span></a>
+            <a class="usa-nav__link usa-nav-link" href="#contact-us"><span>Contact Us</span></a>
           </li>
         </ul>
       </nav>
@@ -60,7 +66,7 @@
         <div class="white line"></div>
         <p>We bring together government, industry, and communities to unleash creativity and solve national challenges.</p>
         
-        <a href="#"><div class="button">
+        <a href="#mission"><div class="button">
           <p>Learn More</p>
         </div></a>
       </div>
@@ -93,9 +99,11 @@
   
 
   <section id="skills" class="spacing-top">
-      <div class="coil-text skill-container">
-        <h1>Our Skills</h1>
+    <div class="coil-text">
+      <h1>Our Skills</h1>
         <p>Our team is comprised of diverse backgrounds and skillsets. Our unique breadth of expertise allows us to engage effectively with a wide variety of stakeholders. </p>
+    </div>
+      <div class="skill-container">
         <div class="skill">
           <img class="skill-icon" src="img/skills-01.png" />
           <h2>Human-Centered Design (HCD)</h2>
@@ -321,7 +329,11 @@
     </div>
   </footer>
   -->
-
+  <script>
+    $(window).on("load", function() {
+      $(".loader-wrapper").delay(1000).slideUp(300);
+    })
+  </script>
 </body>
 
 </html>
