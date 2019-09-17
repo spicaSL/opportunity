@@ -3,59 +3,204 @@
 
 <head>
   <!--
-  Temporary landing page during full site redevelopment    
+  Temporary landing page during full site development    
   -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Census Open Innovation Labs</title>
   <meta name="description" content="">
   <link type="text/css" rel="stylesheet" href="css/uswds.min.css">
-  <link type="text/css" rel="stylesheet" href="css/accelerate.css"> <!-- TODO: clean up CSS files -->
   <link type="text/css" rel="stylesheet" href="css/coil.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/uswds.min.js"></script>
-  <script src="js/coil.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/anime.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/coil-interim.js"></script>
+  
+  <!--<script src="js/coil.js"></script>-->
+
   <link href="img/icon.png" rel="icon" type="image/png">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/bhz4nut.css">
 </head>
 
 <body>
+  <div class="loader-wrapper">
 
+  </div>
+  
   <div class="usa-banner">
     <!-- TODO: Add Official website of the U.S. Government banner -->
   </div>
 
   <div id="hero">
     <div id="navbar">
-      <div class="coil-brand" role="complementary">
-          <h1>Census </br> Open </br>Innovation </br> Labs</h1> <!-- TODO: Make this bigger -->
-      </div>
 
-      <nav role ="navigation" class="coil-nav usa-nav">
+      <div class="usa-navbar">
+        <div class="usa-logo coil-brand">
+          <em class="usa-logo__text"><a href="#" title="Home" aria-label="Home"><h1>Census </br> Open </br>Innovation </br> Labs</h1></a></em>
+        </div>
+        <button class="usa-menu-btn">Menu</button>
+      </div>
+      
+      <nav role="navigation" class="usa-nav">
         <button class="usa-nav__close"><img src="img/close.svg" alt="close"></button>
         <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item usa-nav-link">
+            <a class="usa-nav__link usa-nav-link" href="#mission"><span>About</span></a>
+          </li>
+          <li class="usa-nav__primary-item usa-nav-link">
+            <a class="usa-nav__link  usa-nav-link" href="#programs"><span>Our Projects</span></a>
+          </li>
+          <li class="usa-nav__primary-item usa-nav-link">
+            <a class="usa-nav__link usa-nav-link" href="#contact-us"><span>Contact Us</span></a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div id="intro" role="banner" class="usa-grid">
+      <div id="intro-block" class="usa-width-one-half">
+        <h1>We're improving </br>cross-sector collaboration.</h1>
+        <div class="white line"></div>
+        <p>We bring together government, industry, and communities to unleash creativity and solve national challenges.</p>
+        
+        <a href="#mission"><div class="button">
+          <p>Learn More</p>
+        </div></a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <section id="mission">
+    <img src="img/coil-mission.png" alt="Mission statement: Our mission is to source knowledge and solutions to solve key challenges for the Census Bureau and the public at large through user-centered design, data, creative media, and technology." />
+  </section>
+
+  <section id="who-we-are" class="spacing-top">
+    <div class="usa-grid">
+      <div class="coil-text usa-width-one-whole">
+        <h1>Who We Are</h1>
+        <div class="orange short-line"></div>
+      </div>
+    </div>
+    <div class="usa-grid">
+      <div class="coil-text usa-width-one-half">
+        <p>Census Open Innovation Labs (COIL) is a nimble, startup-like team within the U.S. Census Bureau with a portfolio of initiatives that are setting a standard for open innovation across government.</p>
+      </div>
+      <div class="coil-text usa-width-one-half">
+        <p>We leverage the networks, talents, and expertise of companies, organizations and individuals outside our own walls and encourage disparate groups to innovate together.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section id="skills" class="spacing-top">
+    <div class="coil-text">
+      <h1>Our Skills</h1>
+        <p>Our team is comprised of diverse backgrounds and skillsets. Our unique breadth of expertise allows us to engage effectively with a wide variety of stakeholders. </p>
+    </div>
+      <div class="skill-container">
+        <div class="skill">
+          <img class="skill-icon" src="img/skills-01.png" />
+          <h2>Human-Centered Design (HCD)</h2>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="img/skills-02.png" />
+          <h2>Open Data Advocacy</h2>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="img/skills-03.png" />
+          <h2>Community Engagement</h2>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="img/skills-04.png" />
+          <h2>Design & Technology</h2>
+        </div>
+        <div class="skill">
+          <img class="skill-icon" src="img/skills-05.png" />
+          <h2>Innovation</h2>
+        </div>
+      </div>
+  </section>
+
+  <section id="programs" class="spacing-top">
+    <div class="coil-text">
+      <h1>Our Programs</h1>
+      <div class="short-line blue"></div>
+      <p>We’ve created several programs to engage different audiences using unique methods to facilitate effective cross-sector collaboration</p>
+    </div>
+
+    <div id="programs-container">
+      <a class="program-container" href="https://opportunity.census.gov/accelerate.html" target="_blank"><div id="accelerate" class="program">
+        <h1>Census Accelerate</h1>
+        <div class="program-line"></div>
+        <p>We mobilize the creative community  and partner with influential stars to  spread awareness and combat  mis- and dis-information about the importance of the 2020 Census.  </p>
+      </div></a><a class="program-container" href="https://opportunity.census.gov/" target="_blank"><div id="top" class="program">
+        <h1>The Opportunity Project</h1>
+        <div class="program-line"></div>
+        <p>We mobilize the creative community  and partner with influential stars to  spread awareness and combat  mis- and dis-information about the importance of the 2020 Census.  </p>
+      </div></a><a class="program-container" href="https://opportunity.census.gov/hcd.html" target="_blank"><div id="hcd" class="program">
+        <h1>Human-Centered Design Training</h1>
+        <div class="program-line"></div>
+        <p>We teach Human-Centered Design fundamentals to leaders at the US Census Bureau to introduce new problem solving methods and methods for collaboration. </p>
+      </div></a><a class="program-container" href="https://www.codingitforward.com/fellowship" target="_blank"><div id="cdf" class="program">
+        <h1>Civic Digital Fellowship</h1>
+        <div class="program-line"></div>
+        <p>We facilitate the US Census Bureau’s participation in this first-of-its kind internship program that empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces. </p>
+      </div></a>
+    </div>
+  </section>
+
+  <section id="contact-us" class="spacing-top">
+    <div class="coil-text">
+      <h1>Contact Us</h1>
+      <div class="short-line yellow"></div>
+      <p>For questions about our programs or inquiries about partnerships, please reach out to:</p>
+    </div>
+    <div class="contact-card-container">
+      <div class="contact-card">
+        <div class="contact-line"></div>
+        <h1>Mara Abrams</h1>
+        <h2>Founder and Co-Director</h2>
+        <p>mara.abrams@census.gov</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-line"></div>
+        <h1>Drew Zachary</h1>
+        <h2>Co-Director</h2>
+        <p>drew.a.zachary@census.gov</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="usa-grid">
+      <div class="usa-width-one-whole">
+        <ul style="margin-top: 1em">
+          <li>Site Map</li>
+          <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#initiatives">Initiatives</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-    </div>
-
-
-    <div id="intro" role="banner">
-      <div id="hero-text">
-        <h1>go open</h1> <!-- TODO: One sentence like D.Code -->
+        <ul>
+          <li>Resources</li>
+          <li><a href="http://data.gov/"> Data.gov</a></li>
+          <li><a href="https://www.census.gov/privacy/"> Data and Privacy Policy</a></li>
+          <li><a href="https://github.com/uscensusbureau/opportunity">Visit Us on Github</a></li>
+          <li><a href="mailto:census.opportunityproject@census.gov">Get in Touch</a></li>
+        </ul>
+        <div id="images">
+          <a href="https://www.commerce.gov/"><img src="img/commerce.png" alt="Department of Commerce Logo"></a>
+          <a href="https://www.census.gov/"><img src="img/census.png" alt="United States Census Logo" id="census-logo"></a>
+        </div>
       </div>
-      <div id="hero-subtext">
-        <p>We bring together government, industry, and communities to unleash creativity and solve national challenges.</p>
-      </div>  
     </div>
-
-    <div id="continue" role="navigation">
-      <a id="continue-a" href="#about"><img src="img/down-arrow.png" alt="down arrow"/></a>
-    </div>
-  </div>
-  
+  </footer>
+<!-- 
   <div class="wrapper">
   <section id="about">
     <div id="mission" class="section" data-background-color="#005FF3">
@@ -68,7 +213,7 @@
 
     <div class="coil usa-grid">
       <div class="spacing-top usa-width-one-half">
-        <h1 class="coil-subheading">CENSUS OPEN INNOVATION LABS</h1> <!-- TODO: Sticky nav overlaps with text -->
+        <h1 class="coil-subheading">CENSUS OPEN INNOVATION LABS</h1> 
         <div class="orange line"></div> 
         <p class="coil-body">Census Open Innovation Labs (COIL) is a nimble, startup-like team within the U.S. Census Bureau with a portfolio of initiatives that are setting a standard for open innovation across government.</p>
         <p class="coil-body">COIL leverages the networks, talents, and expertise of companies, organizations, and individuals outside our own walls and encourage disparate groups to innovate together.</p>
@@ -87,14 +232,12 @@
         <div class="yellow line"></div>
         <h1 class="project-heading">THE OPPORTUNITY PROJECT</h1>
         <p class="project-body">The Opportunity Project (TOP) is a technology accelerator program that brings together the tech industry, government, and communities, to generate digital products that benefit the public and drive the economy by using federal open data. TOP works through 12-week tech development sprints, facilitated by COIL, to drive new digital solutions that leverage federal, sate and local open data to directly serve families, local leeaders, and businesses and communities at large. To date, 80 products have been created through TOP, addressing problems like the opioid crisis, disaster response, veterans’ employment, and more. </p>
-        <!-- TODO: Shorten copy -->
         <a class="project-link" href="https://opportunity.census.gov/" target="_blank" aria-label="Learn more about The Opportunity Project"><p>Learn More</p><img class="project-arrow" src="img/right-arrow.png" alt="right arrow"/></a>
       </div>
 
       <div class="usa-width-one-half">
         <div id="top-project-image">
           <img src="img/project-top.jpg" alt="the opportunity project workshop in puerto rico"/> 
-          <!-- TODO: Image for TOP - maybe a shot of live demos at demo day? -->
         </div>
       </div>
     </div>
@@ -103,7 +246,6 @@
       <div class="usa-width-one-half">
         <div id="acc-project-image">
           <img src="img/project-acc.png" alt="census accelerate workshop in DC"/>
-          <!-- TODO: Image for Accel - could this be more of a "happy people in the midst of discussion" image from one of the create-a-thons? -->
         </div>
       </div>
 
@@ -111,13 +253,10 @@
         <div class="red line"></div>
         <h1 class="project-heading">CENSUS ACCELERATE</h1>
         <p class="project-body">Census Accelerate is an initiative that matches creative talent with organizations serving hard-to-count communities in order to increase 2020 Census response rates. Like The Opportunity Project, Census Accelerate works in user-centered sprints and workshops in which participating companies, organizations, creative professionals, and influencers develop outreach materials for specific hard-to-count populations, such as families with children under the age of 5, mobile millennials, and LGBTQ populations. </p>
-        <!-- TODO: Shorten copy -->
         <a class="project-link" href="https://census-coil.github.io/opportunity/accelerate.html" target="_blank" aria-label="Learn more about Census Accelerate"><p>Learn More</p><img class="project-arrow" src="img/right-arrow.png" alt="right arrow"/></a>
       </div>
     </div>
 
-    <!-- TODO: Add image for HCD training (we have pics from the pilot, or can use any other good coil pics) -->
-    <!-- TODO:  Add image for CDF -->
     <div class="spacing-top usa-grid">
       <div class="usa-width-one-half mobile-margin">
         <h1 class="project-heading">HUMAN-CENTERED DESIGN TRAINING PROGRAM</h1>
@@ -188,8 +327,12 @@
       </div>
     </div>
   </footer>
-  
-
+  -->
+  <script>
+    $(window).on("load", function() {
+      $(".loader-wrapper").delay(1000).slideUp(300);
+    })
+  </script>
 </body>
 
 </html>
