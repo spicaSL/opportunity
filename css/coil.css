@@ -659,6 +659,7 @@ html {
 	max-width: 165px;
 	margin: 10% 35px 7% 35px;
 	vertical-align: top;
+	opacity: 0;
 }
 
 .skill img {
