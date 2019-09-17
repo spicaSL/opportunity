@@ -575,6 +575,7 @@ html {
 	text-align: center;
 	padding-top: 60px;
 	z-index: 0;
+	opacity: 0;
 }
 
 #mission img {
@@ -630,7 +631,6 @@ html {
 
 /* SKILLS ______________________________________*/
 #skills {
-	/*background-image: url('../img/skills.svg'); */
 	background-position: center;
 	text-align: center;
 	max-height: 720px;
@@ -775,6 +775,7 @@ html {
 	}
 
 .program {
+	opacity: 0;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -875,10 +876,12 @@ html {
 @media screen and (max-width: 63.99em) {
 	.contact-card-container {
 		width: 70%;
+		padding-top: 7%;
 	}
 	.contact-card {
 		width: 100%;
 		padding: 15% 10% 10% 10%;
+		margin-bottom: 10%;
 	}
 }
 

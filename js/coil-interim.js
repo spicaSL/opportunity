@@ -1,40 +1,46 @@
 $(window).on("load", function() {
-	
-
-	// waypoint - mission 
-	let mission = new Waypoint({
-		element: document.querySelector('#mission'),
+	// waypoint - mission
+	var mission = new Waypoint({
+		element: document.getElementById('mission'),
 		handler: function(direction) {
-			console.log('mission');
 			anime({
 				targets: ["#mission", '#mission img'],
 				easing: 'easeOutExpo',
-				translateY: [-1000, 0],
+				translateY: [-100, 0],
 				opacity: [0, 1],
-				delay: anime.stagger(800, {start: 2000}),
+				delay: anime.stagger(200, {start: 100}),
 			})
 		},
-		context: document.querySelector('body'),
-		offset: '50%',
-	});
-
-	// waypoint - who we are
-	let coil = new Waypoint({
-		element: document.querySelector('#who-we-are'),
-		handler: function() {
-			console.log('coil');
-			anime({
-				targets: ["#who-we-are h1", '#who-we-are p'],
-				easing: 'easeOutExpo',
-				translateY: [-1000, 0],
-				opacity: [0, 1],
-				delay: anime.stagger(500, {start: 0}),
-			})
-		},
-		context: document.querySelector('body'),
 		offset: '100%',
-	});
+	})
 
+	var skills = new Waypoint({
+		element: document.getElementById('skills'),
+		handler: function(direction) {
+			anime({
+				targets: [".skill"],
+				easing: 'linear',
+				opacity: [0,1],
+				delay: anime.stagger(200),
+			})
+		},
+		offset: '60%',
+	})
+
+	var programs = new Waypoint({
+		element: document.getElementById('programs'),
+		handler: function(direction) {
+			console.log('it works');
+			anime({
+				targets: [".program"],
+				easing: 'linear',
+				opacity: [0,1],
+				delay: anime.stagger(500),
+			})
+		},
+		offset: '60%',
+	})
+	
 	// nav bar on scroll
 	$(document).on("scroll", function() {
 		var $nav = $(".usa-nav a");
