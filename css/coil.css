@@ -844,15 +844,35 @@ html {
 	.program-container {
 		width: 100%;
 	}
-	.program-container h1 {
-		font-size: 38px;
-		line-height: 40px;
-		max-width: 100%;
+		.program-container h1 {
+			font-size: 20px;
+			line-height: 25px;
+			max-width: 100%;
+			margin-top: 20%;
+			letter-spacing: 1px;
+			text-align: center !important;
+			height: auto;
+			min-height: 0;
+		}
+		.program-container p {
+			font-size: 16px;
+			line-height: 20px;
+			font-weight: 500;
+			height: auto;
+			text-align: center !important;
+		}
+	.program {
+		padding: 13% 8%;
 	}
-	.program-container p {
-		font-size: 19px;
-		font-weight: 500;
-		height: auto;
+
+	.program-line {
+		margin: 5% auto 5% auto;
+	}
+
+	#accelerate h1 {
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: 1px;
 	}
 }
 
