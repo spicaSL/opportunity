@@ -1309,10 +1309,11 @@ footer ul {
 footer ul li:first-child {
   font-weight: 400; }
 footer ul li {
-  font-size: 14px;
+  font-size: 12px;
   list-style: none;
-  line-height: 18px;
-  font-weight: 100; }
+  line-height: 20px;
+  font-weight: 100; 
+  letter-spacing: 1px;}
 footer ul li a, footer ul li a:visited {
   text-decoration: none;
   color: #F6F6F6; }
