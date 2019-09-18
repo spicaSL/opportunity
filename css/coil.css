@@ -1,4 +1,4 @@
-/* SHARED ______________________________________*/
+ /* SHARED ______________________________________*/
 a {
 	text-decoration: none;
 }
@@ -307,6 +307,10 @@ html {
 	background-color: #FF3D40;
 }
 
+.black {
+	background-color: #222222;
+}
+
 .orange {
 	background-color: #FF552E;
 }
@@ -332,7 +336,7 @@ html {
 }
 
 .spacing-top {
-	margin-top: 10% !important;
+	margin-top: 8% !important;
 }
 	@media screen and (max-width: 63.99em) {
 		.spacing-top {
@@ -389,8 +393,7 @@ html {
 .usa-banner-header-flag {
 	display: inline-block;
 	height: 70%;
-	margin-left: 20%;
-
+	margin-left: 2.5%;
 }
 
 
@@ -483,7 +486,7 @@ html {
 	background-color: black;
 	background-image: url("../img/coil-hero-01.png");
 	background-repeat: no-repeat;
-	background-size: auto 110vh;
+	background-size: cover;
 	height: 110vh;
 	transition: all .5s ease;
 	  -webkit-animation: fade 4s infinite;
@@ -501,7 +504,7 @@ html {
 }
 
 #intro-block {
-	background-color: #222;
+	background-color: #FFF;
 	padding: 120px 30px 30px 40px;
 }
 
@@ -510,7 +513,7 @@ html {
 	font-weight: 700;
 	font-size: 35px;
 	line-height: 43px;
-	color: #FFF;
+	color: #222;
 }
 
 #intro-block p {
@@ -518,26 +521,31 @@ html {
 	font-weight: 500;
 	font-size: 21px;
 	line-height: 30px;
-	color: #FFF;
+	color: #222;
 	max-width: 442px;
 }
 
 .button {
-	border: 1px solid #FFF;
+	border: 1.5px solid #222;
 	max-width: 150px;
 	text-align: center;
-	padding: 5px 0;
+	padding: 15px 0;
 	margin: 30px 0 70px 0;
-}
-
-.button p {
 	font-family: neue-haas-grotesk-display, sans-serif;
 	font-weight: 600;
 	letter-spacing: 0.5px;
 	font-size: 11px !important;
 	text-transform: uppercase;
 	line-height: 13px !important;
+	color: #222;
 }
+	.button:hover {
+		background-color: #222;
+		color: #FFF !important;
+	}
+	.button:hover ~ .button p {
+		color: #FFF !important;
+	}
 
 
 
@@ -560,6 +568,9 @@ html {
 
 	#hero-subtext p {
 		font-size: 25px;
+	}
+	.usa-menu-btn {
+		top:0;
 	}
 
 }
@@ -586,33 +597,32 @@ html {
 }
 /* MISSION ______________________________________*/
 #mission {
-	background-image: url('../img/coil-mission-shape.png');
+	background-image: url('../img/coil-mission-shape-02.png');
 	background-position: center top;
 	margin: auto;
 	background-repeat: no-repeat;
-	background-size: contain;
-	min-height: 400px;
+	background-size: auto 100%;
+	min-height: 45vh;
 	transition: 0.3s all;
 	text-align: center;
-	padding-top: 60px;
-	z-index: 0;
+	padding-top: 5%;
+	z-index: 1;
 	opacity: 0;
 }
+	#mission img {
+		max-width: 584px;
+	}
 
-#mission img {
-	max-width: 584px;
-}
-
-#mission p {
-	margin: auto;
-	color: white;
-	font-family: GT America;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.7em;
-	line-height: 1.3em;
-	max-width: 700px;
-}
+	#mission p {
+		max-width: 50%;
+		margin: auto;
+		color: #FFF;
+		font-family: mrs-eaves-xl-serif-narrow, serif;
+		font-weight: 700;
+		font-style: italic;
+		font-size: 44px;
+		line-height: 43px;
+	}
 
 #mission .line {
 	margin: 8px auto;
@@ -621,13 +631,19 @@ html {
 
 @media screen and (max-width: 63.99em) {
 	#mission {
-		height: 4vh;
+		min-height: 40vh;
 		background-size: auto;
+		padding-top: 12%;
 	}
-	#mission img {
-		padding-top: 5%;
-		max-width: 90%;
-	}
+		#mission img {
+			padding-top: 5%;
+			max-width: 90%;
+		}
+		#mission p {
+			max-width: 90%;
+			font-size: 30px;
+			line-height: 30px;
+		}
 }
 
 /* WHO WE ARE ______________________________________*/
@@ -671,6 +687,8 @@ html {
 }
 
 #skills p {
+	position: relative;
+	top: -30px;
 	max-width: 590px;
 	margin: auto;
 }
@@ -678,7 +696,7 @@ html {
 .skill {
 	display: inline-block;
 	max-width: 165px;
-	margin: 10% 35px 7% 35px;
+	margin: 7% 35px 7% 35px;
 	vertical-align: top;
 	opacity: 0;
 }
@@ -734,7 +752,7 @@ html {
 	}
 
 #programs-container {
-	max-width: 1440px;
+	max-width: 1600px;
 	padding-top: 5%;
 	margin: auto;
 	text-align: center;
