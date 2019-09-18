@@ -635,7 +635,7 @@ html {
 
 @media screen and (max-width: 63.99em) {
 	#mission {
-		min-height: 40vh;
+		min-height: 45vh;
 		background-size: auto;
 		padding-top: 12%;
 	}

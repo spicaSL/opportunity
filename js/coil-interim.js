@@ -43,8 +43,11 @@ $(window).on("load", function() {
 	
 	// nav bar on scroll
 	$(document).on("scroll", function() {
-		var $nav = $(".usa-nav a");
-		$nav.toggleClass('scrolled', $(this).scrollTop() >$nav.height());
+		if ($(window).width() > 640) {
+			var $nav = $(".usa-nav a");
+			$nav.toggleClass('scrolled', $(this).scrollTop() >$nav.height());
+		}
+		
 	});
 
 
