@@ -463,6 +463,10 @@ html {
 }
 
 @media (max-width: 63.99em) {
+	.coil-brand h1 {
+		font-size: 22px;
+		line-height: 24px;
+	}
 	.usa-navbar {
 		border: none;
 	}
@@ -505,7 +509,7 @@ html {
 
 #intro-block {
 	background-color: #FFF;
-	padding: 120px 30px 30px 40px;
+	padding: 90px 30px 10px 40px;
 }
 
 #intro-block h1 {
@@ -700,19 +704,17 @@ html {
 	vertical-align: top;
 	opacity: 0;
 }
-
-.skill img {
-	max-width: 135px;
-
-}
-
-.skill h2 {
-	font-family: neue-haas-grotesk-text, sans-serif;
-	font-size: 18px;
-	line-height: 23px;
-	font-weight: 500;
-	max-width: 165px;
-}
+	.skill img {
+		max-width: 135px;
+	}
+	.skill h2 {
+		margin-top: 20px;
+		font-family: neue-haas-grotesk-text, sans-serif;
+		font-size: 16px;
+		line-height: 21px;
+		font-weight: 500;
+		max-width: 150px;
+	}
 
 @media screen and (max-width: 63.99em) {
 	#skills {
@@ -874,7 +876,7 @@ html {
 	background: #222222;
 	width: 50px;
 	height: 5px;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 
 .contact-card {
@@ -915,7 +917,7 @@ html {
 
 @media screen and (max-width: 63.99em) {
 	.contact-card-container {
-		width: 70%;
+		width: 80%;
 		padding-top: 7%;
 	}
 	.contact-card {

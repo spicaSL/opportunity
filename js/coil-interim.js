@@ -52,7 +52,8 @@ $(window).on("load", function() {
 	if($(window).width() < 481){
          var images = [
 				  "img/coil-hero-mobile.png",
-				  "img/coil-hero-02.png",
+				  "img/coil-hero-02-mobile.png",
+				  "img/coil-hero-03-mobile.png"
 				]
 
 		var hero = document.getElementById('hero');
@@ -63,14 +64,14 @@ $(window).on("load", function() {
 	      if (i == images.length) {
 	        i =  0;
 		      }
-		}, 3000);
+		}, 2000);
    } 
 
    else {
    		var images = [
 				  "img/coil-hero-01.png",
+				  "img/coil-hero-02.png",
 				  "img/coil-hero-03.png",
-				  "img/coil-hero-04.png"
 				]
 
 		var hero = document.getElementById('hero');
@@ -81,7 +82,7 @@ $(window).on("load", function() {
 	      if (i == images.length) {
 	        i =  0;
 		      }
-		}, 3000);
+		}, 2500);
    }
 
 
