@@ -3833,7 +3833,37 @@ nav #links a {
     max-width: 25%; }
 }
 
+/* PRIZE BANNER */ 
+#prize-banner {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  background-color: #55BBFF;
+  text-align: center;
+  padding: 10px 0;
+}
+  #prize-banner p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #132F50;
+    margin: 0 auto;
+  }
+  #prize-banner a {
+    color: #132F50;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 690px) {
+    #prize-banner a {
+      display:block;
+    }
+  }
+/* end prize banner */
+
+
 .splash {
+  padding-top: 4%;
   width: 100%;
   text-align: center;
   height: 65vh;
@@ -3940,6 +3970,7 @@ nav #links a {
 
   .splash {
     height: 100vh;
+    padding-top: 15%; /* Comment out when banner is removed */
   }
 
   .splash h1 {
