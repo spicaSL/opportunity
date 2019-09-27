@@ -3833,7 +3833,8 @@ nav #links a {
     max-width: 25%; }
 }
 
-/* PRIZE BANNER */ 
+/* PRIZE BANNER */
+
 #prize-banner {
   position: absolute;
   top: 70px;
@@ -3859,6 +3860,7 @@ nav #links a {
       display:block;
     }
   }
+  
 /* end prize banner */
 
 
