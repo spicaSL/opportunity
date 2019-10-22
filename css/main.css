@@ -1,9 +1,13 @@
 Open Sans/*! uswds @version */
-html {
-  box-sizing: border-box; }
+html
+{
+  box-sizing: border-box;
+}
 
-*, *::after, *::before {
-  box-sizing: inherit; }
+*, *::after, *::before
+{
+  box-sizing: inherit; 
+}
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -11,19 +15,23 @@ html {
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-html {
+html 
+{
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */ 
+}
 
 /**
  * Remove default margin.
  */
-body {
-  margin: 0; }
+body 
+{
+  margin: 0;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -45,8 +53,10 @@ main,
 menu,
 nav,
 section,
-summary {
-  display: block; }
+summary 
+{
+  display: block; 
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -55,27 +65,33 @@ summary {
 audio,
 canvas,
 progress,
-video {
+video 
+{
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */ 
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-audio:not([controls]) {
+audio:not([controls]) 
+{
   display: none;
-  height: 0; }
+  height: 0; 
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
 [hidden],
-template {
-  display: none; }
+template 
+{
+  display: none; 
+}
 
 /* Links
    ========================================================================== */
@@ -83,108 +99,139 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent; 
+}
 
 /**
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
 a:active,
-a:hover {
-  outline: 0; }
+a:hover 
+{
+  outline: 0; 
+}
 
 /* Text-level semantics
    ========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-abbr[title] {
-  border-bottom: 1px dotted; }
+abbr[title] 
+{
+  border-bottom: 1px dotted; 
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 b,
-strong {
-  font-weight: bold; }
+strong 
+{
+  font-weight: bold; 
+}
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-dfn {
-  font-style: italic; }
+dfn 
+{
+  font-style: italic; 
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-h1 {
+h1 
+{
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0; 
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
-mark {
+mark 
+{
   background: #ff0;
-  color: #000; }
+  color: #000; 
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-small {
-  font-size: 80%; }
+small 
+{
+  font-size: 80%; 
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
 sub,
-sup {
+sup 
+{
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline; 
+}
 
-sup {
-  top: -0.5em; }
+sup 
+{
+  top: -0.5em; 
+}
 
-sub {
-  bottom: -0.25em; }
+sub 
+{
+  bottom: -0.25em; 
+}
 
 /* Embedded content
    ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-img {
-  border: 0; }
+img 
+{
+  border: 0; 
+}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-svg:not(:root) {
-  overflow: hidden; }
+svg:not(:root) 
+{
+  overflow: hidden; 
+}
 
 /* Grouping content
    ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-figure {
-  margin: 1em 40px; }
+figure 
+{
+  margin: 1em 40px; 
+}
 
 /**
  * Address differences between Firefox and other browsers.
  */
-hr {
+hr 
+{
   box-sizing: content-box;
-  height: 0; }
+  height: 0; 
+}
 
 /**
  * Contain overflow in all browsers.
  */
-pre {
-  overflow: auto; }
+pre 
+{
+  overflow: auto; 
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
@@ -192,9 +239,11 @@ pre {
 code,
 kbd,
 pre,
-samp {
+samp 
+{
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em; 
+}
 
 /* Forms
    ========================================================================== */
@@ -5164,63 +5213,75 @@ footer #images {
   margin-right: 2%;
 }
 
-#join-btn-sprint-wrapper {
+#join-btn-sprint-wrapper 
+{
   padding-top: 8%;
   padding-left: 12px;
   text-align: right;
 }
 
-@media screen and (max-width: 850px) {
-  #join-btn-sprint-wrapper {
+@media screen and (max-width: 850px)
+  {
+  #join-btn-sprint-wrapper 
+  {
     margin: 0;
     padding: 0;
     text-align: center;
   }
 
-  .timeline-wrapper {
+  .timeline-wrapper 
+  {
     display: none;
   }
 
-  .role-card {
+  .role-card 
+  {
     height: 500px;
   }
 
-  .role-card-pad {
+  .role-card-pad 
+  {
     margin-bottom: 20px;
   }
 
-  .ps-image {
+  .ps-image 
+  {
     width: 65%;
     margin-left: 18%;
     padding-bottom: 10px;
     float: none;
   }
 
-  .ps-image-mid {
+  .ps-image-mid 
+  {
     width: 50%;
     margin-left: 25%;
     padding-bottom: 10px;
     float: none;
   }
 
-  .ps-image-small {
+  .ps-image-small 
+  {
     width: 50%;
     margin-left: 25%;
     padding-bottom: 10px;
     float: none;
   }
 
-  #center-photo img {		
+  #center-photo img
+  {		
     width: 100%;		
     height: 50vh;		
     min-height: 400px;		
   }
 
-  #mission {		
+  #mission 
+  {		
     background-image: url(../img/index-hero.png);		
   }
 
-  .coil-splash {
+  .coil-splash 
+  {
     width: 100%;
     text-align: center;
     height: 30vh;
@@ -5230,22 +5291,27 @@ footer #images {
     background-position:center;
   }
   
-  .coil-splash h1 {
+  .coil-splash h1 
+  {
     text-align: left;
     color: white;
     font-size: 25px;
     margin-bottom: 27px;
-    margin-top: 2vh; }
+    margin-top: 2vh; 
+  }
 
-  .coil-splash p {
+  .coil-splash p 
+  {
     color: #F6F6F6;
     max-width: 577px;
     text-align: left;
     font-size: 18px;
     margin-bottom: 42px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 200; }
+    font-weight: 200; 
+  }
 
-  .coil-splash img {
+  .coil-splash img 
+  {
     width: 60%;
   }
